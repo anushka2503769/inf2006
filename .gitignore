@@ -1,0 +1,27 @@
+# Wikinews raw dumps and the filtered corpus
+evidence/task1_corpus/enwikinews-*/
+evidence/task1_corpus/filtered/*.jsonl
+*.bz2
+*.zip
+
+# Synthetic tables from the laptop test of the modelling notebook
+**/local_tables/
+**/local_out/
+# Default local output folder of the Task 4 scripts (copy the
+# finished figures and tables to evidence/task4_analytics/ by hand)
+analytics_output/
+
+# Secrets and machine files, never commit
+*.pem
+*.key
+.env
+credentials*
+.aws/
+
+# Python and editor noise
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+.DS_Store
+Thumbs.db
