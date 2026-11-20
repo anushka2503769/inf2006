@@ -1,0 +1,13 @@
+{
+  "check": "saved PipelineModel reproduces its predictions without retraining",
+  "time_utc": "2026-11-17T12:19:46Z",
+  "spark_version": "3.5.5-amzn-1",
+  "application_id": "application_1794914433132_0006",
+  "saved_predictions": "pred_final_test",
+  "tolerance": 1e-09,
+  "retrained": false,
+  "model_id": "does_not_exist",
+  "model_path": "hdfs:///project/models/does_not_exist",
+  "status": "FAIL",
+  "reason": "model could not be loaded: Py4JJavaError: An error occurred while calling o253.partitions."
+}

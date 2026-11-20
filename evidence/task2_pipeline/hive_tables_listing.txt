@@ -1,0 +1,14 @@
+Found 13 items
+drwxr-xr-x   - livy   hdfsadmingroup          0 2026-11-17 12:07 /user/hive/warehouse/bigdata.db/clean_prices
+drwxr-xr-x   - livy   hdfsadmingroup          0 2026-11-17 12:07 /user/hive/warehouse/bigdata.db/excluded_weeks
+drwxr-xr-x   - hadoop hdfsadmingroup          0 2026-11-17 09:19 /user/hive/warehouse/bigdata.db/gdelt_daily
+drwxr-xr-x   - livy   hdfsadmingroup          0 2026-11-17 12:07 /user/hive/warehouse/bigdata.db/out_of_scope_prices
+drwxr-xr-x   - livy   hdfsadmingroup          0 2026-11-17 12:12 /user/hive/warehouse/bigdata.db/pred_final_test
+drwxr-xr-x   - livy   hdfsadmingroup          0 2026-11-17 12:12 /user/hive/warehouse/bigdata.db/pred_gdelt_test
+drwxr-xr-x   - livy   hdfsadmingroup          0 2026-11-17 12:07 /user/hive/warehouse/bigdata.db/rejected_prices
+drwxr-xr-x   - livy   hdfsadmingroup          0 2026-11-17 12:08 /user/hive/warehouse/bigdata.db/test
+drwxr-xr-x   - hadoop hdfsadmingroup          0 2026-11-17 09:20 /user/hive/warehouse/bigdata.db/trading_days
+drwxr-xr-x   - hadoop hdfsadmingroup          0 2026-11-17 09:20 /user/hive/warehouse/bigdata.db/trading_weeks
+drwxr-xr-x   - livy   hdfsadmingroup          0 2026-11-17 12:08 /user/hive/warehouse/bigdata.db/train
+drwxr-xr-x   - livy   hdfsadmingroup          0 2026-11-17 12:08 /user/hive/warehouse/bigdata.db/val
+drwxr-xr-x   - livy   hdfsadmingroup          0 2026-11-17 12:07 /user/hive/warehouse/bigdata.db/weekly_all

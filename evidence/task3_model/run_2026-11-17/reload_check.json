@@ -1,0 +1,23 @@
+{
+  "check": "saved PipelineModel reproduces its predictions without retraining",
+  "time_utc": "2026-11-17T12:18:11Z",
+  "spark_version": "3.5.5-amzn-1",
+  "application_id": "application_1794914433132_0005",
+  "saved_predictions": "pred_final_test",
+  "tolerance": 1e-09,
+  "retrained": false,
+  "model_id": "full_price",
+  "model_path": "hdfs:///project/models/full_price",
+  "stages": [
+    "VectorAssembler",
+    "StandardScalerModel",
+    "LogisticRegressionModel"
+  ],
+  "test_rows": 25582,
+  "saved_rows": 25582,
+  "matched_rows": 25582,
+  "prediction_mismatches": 0,
+  "max_abs_prob_diff": 0.0,
+  "status": "PASS",
+  "reason": null
+}

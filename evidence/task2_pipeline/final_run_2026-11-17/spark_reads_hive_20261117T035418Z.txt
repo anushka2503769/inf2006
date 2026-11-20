@@ -1,0 +1,19 @@
+# Spark reading the Hive tables in database bigdata
+# run at (UTC): 2026-11-17 03:54:18    RUN_ID: (none)
+# table  spark_count  hive_count  result  reference  vs_reference  spark_command
+trading_weeks  256  256  OK  256  MATCH  spark-sql -e "SELECT COUNT(*) FROM bigdata.trading_weeks;"
+raw_prices  605911  605910  OK (header counted)  -  -  spark-sql -e "SELECT COUNT(*) FROM bigdata.raw_prices;"
+raw_prices_dated  605910  605910  OK  -  -  spark-sql -e "SELECT COUNT(*) FROM bigdata.raw_prices_dated;"
+gdelt_daily  731  731  OK  731  MATCH  spark-sql -e "SELECT COUNT(*) FROM bigdata.gdelt_daily;"
+price_audit  505  505  OK  505  MATCH  spark-sql -e "SELECT COUNT(*) FROM bigdata.price_audit;"
+price_rejects  23  23  OK  -  -  spark-sql -e "SELECT COUNT(*) FROM bigdata.price_rejects;"
+# Spark applications used:
+#   application_1794881266970_0013
+#   application_1794881266970_0015
+#   application_1794881266970_0017
+#   application_1794881266970_0019
+#   application_1794881266970_0021
+#   application_1794881266970_0023
+# Note: 'OK (header counted)' on raw_prices means Spark counted the header line.
+#       Spark code must then read bigdata.raw_prices_dated instead.
+# Problems (ERROR or DIFFERENT): 0

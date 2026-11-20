@@ -1,0 +1,1403 @@
+{
+  "run_id": "20261117T120821Z",
+  "spark_version": "3.5.5-amzn-1",
+  "application_id": "application_1794914433132_0004",
+  "on_emr": true,
+  "hive_db": "bigdata",
+  "s3_copy": "s3://big-date-team18-bucket/outputs",
+  "data_source": "hive",
+  "seed": 42,
+  "out_suffix": "",
+  "final_model": "full_price",
+  "task": "classify whether the next anchor-date open is above this anchor-date open",
+  "features_price": [
+    "pchg_1d",
+    "pchg_5d",
+    "pchg_20d",
+    "vol_ratio_5_20",
+    "volatility_20d",
+    "range_prev"
+  ],
+  "features_gdelt": [
+    "g_events_7d",
+    "g_events_chg",
+    "g_tone_7d",
+    "g_neg_share_7d",
+    "g_conflict_share_7d"
+  ],
+  "split_profile": {
+    "train": {
+      "rows": 70829,
+      "series": 495,
+      "share_up": 0.5363,
+      "gdelt_rows": 11811,
+      "first_date": "2013-03-15",
+      "last_date": "2015-12-24"
+    },
+    "val": {
+      "rows": 25340,
+      "series": 498,
+      "share_up": 0.5394,
+      "gdelt_rows": 25340,
+      "first_date": "2016-01-08",
+      "last_date": "2016-12-23"
+    },
+    "test": {
+      "rows": 25582,
+      "series": 504,
+      "share_up": 0.5639,
+      "gdelt_rows": 13005,
+      "first_date": "2017-01-06",
+      "last_date": "2017-12-22"
+    }
+  },
+  "search_space": {
+    "lr": [
+      {
+        "regParam": 0.001,
+        "elasticNetParam": 0.0
+      },
+      {
+        "regParam": 0.001,
+        "elasticNetParam": 0.5
+      },
+      {
+        "regParam": 0.001,
+        "elasticNetParam": 1.0
+      },
+      {
+        "regParam": 0.01,
+        "elasticNetParam": 0.0
+      },
+      {
+        "regParam": 0.01,
+        "elasticNetParam": 0.5
+      },
+      {
+        "regParam": 0.01,
+        "elasticNetParam": 1.0
+      },
+      {
+        "regParam": 0.1,
+        "elasticNetParam": 0.0
+      },
+      {
+        "regParam": 0.1,
+        "elasticNetParam": 0.5
+      },
+      {
+        "regParam": 0.1,
+        "elasticNetParam": 1.0
+      },
+      {
+        "regParam": 0.0,
+        "elasticNetParam": 0.0
+      }
+    ],
+    "rf": [
+      {
+        "numTrees": 100,
+        "maxDepth": 3,
+        "minInstancesPerNode": 20
+      },
+      {
+        "numTrees": 100,
+        "maxDepth": 3,
+        "minInstancesPerNode": 100
+      },
+      {
+        "numTrees": 100,
+        "maxDepth": 6,
+        "minInstancesPerNode": 20
+      },
+      {
+        "numTrees": 100,
+        "maxDepth": 6,
+        "minInstancesPerNode": 100
+      },
+      {
+        "numTrees": 200,
+        "maxDepth": 3,
+        "minInstancesPerNode": 20
+      },
+      {
+        "numTrees": 200,
+        "maxDepth": 3,
+        "minInstancesPerNode": 100
+      },
+      {
+        "numTrees": 200,
+        "maxDepth": 6,
+        "minInstancesPerNode": 20
+      },
+      {
+        "numTrees": 200,
+        "maxDepth": 6,
+        "minInstancesPerNode": 100
+      }
+    ],
+    "gbt": [
+      {
+        "maxIter": 20,
+        "maxDepth": 2,
+        "stepSize": 0.1
+      },
+      {
+        "maxIter": 20,
+        "maxDepth": 4,
+        "stepSize": 0.1
+      },
+      {
+        "maxIter": 40,
+        "maxDepth": 2,
+        "stepSize": 0.1
+      },
+      {
+        "maxIter": 40,
+        "maxDepth": 4,
+        "stepSize": 0.1
+      }
+    ]
+  },
+  "selection_rule": "highest validation AUC; ties: lower validation log-loss",
+  "frozen_choices": {
+    "full_price": {
+      "features": [
+        "pchg_1d",
+        "pchg_5d",
+        "pchg_20d",
+        "vol_ratio_5_20",
+        "volatility_20d",
+        "range_prev"
+      ],
+      "algo": "lr",
+      "params": {
+        "regParam": 0.01,
+        "elasticNetParam": 1.0
+      }
+    },
+    "gdelt_price_only": {
+      "features": [
+        "pchg_1d",
+        "pchg_5d",
+        "pchg_20d",
+        "vol_ratio_5_20",
+        "volatility_20d",
+        "range_prev"
+      ],
+      "algo": "rf",
+      "params": {
+        "numTrees": 200,
+        "maxDepth": 3,
+        "minInstancesPerNode": 20
+      }
+    },
+    "gdelt_price_gdelt": {
+      "features": [
+        "pchg_1d",
+        "pchg_5d",
+        "pchg_20d",
+        "vol_ratio_5_20",
+        "volatility_20d",
+        "range_prev",
+        "g_events_7d",
+        "g_events_chg",
+        "g_tone_7d",
+        "g_neg_share_7d",
+        "g_conflict_share_7d"
+      ],
+      "algo": "lr",
+      "params": {
+        "regParam": 0.1,
+        "elasticNetParam": 0.0
+      }
+    }
+  },
+  "results": {
+    "full_price": {
+      "rows": {
+        "train": 70829,
+        "val": 25340,
+        "test": 25582
+      },
+      "baseline": {
+        "majority_class": 1.0,
+        "train_share_up": 0.5363,
+        "val": {
+          "n": 25340,
+          "share_up": 0.539384,
+          "accuracy": 0.539384,
+          "tp": 13668,
+          "fp": 11672,
+          "fn": 0,
+          "tn": 0,
+          "logloss": 0.690061,
+          "brier": 0.248459,
+          "precision_up": 0.539384,
+          "recall_up": 1.0,
+          "recall_down": 0.0,
+          "f1_up": 0.700779,
+          "balanced_accuracy": 0.5,
+          "auc": 0.5
+        },
+        "test": {
+          "n": 25582,
+          "share_up": 0.563873,
+          "accuracy": 0.563873,
+          "tp": 14425,
+          "fp": 11157,
+          "fn": 0,
+          "tn": 0,
+          "logloss": 0.686503,
+          "brier": 0.246683,
+          "precision_up": 0.563873,
+          "recall_up": 1.0,
+          "recall_down": 0.0,
+          "f1_up": 0.721124,
+          "balanced_accuracy": 0.5,
+          "auc": 0.5
+        }
+      },
+      "model": {
+        "val": {
+          "n": 25340,
+          "share_up": 0.539384,
+          "accuracy": 0.539384,
+          "tp": 13668,
+          "fp": 11672,
+          "fn": 0,
+          "tn": 0,
+          "logloss": 0.689952,
+          "brier": 0.248405,
+          "precision_up": 0.539384,
+          "recall_up": 1.0,
+          "recall_down": 0.0,
+          "f1_up": 0.700779,
+          "balanced_accuracy": 0.5,
+          "auc": 0.528097
+        },
+        "test": {
+          "n": 25582,
+          "share_up": 0.563873,
+          "accuracy": 0.563873,
+          "tp": 14425,
+          "fp": 11157,
+          "fn": 0,
+          "tn": 0,
+          "logloss": 0.686571,
+          "brier": 0.246717,
+          "precision_up": 0.563873,
+          "recall_up": 1.0,
+          "recall_down": 0.0,
+          "f1_up": 0.721124,
+          "balanced_accuracy": 0.5,
+          "auc": 0.485841
+        }
+      }
+    },
+    "gdelt_price_only": {
+      "rows": {
+        "train": 11811,
+        "val": 25340,
+        "test": 13005
+      },
+      "baseline": {
+        "majority_class": 0.0,
+        "train_share_up": 0.4652,
+        "val": {
+          "n": 25340,
+          "share_up": 0.539384,
+          "accuracy": 0.460616,
+          "tp": 0,
+          "fp": 0,
+          "fn": 13668,
+          "tn": 11672,
+          "logloss": 0.701053,
+          "brier": 0.253946,
+          "precision_up": null,
+          "recall_up": 0.0,
+          "recall_down": 1.0,
+          "f1_up": null,
+          "balanced_accuracy": 0.5,
+          "auc": 0.5
+        },
+        "test": {
+          "n": 13005,
+          "share_up": 0.542022,
+          "accuracy": 0.457978,
+          "tp": 0,
+          "fp": 0,
+          "fn": 7049,
+          "tn": 5956,
+          "logloss": 0.70142,
+          "brier": 0.254129,
+          "precision_up": null,
+          "recall_up": 0.0,
+          "recall_down": 1.0,
+          "f1_up": null,
+          "balanced_accuracy": 0.5,
+          "auc": 0.5
+        }
+      },
+      "model": {
+        "val": {
+          "n": 25340,
+          "share_up": 0.539384,
+          "accuracy": 0.464641,
+          "tp": 1280,
+          "fp": 1178,
+          "fn": 12388,
+          "tn": 10494,
+          "logloss": 0.703619,
+          "brier": 0.255187,
+          "precision_up": 0.520749,
+          "recall_up": 0.093649,
+          "recall_down": 0.899075,
+          "f1_up": 0.15875,
+          "balanced_accuracy": 0.496362,
+          "auc": 0.511453
+        },
+        "test": {
+          "n": 13005,
+          "share_up": 0.542022,
+          "accuracy": 0.460669,
+          "tp": 415,
+          "fp": 380,
+          "fn": 6634,
+          "tn": 5576,
+          "logloss": 0.7108,
+          "brier": 0.258723,
+          "precision_up": 0.522013,
+          "recall_up": 0.058874,
+          "recall_down": 0.936199,
+          "f1_up": 0.105813,
+          "balanced_accuracy": 0.497536,
+          "auc": 0.479463
+        }
+      }
+    },
+    "gdelt_price_gdelt": {
+      "rows": {
+        "train": 11811,
+        "val": 25340,
+        "test": 13005
+      },
+      "baseline": {
+        "majority_class": 0.0,
+        "train_share_up": 0.4652,
+        "val": {
+          "n": 25340,
+          "share_up": 0.539384,
+          "accuracy": 0.460616,
+          "tp": 0,
+          "fp": 0,
+          "fn": 13668,
+          "tn": 11672,
+          "logloss": 0.701053,
+          "brier": 0.253946,
+          "precision_up": null,
+          "recall_up": 0.0,
+          "recall_down": 1.0,
+          "f1_up": null,
+          "balanced_accuracy": 0.5,
+          "auc": 0.5
+        },
+        "test": {
+          "n": 13005,
+          "share_up": 0.542022,
+          "accuracy": 0.457978,
+          "tp": 0,
+          "fp": 0,
+          "fn": 7049,
+          "tn": 5956,
+          "logloss": 0.70142,
+          "brier": 0.254129,
+          "precision_up": null,
+          "recall_up": 0.0,
+          "recall_down": 1.0,
+          "f1_up": null,
+          "balanced_accuracy": 0.5,
+          "auc": 0.5
+        }
+      },
+      "model": {
+        "val": {
+          "n": 25340,
+          "share_up": 0.539384,
+          "accuracy": 0.502447,
+          "tp": 6671,
+          "fp": 5611,
+          "fn": 6997,
+          "tn": 6061,
+          "logloss": 0.720747,
+          "brier": 0.261789,
+          "precision_up": 0.543153,
+          "recall_up": 0.488074,
+          "recall_down": 0.519277,
+          "f1_up": 0.514143,
+          "balanced_accuracy": 0.503676,
+          "auc": 0.511137
+        },
+        "test": {
+          "n": 13005,
+          "share_up": 0.542022,
+          "accuracy": 0.487505,
+          "tp": 4499,
+          "fp": 4115,
+          "fn": 2550,
+          "tn": 1841,
+          "logloss": 0.739406,
+          "brier": 0.27153,
+          "precision_up": 0.522289,
+          "recall_up": 0.638247,
+          "recall_down": 0.3091,
+          "f1_up": 0.574475,
+          "balanced_accuracy": 0.473673,
+          "auc": 0.44394
+        }
+      }
+    }
+  },
+  "comparisons": {
+    "accuracy_gain_price_plus_gdelt_vs_price_only": {
+      "diff": 0.026836,
+      "ci95": [
+        -0.07561,
+        0.128209
+      ],
+      "n_weeks": 26,
+      "n_boot": 2000
+    },
+    "accuracy_gain_full_price_model_vs_baseline": {
+      "diff": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "n_weeks": 51,
+      "n_boot": 2000
+    }
+  },
+  "reliability_by_quarter_and_volatility": [
+    {
+      "period": "2017Q1",
+      "vol_group": "1_low",
+      "n": 3109,
+      "share_up": 0.563,
+      "acc_model": 0.5629,
+      "acc_baseline": 0.5629,
+      "lift": 0.0
+    },
+    {
+      "period": "2017Q1",
+      "vol_group": "2_mid",
+      "n": 1859,
+      "share_up": 0.559,
+      "acc_model": 0.5594,
+      "acc_baseline": 0.5594,
+      "lift": 0.0
+    },
+    {
+      "period": "2017Q1",
+      "vol_group": "3_high",
+      "n": 1528,
+      "share_up": 0.526,
+      "acc_model": 0.5262,
+      "acc_baseline": 0.5262,
+      "lift": 0.0
+    },
+    {
+      "period": "2017Q2",
+      "vol_group": "1_low",
+      "n": 3399,
+      "share_up": 0.548,
+      "acc_model": 0.5475,
+      "acc_baseline": 0.5475,
+      "lift": 0.0
+    },
+    {
+      "period": "2017Q2",
+      "vol_group": "2_mid",
+      "n": 1680,
+      "share_up": 0.514,
+      "acc_model": 0.5137,
+      "acc_baseline": 0.5137,
+      "lift": 0.0
+    },
+    {
+      "period": "2017Q2",
+      "vol_group": "3_high",
+      "n": 1430,
+      "share_up": 0.511,
+      "acc_model": 0.5112,
+      "acc_baseline": 0.5112,
+      "lift": 0.0
+    },
+    {
+      "period": "2017Q3",
+      "vol_group": "1_low",
+      "n": 2980,
+      "share_up": 0.577,
+      "acc_model": 0.5772,
+      "acc_baseline": 0.5772,
+      "lift": 0.0
+    },
+    {
+      "period": "2017Q3",
+      "vol_group": "2_mid",
+      "n": 1893,
+      "share_up": 0.606,
+      "acc_model": 0.6064,
+      "acc_baseline": 0.6064,
+      "lift": 0.0
+    },
+    {
+      "period": "2017Q3",
+      "vol_group": "3_high",
+      "n": 1656,
+      "share_up": 0.586,
+      "acc_model": 0.5857,
+      "acc_baseline": 0.5857,
+      "lift": 0.0
+    },
+    {
+      "period": "2017Q4",
+      "vol_group": "1_low",
+      "n": 2743,
+      "share_up": 0.58,
+      "acc_model": 0.58,
+      "acc_baseline": 0.58,
+      "lift": 0.0
+    },
+    {
+      "period": "2017Q4",
+      "vol_group": "2_mid",
+      "n": 1599,
+      "share_up": 0.602,
+      "acc_model": 0.6016,
+      "acc_baseline": 0.6016,
+      "lift": 0.0
+    },
+    {
+      "period": "2017Q4",
+      "vol_group": "3_high",
+      "n": 1706,
+      "share_up": 0.577,
+      "acc_model": 0.5774,
+      "acc_baseline": 0.5774,
+      "lift": 0.0
+    }
+  ],
+  "validation_search": {
+    "full_price": [
+      {
+        "algo": "lr",
+        "params": {
+          "regParam": 0.001,
+          "elasticNetParam": 0.0
+        },
+        "val_auc": 0.519729,
+        "val_accuracy": 0.538674,
+        "val_balanced_accuracy": 0.499717,
+        "val_logloss": 0.689655
+      },
+      {
+        "algo": "lr",
+        "params": {
+          "regParam": 0.001,
+          "elasticNetParam": 0.5
+        },
+        "val_auc": 0.519993,
+        "val_accuracy": 0.538871,
+        "val_balanced_accuracy": 0.499806,
+        "val_logloss": 0.689621
+      },
+      {
+        "algo": "lr",
+        "params": {
+          "regParam": 0.001,
+          "elasticNetParam": 1.0
+        },
+        "val_auc": 0.520305,
+        "val_accuracy": 0.538871,
+        "val_balanced_accuracy": 0.4997,
+        "val_logloss": 0.689594
+      },
+      {
+        "algo": "lr",
+        "params": {
+          "regParam": 0.01,
+          "elasticNetParam": 0.0
+        },
+        "val_auc": 0.519957,
+        "val_accuracy": 0.538792,
+        "val_balanced_accuracy": 0.499783,
+        "val_logloss": 0.689636
+      },
+      {
+        "algo": "lr",
+        "params": {
+          "regParam": 0.01,
+          "elasticNetParam": 0.5
+        },
+        "val_auc": 0.521799,
+        "val_accuracy": 0.539305,
+        "val_balanced_accuracy": 0.499927,
+        "val_logloss": 0.689649
+      },
+      {
+        "algo": "lr",
+        "params": {
+          "regParam": 0.01,
+          "elasticNetParam": 1.0
+        },
+        "val_auc": 0.528108,
+        "val_accuracy": 0.539384,
+        "val_balanced_accuracy": 0.5,
+        "val_logloss": 0.689952
+      },
+      {
+        "algo": "lr",
+        "params": {
+          "regParam": 0.1,
+          "elasticNetParam": 0.0
+        },
+        "val_auc": 0.521171,
+        "val_accuracy": 0.539345,
+        "val_balanced_accuracy": 0.500051,
+        "val_logloss": 0.689563
+      },
+      {
+        "algo": "lr",
+        "params": {
+          "regParam": 0.1,
+          "elasticNetParam": 0.5
+        },
+        "val_auc": 0.5,
+        "val_accuracy": 0.539384,
+        "val_balanced_accuracy": 0.5,
+        "val_logloss": 0.690061
+      },
+      {
+        "algo": "lr",
+        "params": {
+          "regParam": 0.1,
+          "elasticNetParam": 1.0
+        },
+        "val_auc": 0.5,
+        "val_accuracy": 0.539384,
+        "val_balanced_accuracy": 0.5,
+        "val_logloss": 0.690061
+      },
+      {
+        "algo": "lr",
+        "params": {
+          "regParam": 0.0,
+          "elasticNetParam": 0.0
+        },
+        "val_auc": 0.519697,
+        "val_accuracy": 0.538595,
+        "val_balanced_accuracy": 0.49965,
+        "val_logloss": 0.689658
+      },
+      {
+        "algo": "rf",
+        "params": {
+          "numTrees": 100,
+          "maxDepth": 3,
+          "minInstancesPerNode": 20
+        },
+        "val_auc": 0.519574,
+        "val_accuracy": 0.538832,
+        "val_balanced_accuracy": 0.50316,
+        "val_logloss": 0.68955
+      },
+      {
+        "algo": "rf",
+        "params": {
+          "numTrees": 100,
+          "maxDepth": 3,
+          "minInstancesPerNode": 100
+        },
+        "val_auc": 0.519833,
+        "val_accuracy": 0.539148,
+        "val_balanced_accuracy": 0.503471,
+        "val_logloss": 0.689555
+      },
+      {
+        "algo": "rf",
+        "params": {
+          "numTrees": 100,
+          "maxDepth": 6,
+          "minInstancesPerNode": 20
+        },
+        "val_auc": 0.512788,
+        "val_accuracy": 0.535872,
+        "val_balanced_accuracy": 0.50397,
+        "val_logloss": 0.690596
+      },
+      {
+        "algo": "rf",
+        "params": {
+          "numTrees": 100,
+          "maxDepth": 6,
+          "minInstancesPerNode": 100
+        },
+        "val_auc": 0.512298,
+        "val_accuracy": 0.537293,
+        "val_balanced_accuracy": 0.50513,
+        "val_logloss": 0.690508
+      },
+      {
+        "algo": "rf",
+        "params": {
+          "numTrees": 200,
+          "maxDepth": 3,
+          "minInstancesPerNode": 20
+        },
+        "val_auc": 0.520798,
+        "val_accuracy": 0.539266,
+        "val_balanced_accuracy": 0.504063,
+        "val_logloss": 0.689438
+      },
+      {
+        "algo": "rf",
+        "params": {
+          "numTrees": 200,
+          "maxDepth": 3,
+          "minInstancesPerNode": 100
+        },
+        "val_auc": 0.520335,
+        "val_accuracy": 0.539266,
+        "val_balanced_accuracy": 0.504057,
+        "val_logloss": 0.689461
+      },
+      {
+        "algo": "rf",
+        "params": {
+          "numTrees": 200,
+          "maxDepth": 6,
+          "minInstancesPerNode": 20
+        },
+        "val_auc": 0.513791,
+        "val_accuracy": 0.536582,
+        "val_balanced_accuracy": 0.504359,
+        "val_logloss": 0.690559
+      },
+      {
+        "algo": "rf",
+        "params": {
+          "numTrees": 200,
+          "maxDepth": 6,
+          "minInstancesPerNode": 100
+        },
+        "val_auc": 0.511436,
+        "val_accuracy": 0.536859,
+        "val_balanced_accuracy": 0.504684,
+        "val_logloss": 0.690622
+      },
+      {
+        "algo": "gbt",
+        "params": {
+          "maxIter": 20,
+          "maxDepth": 2,
+          "stepSize": 0.1
+        },
+        "val_auc": 0.509868,
+        "val_accuracy": 0.534609,
+        "val_balanced_accuracy": 0.503819,
+        "val_logloss": 0.69095
+      },
+      {
+        "algo": "gbt",
+        "params": {
+          "maxIter": 20,
+          "maxDepth": 4,
+          "stepSize": 0.1
+        },
+        "val_auc": 0.505943,
+        "val_accuracy": 0.526243,
+        "val_balanced_accuracy": 0.499398,
+        "val_logloss": 0.693847
+      },
+      {
+        "algo": "gbt",
+        "params": {
+          "maxIter": 40,
+          "maxDepth": 2,
+          "stepSize": 0.1
+        },
+        "val_auc": 0.510009,
+        "val_accuracy": 0.533465,
+        "val_balanced_accuracy": 0.504603,
+        "val_logloss": 0.691504
+      },
+      {
+        "algo": "gbt",
+        "params": {
+          "maxIter": 40,
+          "maxDepth": 4,
+          "stepSize": 0.1
+        },
+        "val_auc": 0.509293,
+        "val_accuracy": 0.524822,
+        "val_balanced_accuracy": 0.500965,
+        "val_logloss": 0.694705
+      }
+    ],
+    "gdelt_price_only": [
+      {
+        "algo": "lr",
+        "params": {
+          "regParam": 0.001,
+          "elasticNetParam": 0.0
+        },
+        "val_auc": 0.487863,
+        "val_accuracy": 0.477861,
+        "val_balanced_accuracy": 0.506984,
+        "val_logloss": 0.703832
+      },
+      {
+        "algo": "lr",
+        "params": {
+          "regParam": 0.001,
+          "elasticNetParam": 0.5
+        },
+        "val_auc": 0.488439,
+        "val_accuracy": 0.47719,
+        "val_balanced_accuracy": 0.506594,
+        "val_logloss": 0.703663
+      },
+      {
+        "algo": "lr",
+        "params": {
+          "regParam": 0.001,
+          "elasticNetParam": 1.0
+        },
+        "val_auc": 0.489073,
+        "val_accuracy": 0.47648,
+        "val_balanced_accuracy": 0.506217,
+        "val_logloss": 0.7035
+      },
+      {
+        "algo": "lr",
+        "params": {
+          "regParam": 0.01,
+          "elasticNetParam": 0.0
+        },
+        "val_auc": 0.488157,
+        "val_accuracy": 0.477072,
+        "val_balanced_accuracy": 0.506678,
+        "val_logloss": 0.703575
+      },
+      {
+        "algo": "lr",
+        "params": {
+          "regParam": 0.01,
+          "elasticNetParam": 0.5
+        },
+        "val_auc": 0.492251,
+        "val_accuracy": 0.470718,
+        "val_balanced_accuracy": 0.503672,
+        "val_logloss": 0.702477
+      },
+      {
+        "algo": "lr",
+        "params": {
+          "regParam": 0.01,
+          "elasticNetParam": 1.0
+        },
+        "val_auc": 0.488655,
+        "val_accuracy": 0.464759,
+        "val_balanced_accuracy": 0.500957,
+        "val_logloss": 0.702279
+      },
+      {
+        "algo": "lr",
+        "params": {
+          "regParam": 0.1,
+          "elasticNetParam": 0.0
+        },
+        "val_auc": 0.489546,
+        "val_accuracy": 0.469653,
+        "val_balanced_accuracy": 0.503391,
+        "val_logloss": 0.702275
+      },
+      {
+        "algo": "lr",
+        "params": {
+          "regParam": 0.1,
+          "elasticNetParam": 0.5
+        },
+        "val_auc": 0.5,
+        "val_accuracy": 0.460616,
+        "val_balanced_accuracy": 0.5,
+        "val_logloss": 0.701053
+      },
+      {
+        "algo": "lr",
+        "params": {
+          "regParam": 0.1,
+          "elasticNetParam": 1.0
+        },
+        "val_auc": 0.5,
+        "val_accuracy": 0.460616,
+        "val_balanced_accuracy": 0.5,
+        "val_logloss": 0.701053
+      },
+      {
+        "algo": "lr",
+        "params": {
+          "regParam": 0.0,
+          "elasticNetParam": 0.0
+        },
+        "val_auc": 0.487829,
+        "val_accuracy": 0.477822,
+        "val_balanced_accuracy": 0.506879,
+        "val_logloss": 0.703863
+      },
+      {
+        "algo": "rf",
+        "params": {
+          "numTrees": 100,
+          "maxDepth": 3,
+          "minInstancesPerNode": 20
+        },
+        "val_auc": 0.510298,
+        "val_accuracy": 0.466772,
+        "val_balanced_accuracy": 0.497455,
+        "val_logloss": 0.703819
+      },
+      {
+        "algo": "rf",
+        "params": {
+          "numTrees": 100,
+          "maxDepth": 3,
+          "minInstancesPerNode": 100
+        },
+        "val_auc": 0.509326,
+        "val_accuracy": 0.465864,
+        "val_balanced_accuracy": 0.497102,
+        "val_logloss": 0.703795
+      },
+      {
+        "algo": "rf",
+        "params": {
+          "numTrees": 100,
+          "maxDepth": 6,
+          "minInstancesPerNode": 20
+        },
+        "val_auc": 0.508388,
+        "val_accuracy": 0.48161,
+        "val_balanced_accuracy": 0.501658,
+        "val_logloss": 0.712087
+      },
+      {
+        "algo": "rf",
+        "params": {
+          "numTrees": 100,
+          "maxDepth": 6,
+          "minInstancesPerNode": 100
+        },
+        "val_auc": 0.506801,
+        "val_accuracy": 0.481215,
+        "val_balanced_accuracy": 0.501386,
+        "val_logloss": 0.71119
+      },
+      {
+        "algo": "rf",
+        "params": {
+          "numTrees": 200,
+          "maxDepth": 3,
+          "minInstancesPerNode": 20
+        },
+        "val_auc": 0.511456,
+        "val_accuracy": 0.464641,
+        "val_balanced_accuracy": 0.496362,
+        "val_logloss": 0.703619
+      },
+      {
+        "algo": "rf",
+        "params": {
+          "numTrees": 200,
+          "maxDepth": 3,
+          "minInstancesPerNode": 100
+        },
+        "val_auc": 0.511064,
+        "val_accuracy": 0.46614,
+        "val_balanced_accuracy": 0.498171,
+        "val_logloss": 0.703473
+      },
+      {
+        "algo": "rf",
+        "params": {
+          "numTrees": 200,
+          "maxDepth": 6,
+          "minInstancesPerNode": 20
+        },
+        "val_auc": 0.50578,
+        "val_accuracy": 0.477427,
+        "val_balanced_accuracy": 0.497505,
+        "val_logloss": 0.712142
+      },
+      {
+        "algo": "rf",
+        "params": {
+          "numTrees": 200,
+          "maxDepth": 6,
+          "minInstancesPerNode": 100
+        },
+        "val_auc": 0.507108,
+        "val_accuracy": 0.480071,
+        "val_balanced_accuracy": 0.50095,
+        "val_logloss": 0.710916
+      },
+      {
+        "algo": "gbt",
+        "params": {
+          "maxIter": 20,
+          "maxDepth": 2,
+          "stepSize": 0.1
+        },
+        "val_auc": 0.503873,
+        "val_accuracy": 0.486069,
+        "val_balanced_accuracy": 0.503201,
+        "val_logloss": 0.716987
+      },
+      {
+        "algo": "gbt",
+        "params": {
+          "maxIter": 20,
+          "maxDepth": 4,
+          "stepSize": 0.1
+        },
+        "val_auc": 0.504231,
+        "val_accuracy": 0.492739,
+        "val_balanced_accuracy": 0.504648,
+        "val_logloss": 0.731281
+      },
+      {
+        "algo": "gbt",
+        "params": {
+          "maxIter": 40,
+          "maxDepth": 2,
+          "stepSize": 0.1
+        },
+        "val_auc": 0.503274,
+        "val_accuracy": 0.485399,
+        "val_balanced_accuracy": 0.500521,
+        "val_logloss": 0.721079
+      },
+      {
+        "algo": "gbt",
+        "params": {
+          "maxIter": 40,
+          "maxDepth": 4,
+          "stepSize": 0.1
+        },
+        "val_auc": 0.501678,
+        "val_accuracy": 0.490726,
+        "val_balanced_accuracy": 0.502614,
+        "val_logloss": 0.739256
+      }
+    ],
+    "gdelt_price_gdelt": [
+      {
+        "algo": "lr",
+        "params": {
+          "regParam": 0.001,
+          "elasticNetParam": 0.0
+        },
+        "val_auc": 0.505047,
+        "val_accuracy": 0.517127,
+        "val_balanced_accuracy": 0.50765,
+        "val_logloss": 0.756957
+      },
+      {
+        "algo": "lr",
+        "params": {
+          "regParam": 0.001,
+          "elasticNetParam": 0.5
+        },
+        "val_auc": 0.504565,
+        "val_accuracy": 0.517916,
+        "val_balanced_accuracy": 0.508663,
+        "val_logloss": 0.756406
+      },
+      {
+        "algo": "lr",
+        "params": {
+          "regParam": 0.001,
+          "elasticNetParam": 1.0
+        },
+        "val_auc": 0.504049,
+        "val_accuracy": 0.517837,
+        "val_balanced_accuracy": 0.508872,
+        "val_logloss": 0.755944
+      },
+      {
+        "algo": "lr",
+        "params": {
+          "regParam": 0.01,
+          "elasticNetParam": 0.0
+        },
+        "val_auc": 0.507045,
+        "val_accuracy": 0.514365,
+        "val_balanced_accuracy": 0.505408,
+        "val_logloss": 0.748746
+      },
+      {
+        "algo": "lr",
+        "params": {
+          "regParam": 0.01,
+          "elasticNetParam": 0.5
+        },
+        "val_auc": 0.503602,
+        "val_accuracy": 0.516496,
+        "val_balanced_accuracy": 0.509911,
+        "val_logloss": 0.743345
+      },
+      {
+        "algo": "lr",
+        "params": {
+          "regParam": 0.01,
+          "elasticNetParam": 1.0
+        },
+        "val_auc": 0.502013,
+        "val_accuracy": 0.515549,
+        "val_balanced_accuracy": 0.511454,
+        "val_logloss": 0.737655
+      },
+      {
+        "algo": "lr",
+        "params": {
+          "regParam": 0.1,
+          "elasticNetParam": 0.0
+        },
+        "val_auc": 0.511136,
+        "val_accuracy": 0.502447,
+        "val_balanced_accuracy": 0.503676,
+        "val_logloss": 0.720747
+      },
+      {
+        "algo": "lr",
+        "params": {
+          "regParam": 0.1,
+          "elasticNetParam": 0.5
+        },
+        "val_auc": 0.497919,
+        "val_accuracy": 0.493804,
+        "val_balanced_accuracy": 0.510071,
+        "val_logloss": 0.704576
+      },
+      {
+        "algo": "lr",
+        "params": {
+          "regParam": 0.1,
+          "elasticNetParam": 1.0
+        },
+        "val_auc": 0.492028,
+        "val_accuracy": 0.460616,
+        "val_balanced_accuracy": 0.5,
+        "val_logloss": 0.700895
+      },
+      {
+        "algo": "lr",
+        "params": {
+          "regParam": 0.0,
+          "elasticNetParam": 0.0
+        },
+        "val_auc": 0.504682,
+        "val_accuracy": 0.516851,
+        "val_balanced_accuracy": 0.507438,
+        "val_logloss": 0.758151
+      },
+      {
+        "algo": "rf",
+        "params": {
+          "numTrees": 100,
+          "maxDepth": 3,
+          "minInstancesPerNode": 20
+        },
+        "val_auc": 0.461498,
+        "val_accuracy": 0.466496,
+        "val_balanced_accuracy": 0.471713,
+        "val_logloss": 0.741904
+      },
+      {
+        "algo": "rf",
+        "params": {
+          "numTrees": 100,
+          "maxDepth": 3,
+          "minInstancesPerNode": 100
+        },
+        "val_auc": 0.461244,
+        "val_accuracy": 0.466496,
+        "val_balanced_accuracy": 0.471713,
+        "val_logloss": 0.741449
+      },
+      {
+        "algo": "rf",
+        "params": {
+          "numTrees": 100,
+          "maxDepth": 6,
+          "minInstancesPerNode": 20
+        },
+        "val_auc": 0.44426,
+        "val_accuracy": 0.456867,
+        "val_balanced_accuracy": 0.463644,
+        "val_logloss": 0.780567
+      },
+      {
+        "algo": "rf",
+        "params": {
+          "numTrees": 100,
+          "maxDepth": 6,
+          "minInstancesPerNode": 100
+        },
+        "val_auc": 0.440943,
+        "val_accuracy": 0.453473,
+        "val_balanced_accuracy": 0.460523,
+        "val_logloss": 0.781205
+      },
+      {
+        "algo": "rf",
+        "params": {
+          "numTrees": 200,
+          "maxDepth": 3,
+          "minInstancesPerNode": 20
+        },
+        "val_auc": 0.452858,
+        "val_accuracy": 0.460892,
+        "val_balanced_accuracy": 0.472706,
+        "val_logloss": 0.742883
+      },
+      {
+        "algo": "rf",
+        "params": {
+          "numTrees": 200,
+          "maxDepth": 3,
+          "minInstancesPerNode": 100
+        },
+        "val_auc": 0.453246,
+        "val_accuracy": 0.460773,
+        "val_balanced_accuracy": 0.472633,
+        "val_logloss": 0.742323
+      },
+      {
+        "algo": "rf",
+        "params": {
+          "numTrees": 200,
+          "maxDepth": 6,
+          "minInstancesPerNode": 20
+        },
+        "val_auc": 0.443923,
+        "val_accuracy": 0.441949,
+        "val_balanced_accuracy": 0.444193,
+        "val_logloss": 0.782026
+      },
+      {
+        "algo": "rf",
+        "params": {
+          "numTrees": 200,
+          "maxDepth": 6,
+          "minInstancesPerNode": 100
+        },
+        "val_auc": 0.441389,
+        "val_accuracy": 0.448658,
+        "val_balanced_accuracy": 0.451938,
+        "val_logloss": 0.784039
+      },
+      {
+        "algo": "gbt",
+        "params": {
+          "maxIter": 20,
+          "maxDepth": 2,
+          "stepSize": 0.1
+        },
+        "val_auc": 0.46857,
+        "val_accuracy": 0.458051,
+        "val_balanced_accuracy": 0.457185,
+        "val_logloss": 0.814125
+      },
+      {
+        "algo": "gbt",
+        "params": {
+          "maxIter": 20,
+          "maxDepth": 4,
+          "stepSize": 0.1
+        },
+        "val_auc": 0.472314,
+        "val_accuracy": 0.474428,
+        "val_balanced_accuracy": 0.472623,
+        "val_logloss": 0.871856
+      },
+      {
+        "algo": "gbt",
+        "params": {
+          "maxIter": 40,
+          "maxDepth": 2,
+          "stepSize": 0.1
+        },
+        "val_auc": 0.468322,
+        "val_accuracy": 0.455722,
+        "val_balanced_accuracy": 0.451461,
+        "val_logloss": 0.825162
+      },
+      {
+        "algo": "gbt",
+        "params": {
+          "maxIter": 40,
+          "maxDepth": 4,
+          "stepSize": 0.1
+        },
+        "val_auc": 0.470826,
+        "val_accuracy": 0.471547,
+        "val_balanced_accuracy": 0.470447,
+        "val_logloss": 0.889248
+      }
+    ]
+  },
+  "model_paths": {
+    "full_price": "hdfs:///project/models/full_price",
+    "gdelt_price_only": "hdfs:///project/models/gdelt_price_only",
+    "gdelt_price_gdelt": "hdfs:///project/models/gdelt_price_gdelt"
+  },
+  "prediction_tables": {
+    "pred_final_test": "pred_final_test",
+    "pred_gdelt_test": "pred_gdelt_test"
+  },
+  "reload_tolerance": 1e-09,
+  "stage_timings": [
+    {
+      "stage": "read and check tables",
+      "seconds": 5.7,
+      "cumulative": 5.7
+    },
+    {
+      "stage": "experiment full_price",
+      "seconds": 117.5,
+      "cumulative": 123.2
+    },
+    {
+      "stage": "experiments gdelt_price_only / gdelt_price_gdelt",
+      "seconds": 138.4,
+      "cumulative": 261.6
+    },
+    {
+      "stage": "GDELT comparison",
+      "seconds": 3.6,
+      "cumulative": 265.2
+    },
+    {
+      "stage": "reliability slices",
+      "seconds": 1.9,
+      "cumulative": 267.1
+    },
+    {
+      "stage": "write predictions and save models",
+      "seconds": 13.9,
+      "cumulative": 281.0
+    }
+  ]
+}

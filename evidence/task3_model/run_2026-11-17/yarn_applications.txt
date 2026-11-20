@@ -1,0 +1,10 @@
+2026-11-17 12:22:08,738 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at <emr-node>/<emr-node-ip>:8032
+2026-11-17 12:22:08,886 INFO client.AHSProxy: Connecting to Application History server at <emr-node>/<emr-node-ip>:10200
+Total number of applications (application-types: [], states: [NEW, NEW_SAVING, SUBMITTED, ACCEPTED, RUNNING, FINISHED, FAILED, KILLED] and tags: []):6
+                Application-Id	    Application-Name	    Application-Type	      User	     Queue	             State	       Final-State	       Progress	                       Tracking-URL	Tags
+application_1794914433132_0004	      livy-session-1	               SPARK	      livy	root.default	          FINISHED	         SUCCEEDED	           100%	<emr-node>:18080/history/application_1794914433132_0004/1	[livy-session-1-mj9zz7ap]
+application_1794914433132_0005	        reload_check	               SPARK	    hadoop	root.default	          FINISHED	         SUCCEEDED	           100%	<emr-node>:18080/history/application_1794914433132_0005/1	[]
+application_1794914433132_0002	S3DistCp: s3://big-date-team18-bucket/Raw dataset/Daily_Price -> hdfs:/project/raw/daily_price	           MAPREDUCE	    hadoop	root.default	          FINISHED	         SUCCEEDED	           100%	http://<emr-node>:19888/jobhistory/job/job_1794914433132_0002	[]
+application_1794914433132_0003	S3DistCp: s3://big-date-team18-bucket/Raw dataset/gdelt -> hdfs:/project/raw/gdelt	           MAPREDUCE	    hadoop	root.default	          FINISHED	         SUCCEEDED	           100%	http://<emr-node>:19888/jobhistory/job/job_1794914433132_0003	[]
+application_1794914433132_0001	      livy-session-0	               SPARK	      livy	root.default	          FINISHED	         SUCCEEDED	           100%	<emr-node>:18080/history/application_1794914433132_0001/1	[livy-session-0-7iavnkfv]
+application_1794914433132_0006	        reload_check	               SPARK	    hadoop	root.default	          FINISHED	         SUCCEEDED	           100%	<emr-node>:18080/history/application_1794914433132_0006/1	[]

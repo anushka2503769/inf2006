@@ -1,0 +1,94 @@
+=================================================================
+             GDELT DATA QUALITY ASSESSMENT
+=================================================================
+
+DATASET INFORMATION
+-----------------------------------------------------------------
+Run time (UTC)     : 2026-11-15 12:33:25
+Spark application : application_1794742637308_0001
+Spark version     : 3.5.5-amzn-1
+Dataset directory : /project/raw/gdelt
+Total records     : 144,207,180
+Total columns     : 58
+Expected columns  : 58
+
+=================================================================
+QUALITY CHECK FINDINGS
+=================================================================
+
+[1] MISSING VALUES
+------------------------------------------------------------
+- 13,164,100 missing values in the Actor1Code column
+- 13,163,921 missing values in the Actor1Name column
+- 63,144,310 missing values in the Actor1CountryCode column
+- 142,210,558 missing values in the Actor1KnownGroupCode column
+- 143,280,462 missing values in the Actor1EthnicCode column
+- 141,553,526 missing values in the Actor1Religion1Code column
+- 143,595,893 missing values in the Actor1Religion2Code column
+- 80,958,280 missing values in the Actor1Type1Code column
+- 139,904,521 missing values in the Actor1Type2Code column
+- 144,087,692 missing values in the Actor1Type3Code column
+- 38,493,957 missing values in the Actor2Code column
+- 38,493,824 missing values in the Actor2Name column
+- 79,295,890 missing values in the Actor2CountryCode column
+- 142,529,269 missing values in the Actor2KnownGroupCode column
+- 143,444,470 missing values in the Actor2EthnicCode column
+- 141,653,160 missing values in the Actor2Religion1Code column
+- 143,674,319 missing values in the Actor2Religion2Code column
+- 93,165,256 missing values in the Actor2Type1Code column
+- 141,052,033 missing values in the Actor2Type2Code column
+- 144,131,810 missing values in the Actor2Type3Code column
+- 689 missing values in the GoldsteinScale column
+- 16,467,478 missing values in the Actor1Geo_Fullname column
+- 16,407,104 missing values in the Actor1Geo_CountryCode column
+- 16,407,104 missing values in the Actor1Geo_ADM1Code column
+- 16,467,970 missing values in the Actor1Geo_Lat column
+- 16,453,668 missing values in the Actor1Geo_Long column
+- 16,407,104 missing values in the Actor1Geo_FeatureID column
+- 41,084,646 missing values in the Actor2Geo_Fullname column
+- 41,038,241 missing values in the Actor2Geo_CountryCode column
+- 41,038,241 missing values in the Actor2Geo_ADM1Code column
+- 41,085,049 missing values in the Actor2Geo_Lat column
+- 41,074,046 missing values in the Actor2Geo_Long column
+- 41,038,241 missing values in the Actor2Geo_FeatureID column
+- 3,640,006 missing values in the ActionGeo_Fullname column
+- 3,567,789 missing values in the ActionGeo_CountryCode column
+- 3,567,789 missing values in the ActionGeo_ADM1Code column
+- 3,640,513 missing values in the ActionGeo_Lat column
+- 3,622,862 missing values in the ActionGeo_Long column
+- 3,567,789 missing values in the ActionGeo_FeatureID column
+
+[2] DUPLICATE RECORDS
+------------------------------------------------------------
+No duplicate records are found.
+
+[3] DUPLICATE GLOBAL EVENT ID
+------------------------------------------------------------
+No duplicate GlobalEventID values were found.
+
+[4] INVALID DATES
+------------------------------------------------------------
+No invalid SQLDATE values were found.
+No invalid DATEADDED values were found.
+
+[5] INVALID EVENT CODES
+------------------------------------------------------------
+- 112 invalid event codes in the EventCode column
+- 112 invalid event codes in the EventBaseCode column
+- 112 invalid event codes in the EventRootCode column
+
+[6] INVALID NUMERIC VALUES
+------------------------------------------------------------
+- 16,421,399 invalid numeric values in the Actor1Geo_Type column
+- 49,432,510 invalid numeric values in the Actor1Geo_FeatureID column
+- 41,049,238 invalid numeric values in the Actor2Geo_Type column
+- 40,658,817 invalid numeric values in the Actor2Geo_FeatureID column
+- 3,585,431 invalid numeric values in the ActionGeo_Type column
+- 53,469,621 invalid numeric values in the ActionGeo_FeatureID column
+- 7 invalid numeric values in the Actor1Geo_Long column
+- 6 invalid numeric values in the Actor2Geo_Long column
+- 9 invalid numeric values in the ActionGeo_Long column
+
+=================================================================
+                 END OF REPORT
+=================================================================

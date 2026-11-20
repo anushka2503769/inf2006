@@ -1,0 +1,38 @@
+Hive Session ID = 8a2ff4c7-3090-44fc-a61c-1c1d94bd6022
+
+Logging initialized using configuration in file:/etc/hive/conf.dist/hive-log4j2.properties Async: true
+OK
+Time taken: 0.524 seconds
+OK
+Time taken: 1.424 seconds
+OK
+Time taken: 0.078 seconds
+Query ID = hadoop_20261117034516_e644e8bb-73ef-4b7c-b302-a555b9531746
+Total jobs = 1
+Launching Job 1 out of 1
+Status: Running (Executing on YARN cluster with App id application_1794881266970_0011)
+
+Map 1: -/-	Reducer 2: 0/2	
+Map 1: 0/2	Reducer 2: 0/2	
+Map 1: 0(+1)/2	Reducer 2: 0/2	
+Map 1: 0(+2)/2	Reducer 2: 0/2	
+Map 1: 1(+1)/2	Reducer 2: 0/2	
+Map 1: 1(+1)/2	Reducer 2: 0(+1)/2	
+Map 1: 2/2	Reducer 2: 0(+2)/2	
+Map 1: 2/2	Reducer 2: 2/2	
+Moving data to directory hdfs://<emr-node>:8020/user/hive/warehouse/bigdata.db/trading_days
+OK
+Time taken: 12.451 seconds
+OK
+Time taken: 0.009 seconds
+Query ID = hadoop_20261117034529_e58db093-ebda-4f1f-93f7-25c08c5da46b
+Total jobs = 1
+Launching Job 1 out of 1
+Status: Running (Executing on YARN cluster with App id application_1794881266970_0011)
+
+Map 1: -/-	Reducer 2: 0/2	Reducer 3: 0/2	
+Map 1: 1/1	Reducer 2: 0(+2)/2	Reducer 3: 0/2	
+Map 1: 1/1	Reducer 2: 2/2	Reducer 3: 2/2	
+Moving data to directory hdfs://<emr-node>:8020/user/hive/warehouse/bigdata.db/trading_weeks
+OK
+Time taken: 1.44 seconds

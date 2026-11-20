@@ -1,0 +1,20 @@
+2026-11-17 04:05:23,913 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at <emr-node>/<private-ip>:8032
+2026-11-17 04:05:24,057 INFO client.AHSProxy: Connecting to Application History server at <emr-node>/<private-ip>:10200
+2026-11-17 04:05:24,218 INFO conf.Configuration: resource-types.xml not found
+2026-11-17 04:05:24,218 INFO resource.ResourceUtils: Unable to find 'resource-types.xml'.
+Total Nodes:2
+         Node-Id	     Node-State	Node-Http-Address	Number-of-Running-Containers
+<emr-node>:8041	        RUNNING	<emr-node>:8042	                           0
+Detailed Node Information :
+	Configured Resources : <memory:12288, vCores:4>
+	Allocated Resources : <memory:0, vCores:0>
+	Resource Utilization by Node : PMem:3807 MB, VMem:3807 MB, VCores:0.01
+	Resource Utilization by Containers : PMem:0 MB, VMem:0 MB, VCores:0.0
+	Node-Labels : 
+<emr-node>:8041	        RUNNING	<emr-node>:8042	                           0
+Detailed Node Information :
+	Configured Resources : <memory:12288, vCores:4>
+	Allocated Resources : <memory:0, vCores:0>
+	Resource Utilization by Node : PMem:3753 MB, VMem:3753 MB, VCores:0.08666667
+	Resource Utilization by Containers : PMem:0 MB, VMem:0 MB, VCores:0.0
+	Node-Labels : 

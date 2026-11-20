@@ -1,0 +1,3000 @@
+﻿<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikinews</sitename>
+    <dbname>enwikinews</dbname>
+    <base>https://en.wikinews.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.47.0-wmf.22</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikinews</namespace>
+      <namespace key="5" case="first-letter">Wikinews talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="90" case="first-letter">Thread</namespace>
+      <namespace key="91" case="first-letter">Thread talk</namespace>
+      <namespace key="92" case="first-letter">Summary</namespace>
+      <namespace key="93" case="first-letter">Summary talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="102" case="first-letter">Comments</namespace>
+      <namespace key="103" case="first-letter">Comments talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="1728" case="first-letter">Event</namespace>
+      <namespace key="1729" case="first-letter">Event talk</namespace>
+      <namespace key="2600" case="first-letter">Topic</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>File:Wiki.png</title>
+    <ns>6</ns>
+    <id>1</id>
+    <revision>
+      <id>1</id>
+      <timestamp>2004-11-08T08:11:42Z</timestamp>
+      <contributor>
+        <username>Tim~enwikinews</username>
+        <id>1</id>
+      </contributor>
+      <comment>Draft logo for wikinews. From [[m:Image:Wikinews-draftlogo.png]]. {{PD}}</comment>
+      <origin>1</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="72" sha1="e9z3ze535qgbis944wtu0uy2ka82yrc" xml:space="preserve">Draft logo for wikinews. From [[m:Image:Wikinews-draftlogo.png]]. {{PD}}</text>
+      <sha1>e9z3ze535qgbis944wtu0uy2ka82yrc</sha1>
+    </revision>
+    <revision>
+      <id>14506</id>
+      <parentid>1</parentid>
+      <timestamp>2004-11-08T08:20:40Z</timestamp>
+      <contributor>
+        <username>Tim~enwikinews</username>
+        <id>1</id>
+      </contributor>
+      <minor />
+      <origin>14506</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="73" sha1="b339rlehucdulsr9t2qpwbmyl31j27p" xml:space="preserve">Draft logo for wikinews. From [[m:Image:Wikinews-draftlogo.png]].  {{PD}}</text>
+      <sha1>b339rlehucdulsr9t2qpwbmyl31j27p</sha1>
+    </revision>
+    <revision>
+      <id>75670</id>
+      <parentid>14506</parentid>
+      <timestamp>2005-01-10T10:51:25Z</timestamp>
+      <contributor>
+        <username>David Vasquez</username>
+        <id>127</id>
+      </contributor>
+      <comment>Add note about this unique image.</comment>
+      <origin>75670</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="308" sha1="chc1iug80ajvdrvaxito2w7cwkzx1on" xml:space="preserve">Draft logo for wikinews. From [[m:Image:Wikinews-draftlogo.png]].  {{PD}}
+
+As of this writing, this image is the only image in the Wikinews image space. (See [[Special:Imagelist]].)
+
+Uploading is currently disabled on Wikinews, so all other images are uploaded on [[Commons:Main_Page|the Wikimedia Commons]].</text>
+      <sha1>chc1iug80ajvdrvaxito2w7cwkzx1on</sha1>
+    </revision>
+    <revision>
+      <id>78875</id>
+      <parentid>75670</parentid>
+      <timestamp>2005-06-20T00:43:57Z</timestamp>
+      <contributor>
+        <username>Andrew pmk</username>
+        <id>408</id>
+      </contributor>
+      <minor />
+      <comment>remove outdated information</comment>
+      <origin>78875</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="73" sha1="agfd87ykc5r3wj66x9helfnlqv2atfr" xml:space="preserve">Draft logo for wikinews. From [[m:Image:Wikinews-draftlogo.png]].
+
+{{PD}}</text>
+      <sha1>agfd87ykc5r3wj66x9helfnlqv2atfr</sha1>
+    </revision>
+    <revision>
+      <id>92375</id>
+      <parentid>78875</parentid>
+      <timestamp>2005-06-29T02:57:00Z</timestamp>
+      <contributor>
+        <username>NGerda</username>
+        <id>2442</id>
+      </contributor>
+      <origin>92375</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="39" sha1="s4ovwno0alaffg4ixx4ncd08d0sd2s8" xml:space="preserve">Wikinews logo.
+{{CopyrightByWikimedia}}</text>
+      <sha1>s4ovwno0alaffg4ixx4ncd08d0sd2s8</sha1>
+    </revision>
+    <revision>
+      <id>4641128</id>
+      <parentid>92375</parentid>
+      <timestamp>2021-08-30T23:12:36Z</timestamp>
+      <contributor>
+        <username>Cromium</username>
+        <id>7186</id>
+      </contributor>
+      <minor />
+      <comment>Copying from [[Category:Files with no machine-readable author]] to [[Category:Files needing attention]] using [[c:Help:Cat-a-lot|Cat-a-lot]]</comment>
+      <origin>4641128</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="77" sha1="o7omlez3cykoj9e4q6a29zl5w7i6gmc" xml:space="preserve">Wikinews logo.
+{{CopyrightByWikimedia}}
+
+[[Category:Files needing attention]]</text>
+      <sha1>o7omlez3cykoj9e4q6a29zl5w7i6gmc</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Wikinews:Upload log</title>
+    <ns>4</ns>
+    <id>2</id>
+    <revision>
+      <id>78876</id>
+      <timestamp>2004-12-03T12:24:29Z</timestamp>
+      <contributor>
+        <username>Stevertigo~enwikinews</username>
+        <id>262</id>
+      </contributor>
+      <comment>uploaded &quot;JuergenLogo.png&quot;: Juergen Logo - submitted to  [[meta:International logo contest]] under the {{GFDL}} - modified as potential logo Wikinews</comment>
+      <origin>78876</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="460" sha1="1kpif76hf6v6dhetnjrxfzuhhw1xznd" xml:space="preserve">&lt;ul&gt;&lt;li&gt;12:24, 3 Dec 2004 [[User:Stevertigo|Stevertigo]] uploaded &quot;[[:Image:JuergenLogo.png|JuergenLogo.png]]&quot; &lt;em&gt;(Juergen Logo - submitted to  &amp;#91;&amp;#91;meta:International logo contest]] under the &amp;#123;&amp;#123;GFDL}} - modified as potential logo Wikinews )&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;08:11, 8 Nov 2004 [[User:Tim|Tim]] uploaded &quot;[[:Image:Wiki.png|Wiki.png]]&quot; &lt;em&gt;(Draft logo for wikinews. From &amp;#91;&amp;#91;m:Image:Wikinews-draftlogo.png]]. &amp;#123;&amp;#123;PD}})&lt;/em&gt;&lt;/li&gt;
+
+&lt;/ul&gt;</text>
+      <sha1>1kpif76hf6v6dhetnjrxfzuhhw1xznd</sha1>
+    </revision>
+    <revision>
+      <id>1186492</id>
+      <parentid>78876</parentid>
+      <timestamp>2011-02-28T10:03:43Z</timestamp>
+      <contributor>
+        <username>Microchip08</username>
+        <id>21035</id>
+      </contributor>
+      <origin>1186492</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="497" sha1="2weacef6cyj4ypgl2yzra8h1d5uzb6n" xml:space="preserve">{{historical|[[Special:Log/upload]]}}&lt;ul&gt;&lt;li&gt;12:24, 3 Dec 2004 [[User:Stevertigo|Stevertigo]] uploaded &quot;[[:Image:JuergenLogo.png|JuergenLogo.png]]&quot; &lt;em&gt;(Juergen Logo - submitted to  &amp;#91;&amp;#91;meta:International logo contest]] under the &amp;#123;&amp;#123;GFDL}} - modified as potential logo Wikinews )&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;08:11, 8 Nov 2004 [[User:Tim|Tim]] uploaded &quot;[[:Image:Wiki.png|Wiki.png]]&quot; &lt;em&gt;(Draft logo for wikinews. From &amp;#91;&amp;#91;m:Image:Wikinews-draftlogo.png]]. &amp;#123;&amp;#123;PD}})&lt;/em&gt;&lt;/li&gt;
+
+&lt;/ul&gt;</text>
+      <sha1>2weacef6cyj4ypgl2yzra8h1d5uzb6n</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Main Page</title>
+    <ns>0</ns>
+    <id>3</id>
+    <revision>
+      <id>2</id>
+      <timestamp>2004-11-08T12:49:58Z</timestamp>
+      <contributor>
+        <username>Eloquence</username>
+        <id>3</id>
+      </contributor>
+      <origin>2</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2392" sha1="062tsuspk4oo4v33bybuitd59wngkxx" xml:space="preserve">{|cellspacing=&quot;3&quot; class=&quot;mainpagetable&quot;
+|- valign=&quot;top&quot; 
+|colspan=2|
+Welcome to Wikinews, a [[w:free content|free content]] news source. We started in November 2004, and have written {{NUMBEROFARTICLES}} articles, some of which are still [[Wikinews:Article stages|in development]]. Our [[Wikinews:Mission statement|mission]] is to create a world where citizen journalists report the news on a wide variety of subjects small and large. We need your help! Visit the [[Wikinews:Workspace|Wikinews Workspace]] and find out how '''you''' can become a Wikinews author today!
+|- valign=&quot;top&quot;
+|colspan=2 style=&quot;border: 1px solid #aa0000; padding: .5em 1em 1em; color: #000000; background-color: #fff2f2&quot;|
+=== Major events ===
+
+&amp;middot; November 29: '''[[Arafat dies]]'''. [[w:Yasser Arafat|Yasser Arafat]], the president of the [[w:Palestinian Authority|Palestinian Authority]], has died after a month of illness.
+|- valign=&quot;top&quot; 
+|colspan=2|
+
+&lt;center&gt;&lt;font size=+1&gt;
+Regions: [[North America]] - [[South America]] - [[Europe]] - [[Asia]] - [[Middle East]] - [[Oceania]] - [[Africa]]
+&lt;/font&gt;&lt;/center&gt;
+
+|- valign=&quot;top&quot;
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #9f8f9f; padding: .5em 1em 1em; color: #000000; background-color: #f0f0ff&quot;|
+
+&lt;h3&gt;Politics and Conflicts&lt;/h3&gt;
+
+[[Politics and Conflicts]]
+
+&lt;h3&gt;Disasters and Accidents&lt;/h3&gt;
+
+[[Disasters and Accidents]]
+
+&lt;h3&gt;Crime and Law&lt;/h3&gt;
+
+[[Crime and Law]]
+
+&lt;h3&gt;Obituaries&lt;/h3&gt;
+
+[[Obituaries]]
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border:1px solid #9f8f9f; padding: .5em 1em 1em; color: #000; background-color: #d0ffd0&quot;|
+
+&lt;h3&gt;Economy and Business&lt;/h3&gt;
+
+[[Economy and Business]]
+
+&lt;h3&gt;Science and Technology&lt;/h3&gt; 
+
+[[Science and Technology]]
+&lt;h3&gt;Culture and Entertainment&lt;/h3&gt;
+
+[[Culture and Entertainment]]
+&lt;h3&gt;Sports and Weather&lt;/h3&gt;
+
+[[Sports and Weather]]
+|-
+
+
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #cfcfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #f9fcff&quot;|
+&lt;h3 id=&quot;lang&quot;&gt;Wikinews in other languages&lt;/h3&gt;
+{{Wikinewslang}} 
+|- 
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #bfbfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #fff&quot;|
+&lt;h3 id=&quot;sister&quot;&gt;Sister projects&lt;/h3&gt;
+{{Sisterprojects}} 
+|-
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #9f8f9f; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #fff6ff&quot;|
+{{donate}} 
+|}</text>
+      <sha1>062tsuspk4oo4v33bybuitd59wngkxx</sha1>
+    </revision>
+    <revision>
+      <id>3</id>
+      <parentid>2</parentid>
+      <timestamp>2004-11-08T12:51:14Z</timestamp>
+      <contributor>
+        <username>Eloquence</username>
+        <id>3</id>
+      </contributor>
+      <minor />
+      <comment>__NOEDITSECTION__</comment>
+      <origin>3</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2411" sha1="qvap6wl5olziz4r67po7rlficlezwwf" xml:space="preserve">{|cellspacing=&quot;3&quot; class=&quot;mainpagetable&quot;
+|- valign=&quot;top&quot; 
+|colspan=2|
+Welcome to Wikinews, a [[w:free content|free content]] news source. We started in November 2004, and have written {{NUMBEROFARTICLES}} articles, some of which are still [[Wikinews:Article stages|in development]]. Our [[Wikinews:Mission statement|mission]] is to create a world where citizen journalists report the news on a wide variety of subjects small and large. We need your help! Visit the [[Wikinews:Workspace|Wikinews Workspace]] and find out how '''you''' can become a Wikinews author today!
+|- valign=&quot;top&quot;
+|colspan=2 style=&quot;border: 1px solid #aa0000; padding: .5em 1em 1em; color: #000000; background-color: #fff2f2&quot;|
+=== Major events ===
+
+&amp;middot; November 29: '''[[Arafat dies]]'''. [[w:Yasser Arafat|Yasser Arafat]], the president of the [[w:Palestinian Authority|Palestinian Authority]], has died after a month of illness.
+|- valign=&quot;top&quot; 
+|colspan=2|
+
+&lt;center&gt;&lt;font size=+1&gt;
+Regions: [[North America]] - [[South America]] - [[Europe]] - [[Asia]] - [[Middle East]] - [[Oceania]] - [[Africa]]
+&lt;/font&gt;&lt;/center&gt;
+
+|- valign=&quot;top&quot;
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #9f8f9f; padding: .5em 1em 1em; color: #000000; background-color: #f0f0ff&quot;|
+
+&lt;h3&gt;Politics and Conflicts&lt;/h3&gt;
+
+[[Politics and Conflicts]]
+
+&lt;h3&gt;Disasters and Accidents&lt;/h3&gt;
+
+[[Disasters and Accidents]]
+
+&lt;h3&gt;Crime and Law&lt;/h3&gt;
+
+[[Crime and Law]]
+
+&lt;h3&gt;Obituaries&lt;/h3&gt;
+
+[[Obituaries]]
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border:1px solid #9f8f9f; padding: .5em 1em 1em; color: #000; background-color: #d0ffd0&quot;|
+
+&lt;h3&gt;Economy and Business&lt;/h3&gt;
+
+[[Economy and Business]]
+
+&lt;h3&gt;Science and Technology&lt;/h3&gt; 
+
+[[Science and Technology]]
+&lt;h3&gt;Culture and Entertainment&lt;/h3&gt;
+
+[[Culture and Entertainment]]
+&lt;h3&gt;Sports and Weather&lt;/h3&gt;
+
+[[Sports and Weather]]
+|-
+
+
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #cfcfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #f9fcff&quot;|
+&lt;h3 id=&quot;lang&quot;&gt;Wikinews in other languages&lt;/h3&gt;
+{{Wikinewslang}} 
+|- 
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #bfbfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #fff&quot;|
+&lt;h3 id=&quot;sister&quot;&gt;Sister projects&lt;/h3&gt;
+{{Sisterprojects}} 
+|-
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #9f8f9f; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #fff6ff&quot;|
+{{donate}} 
+|}
+
+__NOEDITSECTION__</text>
+      <sha1>qvap6wl5olziz4r67po7rlficlezwwf</sha1>
+    </revision>
+    <revision>
+      <id>4</id>
+      <parentid>3</parentid>
+      <timestamp>2004-11-08T12:51:59Z</timestamp>
+      <contributor>
+        <username>Eloquence</username>
+        <id>3</id>
+      </contributor>
+      <minor />
+      <origin>4</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2411" sha1="si6bnmzo426uke1r8988hhvf0h1663c" xml:space="preserve">{|cellspacing=&quot;3&quot; class=&quot;mainpagetable&quot;
+|- valign=&quot;top&quot; 
+|colspan=2|
+Welcome to Wikinews, a [[w:free content|free content]] news source. We started in November 2004, and have written {{NUMBEROFARTICLES}} articles, some of which are still [[Wikinews:Article stages|in development]]. Our [[Wikinews:Mission statement|mission]] is to create a world where citizen journalists report the news on a wide variety of subjects small and large. We need your help! Visit the [[Wikinews:Workspace|Wikinews Workspace]] and find out how '''you''' can become a Wikinews author today!
+|- valign=&quot;top&quot;
+|colspan=2 style=&quot;border: 1px solid #aa0000; padding: .5em 1em 1em; color: #000000; background-color: #fff2f2&quot;|
+=== Major events ===
+
+&amp;middot; November 29: '''[[Arafat dies]]'''. [[w:Yasser Arafat|Yasser Arafat]], the president of the [[w:Palestinian Authority|Palestinian Authority]], has died after a month of illness.
+|- valign=&quot;top&quot; 
+|colspan=2|
+
+&lt;center&gt;&lt;font size=+1&gt;
+Regions: [[North America]] - [[South America]] - [[Europe]] - [[Africa]] - [[Middle East]] - [[Asia]] - [[Oceania]]
+&lt;/font&gt;&lt;/center&gt;
+
+|- valign=&quot;top&quot;
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #9f8f9f; padding: .5em 1em 1em; color: #000000; background-color: #f0f0ff&quot;|
+
+&lt;h3&gt;Politics and Conflicts&lt;/h3&gt;
+
+[[Politics and Conflicts]]
+
+&lt;h3&gt;Disasters and Accidents&lt;/h3&gt;
+
+[[Disasters and Accidents]]
+
+&lt;h3&gt;Crime and Law&lt;/h3&gt;
+
+[[Crime and Law]]
+
+&lt;h3&gt;Obituaries&lt;/h3&gt;
+
+[[Obituaries]]
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border:1px solid #9f8f9f; padding: .5em 1em 1em; color: #000; background-color: #d0ffd0&quot;|
+
+&lt;h3&gt;Economy and Business&lt;/h3&gt;
+
+[[Economy and Business]]
+
+&lt;h3&gt;Science and Technology&lt;/h3&gt; 
+
+[[Science and Technology]]
+&lt;h3&gt;Culture and Entertainment&lt;/h3&gt;
+
+[[Culture and Entertainment]]
+&lt;h3&gt;Sports and Weather&lt;/h3&gt;
+
+[[Sports and Weather]]
+|-
+
+
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #cfcfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #f9fcff&quot;|
+&lt;h3 id=&quot;lang&quot;&gt;Wikinews in other languages&lt;/h3&gt;
+{{Wikinewslang}} 
+|- 
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #bfbfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #fff&quot;|
+&lt;h3 id=&quot;sister&quot;&gt;Sister projects&lt;/h3&gt;
+{{Sisterprojects}} 
+|-
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #9f8f9f; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #fff6ff&quot;|
+{{donate}} 
+|}
+
+__NOEDITSECTION__</text>
+      <sha1>si6bnmzo426uke1r8988hhvf0h1663c</sha1>
+    </revision>
+    <revision>
+      <id>17</id>
+      <parentid>4</parentid>
+      <timestamp>2004-11-08T12:54:08Z</timestamp>
+      <contributor>
+        <username>Eloquence</username>
+        <id>3</id>
+      </contributor>
+      <origin>17</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2465" sha1="kzxszwl1ktfie1nilfnicgrwmkukohf" xml:space="preserve">{|cellspacing=&quot;3&quot; class=&quot;mainpagetable&quot;
+|- valign=&quot;top&quot; 
+|colspan=2|
+Welcome to Wikinews, a [[w:free content|free content]] news source. We started in November 2004, and have written {{NUMBEROFARTICLES}} articles, some of which are still [[Wikinews:Article stages|in development]]. Our [[Wikinews:Mission statement|mission]] is to create a world where citizen journalists report the news on a wide variety of subjects small and large. We need your help! Visit the [[Wikinews:Workspace|Wikinews Workspace]] and find out how '''you''' can become a Wikinews author today!
+|- valign=&quot;top&quot;
+|colspan=2 style=&quot;border: 1px solid #aa0000; padding: .5em 1em 1em; color: #000000; background-color: #ffffff&quot;|
+=== Major events ===
+
+[[Image:Yasser-arafat-1999.jpg|thumb|Yasser Arafat]]
+
+&amp;middot; November 29: '''[[Arafat dies]]'''. [[w:Yasser Arafat|Yasser Arafat]], the president of the [[w:Palestinian Authority|Palestinian Authority]], has died after a month of illness.
+|- valign=&quot;top&quot; 
+|colspan=2|
+
+&lt;center&gt;&lt;font size=+1&gt;
+Regions: [[North America]] - [[South America]] - [[Europe]] - [[Africa]] - [[Middle East]] - [[Asia]] - [[Oceania]]
+&lt;/font&gt;&lt;/center&gt;
+
+|- valign=&quot;top&quot;
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #9f8f9f; padding: .5em 1em 1em; color: #000000; background-color: #f0f0ff&quot;|
+
+&lt;h3&gt;Politics and Conflicts&lt;/h3&gt;
+
+[[Politics and Conflicts]]
+
+&lt;h3&gt;Disasters and Accidents&lt;/h3&gt;
+
+[[Disasters and Accidents]]
+
+&lt;h3&gt;Crime and Law&lt;/h3&gt;
+
+[[Crime and Law]]
+
+&lt;h3&gt;Obituaries&lt;/h3&gt;
+
+[[Obituaries]]
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border:1px solid #9f8f9f; padding: .5em 1em 1em; color: #000; background-color: #d0ffd0&quot;|
+
+&lt;h3&gt;Economy and Business&lt;/h3&gt;
+
+[[Economy and Business]]
+
+&lt;h3&gt;Science and Technology&lt;/h3&gt; 
+
+[[Science and Technology]]
+&lt;h3&gt;Culture and Entertainment&lt;/h3&gt;
+
+[[Culture and Entertainment]]
+&lt;h3&gt;Sports and Weather&lt;/h3&gt;
+
+[[Sports and Weather]]
+|-
+
+
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #cfcfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #f9fcff&quot;|
+&lt;h3 id=&quot;lang&quot;&gt;Wikinews in other languages&lt;/h3&gt;
+{{Wikinewslang}} 
+|- 
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #bfbfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #fff&quot;|
+&lt;h3 id=&quot;sister&quot;&gt;Sister projects&lt;/h3&gt;
+{{Sisterprojects}} 
+|-
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #9f8f9f; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #fff6ff&quot;|
+{{donate}} 
+|}
+
+__NOEDITSECTION__</text>
+      <sha1>kzxszwl1ktfie1nilfnicgrwmkukohf</sha1>
+    </revision>
+    <revision>
+      <id>23</id>
+      <parentid>17</parentid>
+      <timestamp>2004-11-08T14:36:00Z</timestamp>
+      <contributor>
+        <username>Eloquence</username>
+        <id>3</id>
+      </contributor>
+      <origin>23</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2318" sha1="peo65oo33ne2a3w4lt7ukmvd605soh8" xml:space="preserve">{|cellspacing=&quot;3&quot; class=&quot;mainpagetable&quot;
+|- valign=&quot;top&quot; 
+|colspan=2|
+Welcome to Wikinews, a [[w:free content|free content]] news source. We started in November 2004, and have written {{NUMBEROFARTICLES}} articles, some of which are still [[Wikinews:Article stages|in development]]. Our [[Wikinews:Mission statement|mission]] is to create a world where citizen journalists report the news on a wide variety of subjects small and large. We need your help! Visit the [[Wikinews:Workspace|Wikinews Workspace]] and find out how '''you''' can become a Wikinews author today!
+|- valign=&quot;top&quot;
+|colspan=2 style=&quot;border: 1px solid  #cfcfbf;padding: .5em 1em 1em; color: #000000; background-color: #ffffff&quot;|
+=== Major events ===
+
+[[Image:Yasser-arafat-1999.jpg|thumb|Yasser Arafat]]
+
+&amp;middot; November 29: '''[[Arafat dies]]'''. [[w:Yasser Arafat|Yasser Arafat]], the president of the [[w:Palestinian Authority|Palestinian Authority]], has died after a month of illness.
+|- valign=&quot;top&quot; 
+|colspan=2|
+
+&lt;center&gt;&lt;font size=+1&gt;
+Regions: [[North America]] - [[South America]] - [[Europe]] - [[Africa]] - [[Middle East]] - [[Asia]] - [[Oceania]]
+&lt;/font&gt;&lt;/center&gt;
+
+|- valign=&quot;top&quot;
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #9f8f9f; padding: .5em 1em 1em; color: #000000; background-color: #f8f8ff&quot;|
+
+&lt;h3&gt;Politics and Conflicts&lt;/h3&gt;
+
+[[Politics and Conflicts]]
+
+&lt;h3&gt;Disasters and Accidents&lt;/h3&gt;
+
+[[Disasters and Accidents]]
+
+&lt;h3&gt;Crime and Law&lt;/h3&gt;
+
+[[Crime and Law]]
+
+&lt;h3&gt;Obituaries&lt;/h3&gt;
+
+[[Obituaries]]
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border:1px solid #9f8f9f; padding: .5em 1em 1em; color: #000; background-color: #f8fff8&quot;|
+
+&lt;h3&gt;Economy and Business&lt;/h3&gt;
+
+[[Economy and Business]]
+
+&lt;h3&gt;Science and Technology&lt;/h3&gt; 
+
+[[Science and Technology]]
+&lt;h3&gt;Culture and Entertainment&lt;/h3&gt;
+
+[[Culture and Entertainment]]
+&lt;h3&gt;Sports and Weather&lt;/h3&gt;
+
+[[Sports and Weather]]
+|-
+
+
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #cfcfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #f9fcff&quot;|
+&lt;h3 id=&quot;lang&quot;&gt;Wikinews in other languages&lt;/h3&gt;
+{{Wikinewslang}} 
+|- 
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #bfbfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #fff&quot;|
+&lt;h3 id=&quot;sister&quot;&gt;Sister projects&lt;/h3&gt;
+{{Sisterprojects}} 
+
+{{donate}} 
+|}
+
+__NOEDITSECTION__</text>
+      <sha1>peo65oo33ne2a3w4lt7ukmvd605soh8</sha1>
+    </revision>
+    <revision>
+      <id>41</id>
+      <parentid>23</parentid>
+      <timestamp>2004-11-09T02:22:59Z</timestamp>
+      <contributor>
+        <username>Eloquence</username>
+        <id>3</id>
+      </contributor>
+      <origin>41</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2581" sha1="7izlogd8ko0amvr2qqgwruxlyk5yg0y" xml:space="preserve">{|cellspacing=&quot;3&quot; class=&quot;mainpagetable&quot;
+|- valign=&quot;top&quot; 
+|colspan=2|
+Welcome to Wikinews, a [[w:free content|free content]] news source. We started in November 2004, and have written {{NUMBEROFARTICLES}} articles, some of which are still [[Wikinews:Article stages|in development]]. Our [[Wikinews:Mission statement|mission]] is to create a world where citizen journalists report the news on a wide variety of subjects small and large. We need your help! Visit the [[Wikinews:Workspace|Wikinews Workspace]] and find out how '''you''' can become a Wikinews author today!
+|- valign=&quot;top&quot;
+|colspan=2 style=&quot;border: 1px solid  #cfcfbf;padding: .5em 1em 1em; color: #000000; background-color: #ffffff&quot;|
+=== Major events ===
+
+[[Image:Yasser-arafat-1999.jpg|thumb|Yasser Arafat]]
+[[Image:Iran map.png|thumb|left|Iran map]]
+* November 28: '''[[Iran agrees to halt nuclear program]]'''. After negotiations with representatives of the [[w:European Union|European Union]], [[w:Iran|Iran]] has agreed to halt its controversial uranium enrichment program.
+* November 29: '''[[Arafat dies]]'''. [[w:Yasser Arafat|Yasser Arafat]], the president of the [[w:Palestinian Authority|Palestinian Authority]], has died after a month of illness.
+
+|- valign=&quot;top&quot; 
+|colspan=2|
+
+&lt;center&gt;&lt;font size=+1&gt;
+Regions: [[North America]] - [[South America]] - [[Europe]] - [[Africa]] - [[Middle East]] - [[Asia]] - [[Oceania]]
+&lt;/font&gt;&lt;/center&gt;
+
+|- valign=&quot;top&quot;
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #9f8f9f; padding: .5em 1em 1em; color: #000000; background-color: #f8f8ff&quot;|
+
+&lt;h3&gt;Politics and Conflicts&lt;/h3&gt;
+
+[[Politics and Conflicts]]
+
+&lt;h3&gt;Disasters and Accidents&lt;/h3&gt;
+
+[[Disasters and Accidents]]
+
+&lt;h3&gt;Crime and Law&lt;/h3&gt;
+
+[[Crime and Law]]
+
+&lt;h3&gt;Obituaries&lt;/h3&gt;
+
+[[Obituaries]]
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border:1px solid #9f8f9f; padding: .5em 1em 1em; color: #000; background-color: #f8fff8&quot;|
+
+&lt;h3&gt;Economy and Business&lt;/h3&gt;
+
+[[Economy and Business]]
+
+&lt;h3&gt;Science and Technology&lt;/h3&gt; 
+
+[[Science and Technology]]
+&lt;h3&gt;Culture and Entertainment&lt;/h3&gt;
+
+[[Culture and Entertainment]]
+&lt;h3&gt;Sports and Weather&lt;/h3&gt;
+
+[[Sports and Weather]]
+|-
+
+
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #cfcfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #f9fcff&quot;|
+&lt;h3 id=&quot;lang&quot;&gt;Wikinews in other languages&lt;/h3&gt;
+{{Wikinewslang}} 
+|- 
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #bfbfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #fff&quot;|
+&lt;h3 id=&quot;sister&quot;&gt;Sister projects&lt;/h3&gt;
+{{Sisterprojects}} 
+
+{{donate}} 
+|}
+
+__NOEDITSECTION__</text>
+      <sha1>7izlogd8ko0amvr2qqgwruxlyk5yg0y</sha1>
+    </revision>
+    <revision>
+      <id>42</id>
+      <parentid>41</parentid>
+      <timestamp>2004-11-14T01:10:13Z</timestamp>
+      <contributor>
+        <username>AaronSw</username>
+        <id>13</id>
+      </contributor>
+      <origin>42</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2713" sha1="40bp5ykrhnimuptctovs316av3ngmab" xml:space="preserve">{|cellspacing=&quot;3&quot; class=&quot;mainpagetable&quot;
+|- valign=&quot;top&quot; 
+|colspan=2|
+Welcome to Wikinews, a [[w:free content|free content]] news source. We started in November 2004, and have written {{NUMBEROFARTICLES}} articles, some of which are still [[Wikinews:Article stages|in development]]. Our [[Wikinews:Mission statement|mission]] is to create a world where citizen journalists report the news on a wide variety of subjects small and large. We need your help! Visit the [[Wikinews:Workspace|Wikinews Workspace]] and find out how '''you''' can become a Wikinews author today!
+|- valign=&quot;top&quot;
+|colspan=2 style=&quot;border: 1px solid  #cfcfbf;padding: .5em 1em 1em; color: #000000; background-color: #ffffff&quot;|
+=== Major events ===
+
+[[Image:Yasser-arafat-1999.jpg|thumb|Yasser Arafat]]
+[[Image:Iran map.png|thumb|left|Iran map]]
+* November 28: '''[[Iran agrees to halt nuclear program]]'''. After negotiations with representatives of the [[w:European Union|European Union]], [[w:Iran|Iran]] has agreed to halt its controversial uranium enrichment program.
+* November 29: '''[[Arafat dies]]'''. [[w:Yasser Arafat|Yasser Arafat]], the president of the [[w:Palestinian Authority|Palestinian Authority]], has died after a month of illness.
+
+=== Breaking news ===
+
+Contribute to stories about recent events before they're published:
+
+* [[November 2004 attack on Fallujah]]
+
+|- valign=&quot;top&quot; 
+|colspan=2|
+
+&lt;center&gt;&lt;font size=+1&gt;
+Regions: [[North America]] - [[South America]] - [[Europe]] - [[Africa]] - [[Middle East]] - [[Asia]] - [[Oceania]]
+&lt;/font&gt;&lt;/center&gt;
+
+|- valign=&quot;top&quot;
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #9f8f9f; padding: .5em 1em 1em; color: #000000; background-color: #f8f8ff&quot;|
+
+&lt;h3&gt;Politics and Conflicts&lt;/h3&gt;
+
+[[Politics and Conflicts]]
+
+&lt;h3&gt;Disasters and Accidents&lt;/h3&gt;
+
+[[Disasters and Accidents]]
+
+&lt;h3&gt;Crime and Law&lt;/h3&gt;
+
+[[Crime and Law]]
+
+&lt;h3&gt;Obituaries&lt;/h3&gt;
+
+[[Obituaries]]
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border:1px solid #9f8f9f; padding: .5em 1em 1em; color: #000; background-color: #f8fff8&quot;|
+
+&lt;h3&gt;Economy and Business&lt;/h3&gt;
+
+[[Economy and Business]]
+
+&lt;h3&gt;Science and Technology&lt;/h3&gt; 
+
+[[Science and Technology]]
+&lt;h3&gt;Culture and Entertainment&lt;/h3&gt;
+
+[[Culture and Entertainment]]
+&lt;h3&gt;Sports and Weather&lt;/h3&gt;
+
+[[Sports and Weather]]
+|-
+
+
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #cfcfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #f9fcff&quot;|
+&lt;h3 id=&quot;lang&quot;&gt;Wikinews in other languages&lt;/h3&gt;
+{{Wikinewslang}} 
+|- 
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #bfbfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #fff&quot;|
+&lt;h3 id=&quot;sister&quot;&gt;Sister projects&lt;/h3&gt;
+{{Sisterprojects}} 
+
+{{donate}} 
+|}
+
+__NOEDITSECTION__</text>
+      <sha1>40bp5ykrhnimuptctovs316av3ngmab</sha1>
+    </revision>
+    <revision>
+      <id>75</id>
+      <parentid>42</parentid>
+      <timestamp>2004-11-14T01:10:36Z</timestamp>
+      <contributor>
+        <username>AaronSw</username>
+        <id>13</id>
+      </contributor>
+      <origin>75</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2733" sha1="3jgqyj37z09p6dmvnpuh25echauw167" xml:space="preserve">{|cellspacing=&quot;3&quot; class=&quot;mainpagetable&quot;
+|- valign=&quot;top&quot; 
+|colspan=2|
+Welcome to Wikinews, a [[w:free content|free content]] news source. We started in November 2004, and have written {{NUMBEROFARTICLES}} articles, some of which are still [[Wikinews:Article stages|in development]]. Our [[Wikinews:Mission statement|mission]] is to create a world where citizen journalists report the news on a wide variety of subjects small and large. We need your help! Visit the [[Wikinews:Workspace|Wikinews Workspace]] and find out how '''you''' can become a Wikinews author today!
+|- valign=&quot;top&quot;
+|colspan=2 style=&quot;border: 1px solid  #cfcfbf;padding: .5em 1em 1em; color: #000000; background-color: #ffffff&quot;|
+=== Major events ===
+
+[[Image:Yasser-arafat-1999.jpg|thumb|Yasser Arafat]]
+[[Image:Iran map.png|thumb|left|Iran map]]
+* November 28: '''[[Iran agrees to halt nuclear program]]'''. After negotiations with representatives of the [[w:European Union|European Union]], [[w:Iran|Iran]] has agreed to halt its controversial uranium enrichment program.
+* November 29: '''[[Arafat dies]]'''. [[w:Yasser Arafat|Yasser Arafat]], the president of the [[w:Palestinian Authority|Palestinian Authority]], has died after a month of illness.
+
+&lt;br clear=&quot;all&quot; /&gt;
+
+=== Breaking news ===
+
+Contribute to stories about recent events before they're published:
+
+* [[November 2004 attack on Fallujah]]
+
+|- valign=&quot;top&quot; 
+|colspan=2|
+
+&lt;center&gt;&lt;font size=+1&gt;
+Regions: [[North America]] - [[South America]] - [[Europe]] - [[Africa]] - [[Middle East]] - [[Asia]] - [[Oceania]]
+&lt;/font&gt;&lt;/center&gt;
+
+|- valign=&quot;top&quot;
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #9f8f9f; padding: .5em 1em 1em; color: #000000; background-color: #f8f8ff&quot;|
+
+&lt;h3&gt;Politics and Conflicts&lt;/h3&gt;
+
+[[Politics and Conflicts]]
+
+&lt;h3&gt;Disasters and Accidents&lt;/h3&gt;
+
+[[Disasters and Accidents]]
+
+&lt;h3&gt;Crime and Law&lt;/h3&gt;
+
+[[Crime and Law]]
+
+&lt;h3&gt;Obituaries&lt;/h3&gt;
+
+[[Obituaries]]
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border:1px solid #9f8f9f; padding: .5em 1em 1em; color: #000; background-color: #f8fff8&quot;|
+
+&lt;h3&gt;Economy and Business&lt;/h3&gt;
+
+[[Economy and Business]]
+
+&lt;h3&gt;Science and Technology&lt;/h3&gt; 
+
+[[Science and Technology]]
+&lt;h3&gt;Culture and Entertainment&lt;/h3&gt;
+
+[[Culture and Entertainment]]
+&lt;h3&gt;Sports and Weather&lt;/h3&gt;
+
+[[Sports and Weather]]
+|-
+
+
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #cfcfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #f9fcff&quot;|
+&lt;h3 id=&quot;lang&quot;&gt;Wikinews in other languages&lt;/h3&gt;
+{{Wikinewslang}} 
+|- 
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #bfbfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #fff&quot;|
+&lt;h3 id=&quot;sister&quot;&gt;Sister projects&lt;/h3&gt;
+{{Sisterprojects}} 
+
+{{donate}} 
+|}
+
+__NOEDITSECTION__</text>
+      <sha1>3jgqyj37z09p6dmvnpuh25echauw167</sha1>
+    </revision>
+    <revision>
+      <id>95</id>
+      <parentid>75</parentid>
+      <timestamp>2004-11-14T06:05:35Z</timestamp>
+      <contributor>
+        <username>TalkHard</username>
+        <id>7</id>
+      </contributor>
+      <comment>Date fixes</comment>
+      <origin>95</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2732" sha1="lkp55z8gdyoyuohxkh1kirpvuq8jre4" xml:space="preserve">{|cellspacing=&quot;3&quot; class=&quot;mainpagetable&quot;
+|- valign=&quot;top&quot; 
+|colspan=2|
+Welcome to Wikinews, a [[w:free content|free content]] news source. We started in November 2004, and have written {{NUMBEROFARTICLES}} articles, some of which are still [[Wikinews:Article stages|in development]]. Our [[Wikinews:Mission statement|mission]] is to create a world where citizen journalists report the news on a wide variety of subjects small and large. We need your help! Visit the [[Wikinews:Workspace|Wikinews Workspace]] and find out how '''you''' can become a Wikinews author today!
+|- valign=&quot;top&quot;
+|colspan=2 style=&quot;border: 1px solid  #cfcfbf;padding: .5em 1em 1em; color: #000000; background-color: #ffffff&quot;|
+=== Major events ===
+
+[[Image:Yasser-arafat-1999.jpg|thumb|Yasser Arafat]]
+[[Image:Iran map.png|thumb|left|Iran map]]
+* November 7: '''[[Iran agrees to halt nuclear program]]'''. After negotiations with representatives of the [[w:European Union|European Union]], [[w:Iran|Iran]] has agreed to halt its controversial uranium enrichment program.
+* November 11: '''[[Arafat dies]]'''. [[w:Yasser Arafat|Yasser Arafat]], the president of the [[w:Palestinian Authority|Palestinian Authority]], has died after a month of illness.
+
+&lt;br clear=&quot;all&quot; /&gt;
+
+=== Breaking news ===
+
+Contribute to stories about recent events before they're published:
+
+* [[November 2004 attack on Fallujah]]
+
+|- valign=&quot;top&quot; 
+|colspan=2|
+
+&lt;center&gt;&lt;font size=+1&gt;
+Regions: [[North America]] - [[South America]] - [[Europe]] - [[Africa]] - [[Middle East]] - [[Asia]] - [[Oceania]]
+&lt;/font&gt;&lt;/center&gt;
+
+|- valign=&quot;top&quot;
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #9f8f9f; padding: .5em 1em 1em; color: #000000; background-color: #f8f8ff&quot;|
+
+&lt;h3&gt;Politics and Conflicts&lt;/h3&gt;
+
+[[Politics and Conflicts]]
+
+&lt;h3&gt;Disasters and Accidents&lt;/h3&gt;
+
+[[Disasters and Accidents]]
+
+&lt;h3&gt;Crime and Law&lt;/h3&gt;
+
+[[Crime and Law]]
+
+&lt;h3&gt;Obituaries&lt;/h3&gt;
+
+[[Obituaries]]
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border:1px solid #9f8f9f; padding: .5em 1em 1em; color: #000; background-color: #f8fff8&quot;|
+
+&lt;h3&gt;Economy and Business&lt;/h3&gt;
+
+[[Economy and Business]]
+
+&lt;h3&gt;Science and Technology&lt;/h3&gt; 
+
+[[Science and Technology]]
+&lt;h3&gt;Culture and Entertainment&lt;/h3&gt;
+
+[[Culture and Entertainment]]
+&lt;h3&gt;Sports and Weather&lt;/h3&gt;
+
+[[Sports and Weather]]
+|-
+
+
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #cfcfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #f9fcff&quot;|
+&lt;h3 id=&quot;lang&quot;&gt;Wikinews in other languages&lt;/h3&gt;
+{{Wikinewslang}} 
+|- 
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #bfbfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #fff&quot;|
+&lt;h3 id=&quot;sister&quot;&gt;Sister projects&lt;/h3&gt;
+{{Sisterprojects}} 
+
+{{donate}} 
+|}
+
+__NOEDITSECTION__</text>
+      <sha1>lkp55z8gdyoyuohxkh1kirpvuq8jre4</sha1>
+    </revision>
+    <revision>
+      <id>164</id>
+      <parentid>95</parentid>
+      <timestamp>2004-11-14T13:39:02Z</timestamp>
+      <contributor>
+        <username>Eloquence</username>
+        <id>3</id>
+      </contributor>
+      <comment>breaking news without review is a bad idea, taking out</comment>
+      <origin>164</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2332" sha1="jrzdqwwrqd30ap176axkr3887p98rp8" xml:space="preserve">{|cellspacing=&quot;3&quot; class=&quot;mainpagetable&quot;
+|- valign=&quot;top&quot; 
+|colspan=2|
+Welcome to Wikinews, a [[w:free content|free content]] news source. We started in November 2004, and have written {{NUMBEROFARTICLES}} articles, some of which are still [[Wikinews:Article stages|in development]]. Our [[Wikinews:Mission statement|mission]] is to create a world where citizen journalists report the news on a wide variety of subjects small and large. We need your help! Visit the [[Wikinews:Workspace|Wikinews Workspace]] and find out how '''you''' can become a Wikinews author today!
+|- valign=&quot;top&quot;
+|colspan=2 style=&quot;border: 1px solid  #cfcfbf;padding: .5em 1em 1em; color: #000000; background-color: #ffffff&quot;|
+=== Major events ===
+
+[[Image:Yasser-arafat-1999.jpg|thumb|Yasser Arafat]]
+
+* November 11: '''[[Arafat dies]]'''. [[w:Yasser Arafat|Yasser Arafat]], the president of the [[w:Palestinian Authority|Palestinian Authority]], has died after a month of illness.
+
+&lt;br clear=&quot;all&quot; /&gt;
+
+|- valign=&quot;top&quot; 
+|colspan=2|
+
+&lt;center&gt;&lt;font size=+1&gt;
+Regions: [[North America]] - [[South America]] - [[Europe]] - [[Africa]] - [[Middle East]] - [[Asia]] - [[Oceania]]
+&lt;/font&gt;&lt;/center&gt;
+
+|- valign=&quot;top&quot;
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #9f8f9f; padding: .5em 1em 1em; color: #000000; background-color: #f8f8ff&quot;|
+
+&lt;h3&gt;Politics and Conflicts&lt;/h3&gt;
+
+[[Politics and Conflicts]]
+
+&lt;h3&gt;Disasters and Accidents&lt;/h3&gt;
+
+[[Disasters and Accidents]]
+
+&lt;h3&gt;Crime and Law&lt;/h3&gt;
+
+[[Crime and Law]]
+
+&lt;h3&gt;Obituaries&lt;/h3&gt;
+
+[[Obituaries]]
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border:1px solid #9f8f9f; padding: .5em 1em 1em; color: #000; background-color: #f8fff8&quot;|
+
+&lt;h3&gt;Economy and Business&lt;/h3&gt;
+
+[[Economy and Business]]
+
+&lt;h3&gt;Science and Technology&lt;/h3&gt; 
+
+[[Science and Technology]]
+&lt;h3&gt;Culture and Entertainment&lt;/h3&gt;
+
+[[Culture and Entertainment]]
+&lt;h3&gt;Sports and Weather&lt;/h3&gt;
+
+[[Sports and Weather]]
+|-
+
+
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #cfcfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #f9fcff&quot;|
+&lt;h3 id=&quot;lang&quot;&gt;Wikinews in other languages&lt;/h3&gt;
+{{Wikinewslang}} 
+|- 
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #bfbfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #fff&quot;|
+&lt;h3 id=&quot;sister&quot;&gt;Sister projects&lt;/h3&gt;
+{{Sisterprojects}} 
+
+{{donate}} 
+|}
+
+__NOEDITSECTION__</text>
+      <sha1>jrzdqwwrqd30ap176axkr3887p98rp8</sha1>
+    </revision>
+    <revision>
+      <id>195</id>
+      <parentid>164</parentid>
+      <timestamp>2004-11-15T02:51:30Z</timestamp>
+      <contributor>
+        <username>Eloquence</username>
+        <id>3</id>
+      </contributor>
+      <origin>195</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2400" sha1="1p1a7rocuc22lltdaskto3y0d80pmom" xml:space="preserve">{|cellspacing=&quot;3&quot; class=&quot;mainpagetable&quot;
+|- valign=&quot;top&quot; 
+|colspan=2|
+Welcome to Wikinews, a [[w:free content|free content]] news source. We started in November 2004, and have written {{NUMBEROFARTICLES}} articles, some of which are still [[Wikinews:Article stages|in development]]. Our [[Wikinews:Mission statement|mission]] is to create a world where citizen journalists report the news on a wide variety of subjects small and large. We need your help! Visit the [[Wikinews:Workspace|Wikinews Workspace]] and find out how '''you''' can become a Wikinews author today!
+|- valign=&quot;top&quot;
+|colspan=2 style=&quot;border: 1px solid  #cfcfbf;padding: .5em 1em 1em; color: #000000; background-color: #ffffff&quot;|
+=== Major events ===
+
+[[Image:Yasser-arafat-1999.jpg|thumb|Yasser Arafat]]
+
+* November 11: '''[[Arafat dies]]'''. [[w:Yasser Arafat|Yasser Arafat]], the president of the [[w:Palestinian Authority|Palestinian Authority]], has died after a month of illness.
+
+&lt;br clear=&quot;all&quot; /&gt;
+
+|- valign=&quot;top&quot; 
+|colspan=2|
+
+&lt;center&gt;&lt;font size=+1&gt;
+Regions: [[North America]] - [[South America]] - [[Europe]] - [[Africa]] - [[Middle East]] - [[Asia]] - [[Oceania]]
+&lt;/font&gt;&lt;/center&gt;
+
+|- valign=&quot;top&quot;
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #9f8f9f; padding: .5em 1em 1em; color: #000000; background-color: #f8f8ff&quot;|
+
+&lt;h3&gt;Politics and Conflicts&lt;/h3&gt;
+
+* Nov. 13: [[President of China lunches with Brazilian President]]
+
+[[Politics and Conflicts]]
+
+&lt;h3&gt;Disasters and Accidents&lt;/h3&gt;
+
+[[Disasters and Accidents]]
+
+&lt;h3&gt;Crime and Law&lt;/h3&gt;
+
+[[Crime and Law]]
+
+&lt;h3&gt;Obituaries&lt;/h3&gt;
+
+[[Obituaries]]
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border:1px solid #9f8f9f; padding: .5em 1em 1em; color: #000; background-color: #f8fff8&quot;|
+
+&lt;h3&gt;Economy and Business&lt;/h3&gt;
+
+[[Economy and Business]]
+
+&lt;h3&gt;Science and Technology&lt;/h3&gt; 
+
+[[Science and Technology]]
+&lt;h3&gt;Culture and Entertainment&lt;/h3&gt;
+
+[[Culture and Entertainment]]
+&lt;h3&gt;Sports and Weather&lt;/h3&gt;
+
+[[Sports and Weather]]
+|-
+
+
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #cfcfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #f9fcff&quot;|
+&lt;h3 id=&quot;lang&quot;&gt;Wikinews in other languages&lt;/h3&gt;
+{{Wikinewslang}} 
+|- 
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #bfbfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #fff&quot;|
+&lt;h3 id=&quot;sister&quot;&gt;Sister projects&lt;/h3&gt;
+{{Sisterprojects}} 
+
+{{donate}} 
+|}
+
+__NOEDITSECTION__</text>
+      <sha1>1p1a7rocuc22lltdaskto3y0d80pmom</sha1>
+    </revision>
+    <revision>
+      <id>215</id>
+      <parentid>195</parentid>
+      <timestamp>2004-11-15T12:15:01Z</timestamp>
+      <contributor>
+        <username>Eloquence</username>
+        <id>3</id>
+      </contributor>
+      <comment>taking arafat out for now and putting on workspace</comment>
+      <origin>215</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2165" sha1="2wn8fj9glmkag12n6d2fm013mjz4hrv" xml:space="preserve">{|cellspacing=&quot;3&quot; class=&quot;mainpagetable&quot;
+|- valign=&quot;top&quot; 
+|colspan=2|
+Welcome to Wikinews, a [[w:free content|free content]] news source. We started in November 2004, and have written {{NUMBEROFARTICLES}} articles, some of which are still [[Wikinews:Article stages|in development]]. Our [[Wikinews:Mission statement|mission]] is to create a world where citizen journalists report the news on a wide variety of subjects small and large. We need your help! Visit the [[Wikinews:Workspace|Wikinews Workspace]] and find out how '''you''' can become a Wikinews author today!
+|- valign=&quot;top&quot;
+|colspan=2 style=&quot;border: 1px solid  #cfcfbf;padding: .5em 1em 1em; color: #000000; background-color: #ffffff&quot;|
+=== Major events ===
+
+&lt;br clear=&quot;all&quot; /&gt;
+
+|- valign=&quot;top&quot; 
+|colspan=2|
+
+&lt;center&gt;&lt;font size=+1&gt;
+Regions: [[North America]] - [[South America]] - [[Europe]] - [[Africa]] - [[Middle East]] - [[Asia]] - [[Oceania]]
+&lt;/font&gt;&lt;/center&gt;
+
+|- valign=&quot;top&quot;
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #9f8f9f; padding: .5em 1em 1em; color: #000000; background-color: #f8f8ff&quot;|
+
+&lt;h3&gt;Politics and Conflicts&lt;/h3&gt;
+
+* Nov. 13: [[President of China lunches with Brazilian President]]
+
+[[Politics and Conflicts]]
+
+&lt;h3&gt;Disasters and Accidents&lt;/h3&gt;
+
+[[Disasters and Accidents]]
+
+&lt;h3&gt;Crime and Law&lt;/h3&gt;
+
+[[Crime and Law]]
+
+&lt;h3&gt;Obituaries&lt;/h3&gt;
+
+[[Obituaries]]
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border:1px solid #9f8f9f; padding: .5em 1em 1em; color: #000; background-color: #f8fff8&quot;|
+
+&lt;h3&gt;Economy and Business&lt;/h3&gt;
+
+[[Economy and Business]]
+
+&lt;h3&gt;Science and Technology&lt;/h3&gt; 
+
+[[Science and Technology]]
+&lt;h3&gt;Culture and Entertainment&lt;/h3&gt;
+
+[[Culture and Entertainment]]
+&lt;h3&gt;Sports and Weather&lt;/h3&gt;
+
+[[Sports and Weather]]
+|-
+
+
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #cfcfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #f9fcff&quot;|
+&lt;h3 id=&quot;lang&quot;&gt;Wikinews in other languages&lt;/h3&gt;
+{{Wikinewslang}} 
+|- 
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #bfbfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #fff&quot;|
+&lt;h3 id=&quot;sister&quot;&gt;Sister projects&lt;/h3&gt;
+{{Sisterprojects}} 
+
+{{donate}} 
+|}
+
+__NOEDITSECTION__</text>
+      <sha1>2wn8fj9glmkag12n6d2fm013mjz4hrv</sha1>
+    </revision>
+    <revision>
+      <id>243</id>
+      <parentid>215</parentid>
+      <timestamp>2004-11-15T14:06:03Z</timestamp>
+      <contributor>
+        <username>Anthony DiPierro</username>
+        <id>31</id>
+      </contributor>
+      <origin>243</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2222" sha1="q1gs028qfzvq5w5ge49rfh1uj3c3pfn" xml:space="preserve">{|cellspacing=&quot;3&quot; class=&quot;mainpagetable&quot;
+|- valign=&quot;top&quot; 
+|colspan=2|
+Welcome to Wikinews, a [[w:free content|free content]] news source. We started in November 2004, and have written {{NUMBEROFARTICLES}} articles, some of which are still [[Wikinews:Article stages|in development]]. Our [[Wikinews:Mission statement|mission]] is to create a world where citizen journalists report the news on a wide variety of subjects small and large. We need your help! Visit the [[Wikinews:Workspace|Wikinews Workspace]] and find out how '''you''' can become a Wikinews author today!
+|- valign=&quot;top&quot;
+|colspan=2 style=&quot;border: 1px solid  #cfcfbf;padding: .5em 1em 1em; color: #000000; background-color: #ffffff&quot;|
+=== Major events ===
+
+&lt;br clear=&quot;all&quot; /&gt;
+
+|- valign=&quot;top&quot; 
+|colspan=2|
+
+&lt;center&gt;&lt;font size=+1&gt;
+Regions: [[North America]] - [[South America]] - [[Europe]] - [[Africa]] - [[Middle East]] - [[Asia]] - [[Oceania]]
+&lt;/font&gt;&lt;/center&gt;
+
+|- valign=&quot;top&quot;
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #9f8f9f; padding: .5em 1em 1em; color: #000000; background-color: #f8f8ff&quot;|
+
+&lt;h3&gt;Politics and Conflicts&lt;/h3&gt;
+
+* [[November 13]]
+**[[President of China lunches with Brazilian President]]
+**[[Iran Close to Decision on Nuclear Program]]
+
+[[Politics and Conflicts]]
+
+&lt;h3&gt;Disasters and Accidents&lt;/h3&gt;
+
+[[Disasters and Accidents]]
+
+&lt;h3&gt;Crime and Law&lt;/h3&gt;
+
+[[Crime and Law]]
+
+&lt;h3&gt;Obituaries&lt;/h3&gt;
+
+[[Obituaries]]
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border:1px solid #9f8f9f; padding: .5em 1em 1em; color: #000; background-color: #f8fff8&quot;|
+
+&lt;h3&gt;Economy and Business&lt;/h3&gt;
+
+[[Economy and Business]]
+
+&lt;h3&gt;Science and Technology&lt;/h3&gt; 
+
+[[Science and Technology]]
+&lt;h3&gt;Culture and Entertainment&lt;/h3&gt;
+
+[[Culture and Entertainment]]
+&lt;h3&gt;Sports and Weather&lt;/h3&gt;
+
+[[Sports and Weather]]
+|-
+
+
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #cfcfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #f9fcff&quot;|
+&lt;h3 id=&quot;lang&quot;&gt;Wikinews in other languages&lt;/h3&gt;
+{{Wikinewslang}} 
+|- 
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #bfbfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #fff&quot;|
+&lt;h3 id=&quot;sister&quot;&gt;Sister projects&lt;/h3&gt;
+{{Sisterprojects}} 
+
+{{donate}} 
+|}
+
+__NOEDITSECTION__</text>
+      <sha1>q1gs028qfzvq5w5ge49rfh1uj3c3pfn</sha1>
+    </revision>
+    <revision>
+      <id>244</id>
+      <parentid>243</parentid>
+      <timestamp>2004-11-15T15:12:10Z</timestamp>
+      <contributor>
+        <username>Eloquence</username>
+        <id>3</id>
+      </contributor>
+      <comment>please don't list stories in development on the Main Page</comment>
+      <origin>244</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2174" sha1="qul656i7ize5w9re72ftn82yi9oatgi" xml:space="preserve">{|cellspacing=&quot;3&quot; class=&quot;mainpagetable&quot;
+|- valign=&quot;top&quot; 
+|colspan=2|
+Welcome to Wikinews, a [[w:free content|free content]] news source. We started in November 2004, and have written {{NUMBEROFARTICLES}} articles, some of which are still [[Wikinews:Article stages|in development]]. Our [[Wikinews:Mission statement|mission]] is to create a world where citizen journalists report the news on a wide variety of subjects small and large. We need your help! Visit the [[Wikinews:Workspace|Wikinews Workspace]] and find out how '''you''' can become a Wikinews author today!
+|- valign=&quot;top&quot;
+|colspan=2 style=&quot;border: 1px solid  #cfcfbf;padding: .5em 1em 1em; color: #000000; background-color: #ffffff&quot;|
+=== Major events ===
+
+&lt;br clear=&quot;all&quot; /&gt;
+
+|- valign=&quot;top&quot; 
+|colspan=2|
+
+&lt;center&gt;&lt;font size=+1&gt;
+Regions: [[North America]] - [[South America]] - [[Europe]] - [[Africa]] - [[Middle East]] - [[Asia]] - [[Oceania]]
+&lt;/font&gt;&lt;/center&gt;
+
+|- valign=&quot;top&quot;
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #9f8f9f; padding: .5em 1em 1em; color: #000000; background-color: #f8f8ff&quot;|
+
+&lt;h3&gt;Politics and Conflicts&lt;/h3&gt;
+
+* [[November 13]]
+**[[President of China lunches with Brazilian President]]
+
+[[Politics and Conflicts]]
+
+&lt;h3&gt;Disasters and Accidents&lt;/h3&gt;
+
+[[Disasters and Accidents]]
+
+&lt;h3&gt;Crime and Law&lt;/h3&gt;
+
+[[Crime and Law]]
+
+&lt;h3&gt;Obituaries&lt;/h3&gt;
+
+[[Obituaries]]
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border:1px solid #9f8f9f; padding: .5em 1em 1em; color: #000; background-color: #f8fff8&quot;|
+
+&lt;h3&gt;Economy and Business&lt;/h3&gt;
+
+[[Economy and Business]]
+
+&lt;h3&gt;Science and Technology&lt;/h3&gt; 
+
+[[Science and Technology]]
+&lt;h3&gt;Culture and Entertainment&lt;/h3&gt;
+
+[[Culture and Entertainment]]
+&lt;h3&gt;Sports and Weather&lt;/h3&gt;
+
+[[Sports and Weather]]
+|-
+
+
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #cfcfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #f9fcff&quot;|
+&lt;h3 id=&quot;lang&quot;&gt;Wikinews in other languages&lt;/h3&gt;
+{{Wikinewslang}} 
+|- 
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #bfbfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #fff&quot;|
+&lt;h3 id=&quot;sister&quot;&gt;Sister projects&lt;/h3&gt;
+{{Sisterprojects}} 
+
+{{donate}} 
+|}
+
+__NOEDITSECTION__</text>
+      <sha1>qul656i7ize5w9re72ftn82yi9oatgi</sha1>
+    </revision>
+    <revision>
+      <id>304</id>
+      <parentid>244</parentid>
+      <timestamp>2004-11-15T15:12:31Z</timestamp>
+      <contributor>
+        <username>Eloquence</username>
+        <id>3</id>
+      </contributor>
+      <minor />
+      <origin>304</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2171" sha1="8ix4oe9cxj8wrkpzcs233zpvzqcrf7v" xml:space="preserve">{|cellspacing=&quot;3&quot; class=&quot;mainpagetable&quot;
+|- valign=&quot;top&quot; 
+|colspan=2|
+Welcome to Wikinews, a [[w:free content|free content]] news source. We started in November 2004, and have written {{NUMBEROFARTICLES}} articles, some of which are still [[Wikinews:Article stages|in development]]. Our [[Wikinews:Mission statement|mission]] is to create a world where citizen journalists report the news on a wide variety of subjects small and large. We need your help! Visit the [[Wikinews:Workspace|Wikinews Workspace]] and find out how '''you''' can become a Wikinews author today!
+|- valign=&quot;top&quot;
+|colspan=2 style=&quot;border: 1px solid  #cfcfbf;padding: .5em 1em 1em; color: #000000; background-color: #ffffff&quot;|
+=== Major events ===
+
+&lt;br clear=&quot;all&quot; /&gt;
+
+|- valign=&quot;top&quot; 
+|colspan=2|
+
+&lt;center&gt;&lt;font size=+1&gt;
+Regions: [[North America]] - [[South America]] - [[Europe]] - [[Africa]] - [[Middle East]] - [[Asia]] - [[Oceania]]
+&lt;/font&gt;&lt;/center&gt;
+
+|- valign=&quot;top&quot;
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #9f8f9f; padding: .5em 1em 1em; color: #000000; background-color: #f8f8ff&quot;|
+
+&lt;h3&gt;Politics and Conflicts&lt;/h3&gt;
+
+* November 13:
+**[[President of China lunches with Brazilian President]]
+
+[[Politics and Conflicts]]
+
+&lt;h3&gt;Disasters and Accidents&lt;/h3&gt;
+
+[[Disasters and Accidents]]
+
+&lt;h3&gt;Crime and Law&lt;/h3&gt;
+
+[[Crime and Law]]
+
+&lt;h3&gt;Obituaries&lt;/h3&gt;
+
+[[Obituaries]]
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border:1px solid #9f8f9f; padding: .5em 1em 1em; color: #000; background-color: #f8fff8&quot;|
+
+&lt;h3&gt;Economy and Business&lt;/h3&gt;
+
+[[Economy and Business]]
+
+&lt;h3&gt;Science and Technology&lt;/h3&gt; 
+
+[[Science and Technology]]
+&lt;h3&gt;Culture and Entertainment&lt;/h3&gt;
+
+[[Culture and Entertainment]]
+&lt;h3&gt;Sports and Weather&lt;/h3&gt;
+
+[[Sports and Weather]]
+|-
+
+
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #cfcfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #f9fcff&quot;|
+&lt;h3 id=&quot;lang&quot;&gt;Wikinews in other languages&lt;/h3&gt;
+{{Wikinewslang}} 
+|- 
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #bfbfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #fff&quot;|
+&lt;h3 id=&quot;sister&quot;&gt;Sister projects&lt;/h3&gt;
+{{Sisterprojects}} 
+
+{{donate}} 
+|}
+
+__NOEDITSECTION__</text>
+      <sha1>8ix4oe9cxj8wrkpzcs233zpvzqcrf7v</sha1>
+    </revision>
+    <revision>
+      <id>305</id>
+      <parentid>304</parentid>
+      <timestamp>2004-11-15T21:12:25Z</timestamp>
+      <contributor>
+        <username>Eloquence</username>
+        <id>3</id>
+      </contributor>
+      <comment>[[Palestinians to elect new president on January 9]]</comment>
+      <origin>305</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2233" sha1="avvhcsprzxtib6sljexigw8r0yq788i" xml:space="preserve">{|cellspacing=&quot;3&quot; class=&quot;mainpagetable&quot;
+|- valign=&quot;top&quot; 
+|colspan=2|
+Welcome to Wikinews, a [[w:free content|free content]] news source. We started in November 2004, and have written {{NUMBEROFARTICLES}} articles, some of which are still [[Wikinews:Article stages|in development]]. Our [[Wikinews:Mission statement|mission]] is to create a world where citizen journalists report the news on a wide variety of subjects small and large. We need your help! Visit the [[Wikinews:Workspace|Wikinews Workspace]] and find out how '''you''' can become a Wikinews author today!
+|- valign=&quot;top&quot;
+|colspan=2 style=&quot;border: 1px solid  #cfcfbf;padding: .5em 1em 1em; color: #000000; background-color: #ffffff&quot;|
+=== Major events ===
+
+&lt;br clear=&quot;all&quot; /&gt;
+
+|- valign=&quot;top&quot; 
+|colspan=2|
+
+&lt;center&gt;&lt;font size=+1&gt;
+Regions: [[North America]] - [[South America]] - [[Europe]] - [[Africa]] - [[Middle East]] - [[Asia]] - [[Oceania]]
+&lt;/font&gt;&lt;/center&gt;
+
+|- valign=&quot;top&quot;
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #9f8f9f; padding: .5em 1em 1em; color: #000000; background-color: #f8f8ff&quot;|
+
+&lt;h3&gt;Politics and Conflicts&lt;/h3&gt;
+
+November 14: [[Palestinians to elect new president on January 9]]
+November 13: [[President of China lunches with Brazilian President]]
+
+[[Politics and Conflicts]]
+
+&lt;h3&gt;Disasters and Accidents&lt;/h3&gt;
+
+[[Disasters and Accidents]]
+
+&lt;h3&gt;Crime and Law&lt;/h3&gt;
+
+[[Crime and Law]]
+
+&lt;h3&gt;Obituaries&lt;/h3&gt;
+
+[[Obituaries]]
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border:1px solid #9f8f9f; padding: .5em 1em 1em; color: #000; background-color: #f8fff8&quot;|
+
+&lt;h3&gt;Economy and Business&lt;/h3&gt;
+
+[[Economy and Business]]
+
+&lt;h3&gt;Science and Technology&lt;/h3&gt; 
+
+[[Science and Technology]]
+&lt;h3&gt;Culture and Entertainment&lt;/h3&gt;
+
+[[Culture and Entertainment]]
+&lt;h3&gt;Sports and Weather&lt;/h3&gt;
+
+[[Sports and Weather]]
+|-
+
+
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #cfcfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #f9fcff&quot;|
+&lt;h3 id=&quot;lang&quot;&gt;Wikinews in other languages&lt;/h3&gt;
+{{Wikinewslang}} 
+|- 
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #bfbfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #fff&quot;|
+&lt;h3 id=&quot;sister&quot;&gt;Sister projects&lt;/h3&gt;
+{{Sisterprojects}} 
+
+{{donate}} 
+|}
+
+__NOEDITSECTION__</text>
+      <sha1>avvhcsprzxtib6sljexigw8r0yq788i</sha1>
+    </revision>
+    <revision>
+      <id>336</id>
+      <parentid>305</parentid>
+      <timestamp>2004-11-15T21:12:35Z</timestamp>
+      <contributor>
+        <username>Eloquence</username>
+        <id>3</id>
+      </contributor>
+      <origin>336</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2237" sha1="r6n37rig2yj33e3jap20i7q0hxmhxsp" xml:space="preserve">{|cellspacing=&quot;3&quot; class=&quot;mainpagetable&quot;
+|- valign=&quot;top&quot; 
+|colspan=2|
+Welcome to Wikinews, a [[w:free content|free content]] news source. We started in November 2004, and have written {{NUMBEROFARTICLES}} articles, some of which are still [[Wikinews:Article stages|in development]]. Our [[Wikinews:Mission statement|mission]] is to create a world where citizen journalists report the news on a wide variety of subjects small and large. We need your help! Visit the [[Wikinews:Workspace|Wikinews Workspace]] and find out how '''you''' can become a Wikinews author today!
+|- valign=&quot;top&quot;
+|colspan=2 style=&quot;border: 1px solid  #cfcfbf;padding: .5em 1em 1em; color: #000000; background-color: #ffffff&quot;|
+=== Major events ===
+
+&lt;br clear=&quot;all&quot; /&gt;
+
+|- valign=&quot;top&quot; 
+|colspan=2|
+
+&lt;center&gt;&lt;font size=+1&gt;
+Regions: [[North America]] - [[South America]] - [[Europe]] - [[Africa]] - [[Middle East]] - [[Asia]] - [[Oceania]]
+&lt;/font&gt;&lt;/center&gt;
+
+|- valign=&quot;top&quot;
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #9f8f9f; padding: .5em 1em 1em; color: #000000; background-color: #f8f8ff&quot;|
+
+&lt;h3&gt;Politics and Conflicts&lt;/h3&gt;
+
+November 14: [[Palestinians to elect new president on January 9]]&lt;br&gt;
+November 13: [[President of China lunches with Brazilian President]]
+
+[[Politics and Conflicts]]
+
+&lt;h3&gt;Disasters and Accidents&lt;/h3&gt;
+
+[[Disasters and Accidents]]
+
+&lt;h3&gt;Crime and Law&lt;/h3&gt;
+
+[[Crime and Law]]
+
+&lt;h3&gt;Obituaries&lt;/h3&gt;
+
+[[Obituaries]]
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border:1px solid #9f8f9f; padding: .5em 1em 1em; color: #000; background-color: #f8fff8&quot;|
+
+&lt;h3&gt;Economy and Business&lt;/h3&gt;
+
+[[Economy and Business]]
+
+&lt;h3&gt;Science and Technology&lt;/h3&gt; 
+
+[[Science and Technology]]
+&lt;h3&gt;Culture and Entertainment&lt;/h3&gt;
+
+[[Culture and Entertainment]]
+&lt;h3&gt;Sports and Weather&lt;/h3&gt;
+
+[[Sports and Weather]]
+|-
+
+
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #cfcfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #f9fcff&quot;|
+&lt;h3 id=&quot;lang&quot;&gt;Wikinews in other languages&lt;/h3&gt;
+{{Wikinewslang}} 
+|- 
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #bfbfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #fff&quot;|
+&lt;h3 id=&quot;sister&quot;&gt;Sister projects&lt;/h3&gt;
+{{Sisterprojects}} 
+
+{{donate}} 
+|}
+
+__NOEDITSECTION__</text>
+      <sha1>r6n37rig2yj33e3jap20i7q0hxmhxsp</sha1>
+    </revision>
+    <revision>
+      <id>338</id>
+      <parentid>336</parentid>
+      <timestamp>2004-11-16T01:03:22Z</timestamp>
+      <contributor>
+        <username>Boud</username>
+        <id>41</id>
+      </contributor>
+      <comment>digital divide comment</comment>
+      <origin>338</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2442" sha1="lutu9ps2vhpwjee8afojppkcwqsnijm" xml:space="preserve">{|cellspacing=&quot;3&quot; class=&quot;mainpagetable&quot;
+|- valign=&quot;top&quot; 
+|colspan=2|
+Welcome to Wikinews, a [[w:free content|free content]] news source. We started in November 2004, and have written {{NUMBEROFARTICLES}} articles, some of which are still [[Wikinews:Article stages|in development]]. Our [[Wikinews:Mission statement|mission]] is to create a world where citizen journalists report the news on a wide variety of subjects small and large. We need your help! Visit the [[Wikinews:Workspace|Wikinews Workspace]] and find out how '''you''' can become a Wikinews author today! If you have concrete suggestions as to how we can get beyond the minority (much less than 10%) of people who have regular internet access and enough web confidence to edit wikipages, then please speak up!
+|- valign=&quot;top&quot;
+|colspan=2 style=&quot;border: 1px solid  #cfcfbf;padding: .5em 1em 1em; color: #000000; background-color: #ffffff&quot;|
+=== Major events ===
+
+&lt;br clear=&quot;all&quot; /&gt;
+
+|- valign=&quot;top&quot; 
+|colspan=2|
+
+&lt;center&gt;&lt;font size=+1&gt;
+Regions: [[North America]] - [[South America]] - [[Europe]] - [[Africa]] - [[Middle East]] - [[Asia]] - [[Oceania]]
+&lt;/font&gt;&lt;/center&gt;
+
+|- valign=&quot;top&quot;
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #9f8f9f; padding: .5em 1em 1em; color: #000000; background-color: #f8f8ff&quot;|
+
+&lt;h3&gt;Politics and Conflicts&lt;/h3&gt;
+
+November 14: [[Palestinians to elect new president on January 9]]&lt;br&gt;
+November 13: [[President of China lunches with Brazilian President]]
+
+[[Politics and Conflicts]]
+
+&lt;h3&gt;Disasters and Accidents&lt;/h3&gt;
+
+[[Disasters and Accidents]]
+
+&lt;h3&gt;Crime and Law&lt;/h3&gt;
+
+[[Crime and Law]]
+
+&lt;h3&gt;Obituaries&lt;/h3&gt;
+
+[[Obituaries]]
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border:1px solid #9f8f9f; padding: .5em 1em 1em; color: #000; background-color: #f8fff8&quot;|
+
+&lt;h3&gt;Economy and Business&lt;/h3&gt;
+
+[[Economy and Business]]
+
+&lt;h3&gt;Science and Technology&lt;/h3&gt; 
+
+[[Science and Technology]]
+&lt;h3&gt;Culture and Entertainment&lt;/h3&gt;
+
+[[Culture and Entertainment]]
+&lt;h3&gt;Sports and Weather&lt;/h3&gt;
+
+[[Sports and Weather]]
+|-
+
+
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #cfcfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #f9fcff&quot;|
+&lt;h3 id=&quot;lang&quot;&gt;Wikinews in other languages&lt;/h3&gt;
+{{Wikinewslang}} 
+|- 
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #bfbfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #fff&quot;|
+&lt;h3 id=&quot;sister&quot;&gt;Sister projects&lt;/h3&gt;
+{{Sisterprojects}} 
+
+{{donate}} 
+|}
+
+__NOEDITSECTION__</text>
+      <sha1>lutu9ps2vhpwjee8afojppkcwqsnijm</sha1>
+    </revision>
+    <revision>
+      <id>364</id>
+      <parentid>338</parentid>
+      <timestamp>2004-11-16T01:25:54Z</timestamp>
+      <contributor>
+        <username>Boud</username>
+        <id>41</id>
+      </contributor>
+      <comment>[[Wikinews Digital Divide]] - let's be constructive :)</comment>
+      <origin>364</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2526" sha1="drs5zesztqfmki5vr2yxxf2feggoev6" xml:space="preserve">{|cellspacing=&quot;3&quot; class=&quot;mainpagetable&quot;
+|- valign=&quot;top&quot; 
+|colspan=2|
+Welcome to Wikinews, a [[w:free content|free content]] news source. We started in November 2004, and have written {{NUMBEROFARTICLES}} articles, some of which are still [[Wikinews:Article stages|in development]]. Our [[Wikinews:Mission statement|mission]] is to create a world where citizen journalists report the news on a wide variety of subjects small and large. We need your help! Visit the [[Wikinews:Workspace|Wikinews Workspace]] and find out how '''you''' can become a Wikinews author today! If you have concrete suggestions as to how we can get beyond the minority (much less than 10%) of people who have regular internet access and enough web confidence to edit wikipages, then please add your proposal to [[Wikinews Digital Divide]] or modify and correct the present proposals!
+|- valign=&quot;top&quot;
+|colspan=2 style=&quot;border: 1px solid  #cfcfbf;padding: .5em 1em 1em; color: #000000; background-color: #ffffff&quot;|
+=== Major events ===
+
+&lt;br clear=&quot;all&quot; /&gt;
+
+|- valign=&quot;top&quot; 
+|colspan=2|
+
+&lt;center&gt;&lt;font size=+1&gt;
+Regions: [[North America]] - [[South America]] - [[Europe]] - [[Africa]] - [[Middle East]] - [[Asia]] - [[Oceania]]
+&lt;/font&gt;&lt;/center&gt;
+
+|- valign=&quot;top&quot;
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #9f8f9f; padding: .5em 1em 1em; color: #000000; background-color: #f8f8ff&quot;|
+
+&lt;h3&gt;Politics and Conflicts&lt;/h3&gt;
+
+November 14: [[Palestinians to elect new president on January 9]]&lt;br&gt;
+November 13: [[President of China lunches with Brazilian President]]
+
+[[Politics and Conflicts]]
+
+&lt;h3&gt;Disasters and Accidents&lt;/h3&gt;
+
+[[Disasters and Accidents]]
+
+&lt;h3&gt;Crime and Law&lt;/h3&gt;
+
+[[Crime and Law]]
+
+&lt;h3&gt;Obituaries&lt;/h3&gt;
+
+[[Obituaries]]
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border:1px solid #9f8f9f; padding: .5em 1em 1em; color: #000; background-color: #f8fff8&quot;|
+
+&lt;h3&gt;Economy and Business&lt;/h3&gt;
+
+[[Economy and Business]]
+
+&lt;h3&gt;Science and Technology&lt;/h3&gt; 
+
+[[Science and Technology]]
+&lt;h3&gt;Culture and Entertainment&lt;/h3&gt;
+
+[[Culture and Entertainment]]
+&lt;h3&gt;Sports and Weather&lt;/h3&gt;
+
+[[Sports and Weather]]
+|-
+
+
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #cfcfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #f9fcff&quot;|
+&lt;h3 id=&quot;lang&quot;&gt;Wikinews in other languages&lt;/h3&gt;
+{{Wikinewslang}} 
+|- 
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #bfbfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #fff&quot;|
+&lt;h3 id=&quot;sister&quot;&gt;Sister projects&lt;/h3&gt;
+{{Sisterprojects}} 
+
+{{donate}} 
+|}
+
+__NOEDITSECTION__</text>
+      <sha1>drs5zesztqfmki5vr2yxxf2feggoev6</sha1>
+    </revision>
+    <revision>
+      <id>405</id>
+      <parentid>364</parentid>
+      <timestamp>2004-11-16T02:30:03Z</timestamp>
+      <contributor>
+        <username>Eloquence</username>
+        <id>3</id>
+      </contributor>
+      <comment>moving digital divide link to workspace</comment>
+      <origin>405</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2221" sha1="gwuf6w1khdkaywi0fahudg77z8cytbw" xml:space="preserve">{|cellspacing=&quot;3&quot; class=&quot;mainpagetable&quot;
+|- valign=&quot;top&quot; 
+|colspan=2|
+Welcome to Wikinews, a [[w:free content|free content]] news source. We started in November 2004, and have written {{NUMBEROFARTICLES}} articles, some of which are still [[Wikinews:Article stages|in development]]. Our [[Wikinews:Mission statement|mission]] is to create a world where citizen journalists report the news on a wide variety of subjects small and large. We need your help! Visit the [[Wikinews:Workspace|Wikinews Workspace]] and find out how '''you''' can become a Wikinews author today!
+|colspan=2 style=&quot;border: 1px solid  #cfcfbf;padding: .5em 1em 1em; color: #000000; background-color: #ffffff&quot;|
+=== Major events ===
+
+&lt;br clear=&quot;all&quot; /&gt;
+
+|- valign=&quot;top&quot; 
+|colspan=2|
+
+&lt;center&gt;&lt;font size=+1&gt;
+Regions: [[North America]] - [[South America]] - [[Europe]] - [[Africa]] - [[Middle East]] - [[Asia]] - [[Oceania]]
+&lt;/font&gt;&lt;/center&gt;
+
+|- valign=&quot;top&quot;
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #9f8f9f; padding: .5em 1em 1em; color: #000000; background-color: #f8f8ff&quot;|
+
+&lt;h3&gt;Politics and Conflicts&lt;/h3&gt;
+
+November 14: [[Palestinians to elect new president on January 9]]&lt;br&gt;
+November 13: [[President of China lunches with Brazilian President]]
+
+[[Politics and Conflicts]]
+
+&lt;h3&gt;Disasters and Accidents&lt;/h3&gt;
+
+[[Disasters and Accidents]]
+
+&lt;h3&gt;Crime and Law&lt;/h3&gt;
+
+[[Crime and Law]]
+
+&lt;h3&gt;Obituaries&lt;/h3&gt;
+
+[[Obituaries]]
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border:1px solid #9f8f9f; padding: .5em 1em 1em; color: #000; background-color: #f8fff8&quot;|
+
+&lt;h3&gt;Economy and Business&lt;/h3&gt;
+
+[[Economy and Business]]
+
+&lt;h3&gt;Science and Technology&lt;/h3&gt; 
+
+[[Science and Technology]]
+&lt;h3&gt;Culture and Entertainment&lt;/h3&gt;
+
+[[Culture and Entertainment]]
+&lt;h3&gt;Sports and Weather&lt;/h3&gt;
+
+[[Sports and Weather]]
+|-
+
+
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #cfcfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #f9fcff&quot;|
+&lt;h3 id=&quot;lang&quot;&gt;Wikinews in other languages&lt;/h3&gt;
+{{Wikinewslang}} 
+|- 
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #bfbfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #fff&quot;|
+&lt;h3 id=&quot;sister&quot;&gt;Sister projects&lt;/h3&gt;
+{{Sisterprojects}} 
+
+{{donate}} 
+|}
+
+__NOEDITSECTION__</text>
+      <sha1>gwuf6w1khdkaywi0fahudg77z8cytbw</sha1>
+    </revision>
+    <revision>
+      <id>411</id>
+      <parentid>405</parentid>
+      <timestamp>2004-11-16T04:33:19Z</timestamp>
+      <contributor>
+        <username>Eloquence</username>
+        <id>3</id>
+      </contributor>
+      <comment>*[[Brazilian soccer player's mother has been kidnapped]]</comment>
+      <origin>411</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2295" sha1="4zekkm6qalf1rweki5vfijijta4wpzx" xml:space="preserve">{|cellspacing=&quot;3&quot; class=&quot;mainpagetable&quot;
+|- valign=&quot;top&quot; 
+|colspan=2|
+Welcome to Wikinews, a [[w:free content|free content]] news source. We started in November 2004, and have written {{NUMBEROFARTICLES}} articles, some of which are still [[Wikinews:Article stages|in development]]. Our [[Wikinews:Mission statement|mission]] is to create a world where citizen journalists report the news on a wide variety of subjects small and large. We need your help! Visit the [[Wikinews:Workspace|Wikinews Workspace]] and find out how '''you''' can become a Wikinews author today!
+|colspan=2 style=&quot;border: 1px solid  #cfcfbf;padding: .5em 1em 1em; color: #000000; background-color: #ffffff&quot;|
+=== Major events ===
+
+&lt;br clear=&quot;all&quot; /&gt;
+
+|- valign=&quot;top&quot; 
+|colspan=2|
+
+&lt;center&gt;&lt;font size=+1&gt;
+Regions: [[North America]] - [[South America]] - [[Europe]] - [[Africa]] - [[Middle East]] - [[Asia]] - [[Oceania]]
+&lt;/font&gt;&lt;/center&gt;
+
+|- valign=&quot;top&quot;
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #9f8f9f; padding: .5em 1em 1em; color: #000000; background-color: #f8f8ff&quot;|
+
+&lt;h3&gt;Politics and Conflicts&lt;/h3&gt;
+
+November 14: [[Palestinians to elect new president on January 9]]&lt;br&gt;
+November 13: [[President of China lunches with Brazilian President]]
+
+[[Politics and Conflicts]]
+
+&lt;h3&gt;Disasters and Accidents&lt;/h3&gt;
+
+[[Disasters and Accidents]]
+
+&lt;h3&gt;Crime and Law&lt;/h3&gt;
+
+November 15: [[Brazilian soccer player's mother has been kidnapped]]&lt;br&gt;
+
+[[Crime and Law]]
+
+&lt;h3&gt;Obituaries&lt;/h3&gt;
+
+[[Obituaries]]
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border:1px solid #9f8f9f; padding: .5em 1em 1em; color: #000; background-color: #f8fff8&quot;|
+
+&lt;h3&gt;Economy and Business&lt;/h3&gt;
+
+[[Economy and Business]]
+
+&lt;h3&gt;Science and Technology&lt;/h3&gt; 
+
+[[Science and Technology]]
+&lt;h3&gt;Culture and Entertainment&lt;/h3&gt;
+
+[[Culture and Entertainment]]
+&lt;h3&gt;Sports and Weather&lt;/h3&gt;
+
+[[Sports and Weather]]
+|-
+
+
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #cfcfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #f9fcff&quot;|
+&lt;h3 id=&quot;lang&quot;&gt;Wikinews in other languages&lt;/h3&gt;
+{{Wikinewslang}} 
+|- 
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #bfbfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #fff&quot;|
+&lt;h3 id=&quot;sister&quot;&gt;Sister projects&lt;/h3&gt;
+{{Sisterprojects}} 
+
+{{donate}} 
+|}
+
+__NOEDITSECTION__</text>
+      <sha1>4zekkm6qalf1rweki5vfijijta4wpzx</sha1>
+    </revision>
+    <revision>
+      <id>419</id>
+      <parentid>411</parentid>
+      <timestamp>2004-11-16T05:38:26Z</timestamp>
+      <contributor>
+        <ip>81.226.210.78</ip>
+      </contributor>
+      <comment>i hate inconsistency :))</comment>
+      <origin>419</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2295" sha1="f2wx4crcdvx9crpt6pygo7thup9hyzv" xml:space="preserve">{|cellspacing=&quot;3&quot; class=&quot;mainpagetable&quot;
+|- valign=&quot;top&quot; 
+|colspan=2|
+Welcome to Wikinews, a [[w:free content|free content]] news source. We started in November 2004, and have written {{NUMBEROFARTICLES}} articles, some of which are still [[Wikinews:Article stages|in development]]. Our [[Wikinews:Mission statement|mission]] is to create a world where citizen journalists report the news on a wide variety of subjects small and large. We need your help! Visit the [[Wikinews:Workspace|Wikinews Workspace]] and find out how '''you''' can become a Wikinews author today!
+|colspan=2 style=&quot;border: 1px solid  #cfcfbf;padding: .5em 1em 1em; color: #000000; background-color: #ffffff&quot;|
+=== Major events ===
+
+&lt;br clear=&quot;all&quot; /&gt;
+
+|- valign=&quot;top&quot; 
+|colspan=2|
+
+&lt;center&gt;&lt;font size=+1&gt;
+Regions: [[North America]] - [[South America]] - [[Europe]] - [[Africa]] - [[Middle East]] - [[Asia]] - [[Oceania]]
+&lt;/font&gt;&lt;/center&gt;
+
+|- valign=&quot;top&quot;
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #9f8f9f; padding: .5em 1em 1em; color: #000000; background-color: #f8f8ff&quot;|
+
+&lt;h3&gt;Politics and conflicts&lt;/h3&gt;
+
+November 14: [[Palestinians to elect new president on January 9]]&lt;br&gt;
+November 13: [[President of China lunches with Brazilian President]]
+
+[[Politics and conflicts]]
+
+&lt;h3&gt;Disasters and accidents&lt;/h3&gt;
+
+[[Disasters and accidents]]
+
+&lt;h3&gt;Crime and law&lt;/h3&gt;
+
+November 15: [[Brazilian soccer player's mother has been kidnapped]]&lt;br&gt;
+
+[[Crime and law]]
+
+&lt;h3&gt;Obituaries&lt;/h3&gt;
+
+[[Obituaries]]
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border:1px solid #9f8f9f; padding: .5em 1em 1em; color: #000; background-color: #f8fff8&quot;|
+
+&lt;h3&gt;Economy and business&lt;/h3&gt;
+
+[[Economy and business]]
+
+&lt;h3&gt;Science and technology&lt;/h3&gt; 
+
+[[Science and technology]]
+&lt;h3&gt;Culture and entertainment&lt;/h3&gt;
+
+[[Culture and entertainment]]
+&lt;h3&gt;Sports and weather&lt;/h3&gt;
+
+[[Sports and weather]]
+|-
+
+
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #cfcfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #f9fcff&quot;|
+&lt;h3 id=&quot;lang&quot;&gt;Wikinews in other languages&lt;/h3&gt;
+{{Wikinewslang}} 
+|- 
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #bfbfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #fff&quot;|
+&lt;h3 id=&quot;sister&quot;&gt;Sister projects&lt;/h3&gt;
+{{Sisterprojects}} 
+
+{{donate}} 
+|}
+
+__NOEDITSECTION__</text>
+      <sha1>f2wx4crcdvx9crpt6pygo7thup9hyzv</sha1>
+    </revision>
+    <revision>
+      <id>427</id>
+      <parentid>419</parentid>
+      <timestamp>2004-11-16T10:35:25Z</timestamp>
+      <contributor>
+        <username>Lankiveil</username>
+        <id>48</id>
+      </contributor>
+      <origin>427</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2413" sha1="9yd8g9g8xortqymqzd2bzqosimckx2w" xml:space="preserve">{|cellspacing=&quot;3&quot; class=&quot;mainpagetable&quot;
+|- valign=&quot;top&quot; 
+|colspan=2|
+Welcome to Wikinews, a [[w:free content|free content]] news source. We started in November 2004, and have written {{NUMBEROFARTICLES}} articles, some of which are still [[Wikinews:Article stages|in development]]. Our [[Wikinews:Mission statement|mission]] is to create a world where citizen journalists report the news on a wide variety of subjects small and large. We need your help! Visit the [[Wikinews:Workspace|Wikinews Workspace]] and find out how '''you''' can become a Wikinews author today!
+|colspan=2 style=&quot;border: 1px solid  #cfcfbf;padding: .5em 1em 1em; color: #000000; background-color: #ffffff&quot;|
+=== Major events ===
+
+&lt;br clear=&quot;all&quot; /&gt;
+
+|- valign=&quot;top&quot; 
+|colspan=2|
+
+&lt;center&gt;&lt;font size=+1&gt;
+Regions: [[North America]] - [[South America]] - [[Europe]] - [[Africa]] - [[Middle East]] - [[Asia]] - [[Oceania]]
+&lt;/font&gt;&lt;/center&gt;
+
+|- valign=&quot;top&quot;
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #9f8f9f; padding: .5em 1em 1em; color: #000000; background-color: #f8f8ff&quot;|
+
+&lt;h3&gt;Politics and conflicts&lt;/h3&gt;
+
+November 14: [[Palestinians to elect new president on January 9]]&lt;br&gt;
+November 13: [[President of China lunches with Brazilian President]]
+
+[[Politics and conflicts]]
+
+&lt;h3&gt;Disasters and accidents&lt;/h3&gt;
+
+November 16: [[High-speed train derailment in central Queensland|High-speed train derailment in Central Queensland]]
+
+[[Disasters and accidents]]
+
+&lt;h3&gt;Crime and law&lt;/h3&gt;
+
+November 15: [[Brazilian soccer player's mother has been kidnapped]]&lt;br&gt;
+
+[[Crime and law]]
+
+&lt;h3&gt;Obituaries&lt;/h3&gt;
+
+[[Obituaries]]
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border:1px solid #9f8f9f; padding: .5em 1em 1em; color: #000; background-color: #f8fff8&quot;|
+
+&lt;h3&gt;Economy and business&lt;/h3&gt;
+
+[[Economy and business]]
+
+&lt;h3&gt;Science and technology&lt;/h3&gt; 
+
+[[Science and technology]]
+&lt;h3&gt;Culture and entertainment&lt;/h3&gt;
+
+[[Culture and entertainment]]
+&lt;h3&gt;Sports and weather&lt;/h3&gt;
+
+[[Sports and weather]]
+|-
+
+
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #cfcfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #f9fcff&quot;|
+&lt;h3 id=&quot;lang&quot;&gt;Wikinews in other languages&lt;/h3&gt;
+{{Wikinewslang}} 
+|- 
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #bfbfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #fff&quot;|
+&lt;h3 id=&quot;sister&quot;&gt;Sister projects&lt;/h3&gt;
+{{Sisterprojects}} 
+
+{{donate}} 
+|}
+
+__NOEDITSECTION__</text>
+      <sha1>9yd8g9g8xortqymqzd2bzqosimckx2w</sha1>
+    </revision>
+    <revision>
+      <id>492</id>
+      <parentid>427</parentid>
+      <timestamp>2004-11-16T11:08:54Z</timestamp>
+      <contributor>
+        <username>Eloquence</username>
+        <id>3</id>
+      </contributor>
+      <comment>please wait until the article has passed through review</comment>
+      <origin>492</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2295" sha1="f2wx4crcdvx9crpt6pygo7thup9hyzv" xml:space="preserve">{|cellspacing=&quot;3&quot; class=&quot;mainpagetable&quot;
+|- valign=&quot;top&quot; 
+|colspan=2|
+Welcome to Wikinews, a [[w:free content|free content]] news source. We started in November 2004, and have written {{NUMBEROFARTICLES}} articles, some of which are still [[Wikinews:Article stages|in development]]. Our [[Wikinews:Mission statement|mission]] is to create a world where citizen journalists report the news on a wide variety of subjects small and large. We need your help! Visit the [[Wikinews:Workspace|Wikinews Workspace]] and find out how '''you''' can become a Wikinews author today!
+|colspan=2 style=&quot;border: 1px solid  #cfcfbf;padding: .5em 1em 1em; color: #000000; background-color: #ffffff&quot;|
+=== Major events ===
+
+&lt;br clear=&quot;all&quot; /&gt;
+
+|- valign=&quot;top&quot; 
+|colspan=2|
+
+&lt;center&gt;&lt;font size=+1&gt;
+Regions: [[North America]] - [[South America]] - [[Europe]] - [[Africa]] - [[Middle East]] - [[Asia]] - [[Oceania]]
+&lt;/font&gt;&lt;/center&gt;
+
+|- valign=&quot;top&quot;
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #9f8f9f; padding: .5em 1em 1em; color: #000000; background-color: #f8f8ff&quot;|
+
+&lt;h3&gt;Politics and conflicts&lt;/h3&gt;
+
+November 14: [[Palestinians to elect new president on January 9]]&lt;br&gt;
+November 13: [[President of China lunches with Brazilian President]]
+
+[[Politics and conflicts]]
+
+&lt;h3&gt;Disasters and accidents&lt;/h3&gt;
+
+[[Disasters and accidents]]
+
+&lt;h3&gt;Crime and law&lt;/h3&gt;
+
+November 15: [[Brazilian soccer player's mother has been kidnapped]]&lt;br&gt;
+
+[[Crime and law]]
+
+&lt;h3&gt;Obituaries&lt;/h3&gt;
+
+[[Obituaries]]
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border:1px solid #9f8f9f; padding: .5em 1em 1em; color: #000; background-color: #f8fff8&quot;|
+
+&lt;h3&gt;Economy and business&lt;/h3&gt;
+
+[[Economy and business]]
+
+&lt;h3&gt;Science and technology&lt;/h3&gt; 
+
+[[Science and technology]]
+&lt;h3&gt;Culture and entertainment&lt;/h3&gt;
+
+[[Culture and entertainment]]
+&lt;h3&gt;Sports and weather&lt;/h3&gt;
+
+[[Sports and weather]]
+|-
+
+
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #cfcfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #f9fcff&quot;|
+&lt;h3 id=&quot;lang&quot;&gt;Wikinews in other languages&lt;/h3&gt;
+{{Wikinewslang}} 
+|- 
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #bfbfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #fff&quot;|
+&lt;h3 id=&quot;sister&quot;&gt;Sister projects&lt;/h3&gt;
+{{Sisterprojects}} 
+
+{{donate}} 
+|}
+
+__NOEDITSECTION__</text>
+      <sha1>f2wx4crcdvx9crpt6pygo7thup9hyzv</sha1>
+    </revision>
+    <revision>
+      <id>503</id>
+      <parentid>492</parentid>
+      <timestamp>2004-11-16T18:28:43Z</timestamp>
+      <contributor>
+        <username>Lyellin~enwikinews</username>
+        <id>33</id>
+      </contributor>
+      <origin>503</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2142" sha1="l6gjc3ol7pr2e33zuki5v4qvrrugjd7" xml:space="preserve">{|cellspacing=&quot;3&quot; class=&quot;mainpagetable&quot;
+|- valign=&quot;top&quot; 
+|colspan=2|
+Welcome to Wikinews, a [[w:free content|free content]] news source. We started in November 2004, and have written {{NUMBEROFARTICLES}} articles, some of which are still [[Wikinews:Article stages|in development]]. Our [[Wikinews:Mission statement|mission]] is to create a world where citizen journalists report the news on a wide variety of subjects small and large. We need your help! Visit the [[Wikinews:Workspace|Wikinews Workspace]] and find out how '''you''' can become a Wikinews author today!
+|colspan=2 style=&quot;border: 1px solid  #cfcfbf;padding: .5em 1em 1em; color: #000000; background-color: #ffffff&quot;|
+=== Major events ===
+
+&lt;br clear=&quot;all&quot; /&gt;
+
+|- valign=&quot;top&quot; 
+|colspan=2|
+
+&lt;center&gt;&lt;font size=+1&gt;
+Regions: [[North America]] - [[South America]] - [[Europe]] - [[Africa]] - [[Middle East]] - [[Asia]] - [[Oceania]]
+&lt;/font&gt;&lt;/center&gt;
+
+|- valign=&quot;top&quot;
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #9f8f9f; padding: .5em 1em 1em; color: #000000; background-color: #f8f8ff&quot;|
+
+&lt;h3&gt;[[Politics and conflicts]]&lt;/h3&gt;
+
+November 14: [[Palestinians to elect new president on January 9]]&lt;br&gt;
+November 13: [[President of China lunches with Brazilian President]]
+
+
+
+&lt;h3&gt;[[Disasters and accidents]]&lt;/h3&gt;
+
+
+
+&lt;h3&gt;[[Crime and law]]&lt;/h3&gt;
+
+November 15: [[Brazilian soccer player's mother has been kidnapped]]&lt;br&gt;
+
+
+
+&lt;h3&gt;[[Obituaries]]&lt;/h3&gt;
+
+
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border:1px solid #9f8f9f; padding: .5em 1em 1em; color: #000; background-color: #f8fff8&quot;|
+
+&lt;h3&gt;[[Economy and business]]&lt;/h3&gt;
+
+
+
+&lt;h3&gt;[[Science and technology]]&lt;/h3&gt; 
+
+
+&lt;h3&gt;[[Culture and entertainment]]&lt;/h3&gt;
+
+
+&lt;h3&gt;[[Sports and weather]]&lt;/h3&gt;
+
+
+|-
+
+
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #cfcfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #f9fcff&quot;|
+&lt;h3 id=&quot;lang&quot;&gt;Wikinews in other languages&lt;/h3&gt;
+{{Wikinewslang}} 
+|- 
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #bfbfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #fff&quot;|
+&lt;h3 id=&quot;sister&quot;&gt;Sister projects&lt;/h3&gt;
+{{Sisterprojects}} 
+
+{{donate}} 
+|}
+
+__NOEDITSECTION__</text>
+      <sha1>l6gjc3ol7pr2e33zuki5v4qvrrugjd7</sha1>
+    </revision>
+    <revision>
+      <id>525</id>
+      <parentid>503</parentid>
+      <timestamp>2004-11-16T18:45:36Z</timestamp>
+      <contributor>
+        <username>Eloquence</username>
+        <id>3</id>
+      </contributor>
+      <comment>powell</comment>
+      <origin>525</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2560" sha1="5pazmg2xfek9i6f714vbz4frgwb9jyr" xml:space="preserve">{|cellspacing=&quot;3&quot; class=&quot;mainpagetable&quot;
+|- valign=&quot;top&quot; 
+|colspan=2|
+Welcome to Wikinews, a [[w:free content|free content]] news source. We started in November 2004, and have written {{NUMBEROFARTICLES}} articles, some of which are still [[Wikinews:Article stages|in development]]. Our [[Wikinews:Mission statement|mission]] is to create a world where citizen journalists report the news on a wide variety of subjects small and large. We need your help! Visit the [[Wikinews:Workspace|Wikinews Workspace]] and find out how '''you''' can become a Wikinews author today!
+|-
+|colspan=2 style=&quot;border: 1px solid  #cfcfbf;padding: .5em 1em 1em; color: #000000; background-color: #ffffff&quot;|
+=== Major events ===
+
+* [[Colin Powell Resigns as U.S. Secretary of State, Rice Likely Successor]]. Secretary of State [[w:Colin Powell|Colin Powell]] has resigned his position as of Monday, November 15, and his resignation was accepted by [[w:George W. Bush|President George W. Bush]]. On Tuesday, President Bush announced his nomination of National Security Advisor Dr. [[w:Condoleezza Rice|Condoleezza Rice]] as Powell's successor. 
+
+&lt;br clear=&quot;all&quot; /&gt;
+
+|- valign=&quot;top&quot; 
+|colspan=2|
+
+&lt;center&gt;&lt;font size=+1&gt;
+Regions: [[North America]] - [[South America]] - [[Europe]] - [[Africa]] - [[Middle East]] - [[Asia]] - [[Oceania]]
+&lt;/font&gt;&lt;/center&gt;
+
+|- valign=&quot;top&quot;
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #9f8f9f; padding: .5em 1em 1em; color: #000000; background-color: #f8f8ff&quot;|
+
+&lt;h3&gt;[[Politics and conflicts]]&lt;/h3&gt;
+
+November 14: [[Palestinians to elect new president on January 9]]&lt;br&gt;
+November 13: [[President of China lunches with Brazilian President]]
+
+
+
+&lt;h3&gt;[[Disasters and accidents]]&lt;/h3&gt;
+
+
+
+&lt;h3&gt;[[Crime and law]]&lt;/h3&gt;
+
+November 15: [[Brazilian soccer player's mother has been kidnapped]]&lt;br&gt;
+
+
+
+&lt;h3&gt;[[Obituaries]]&lt;/h3&gt;
+
+
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border:1px solid #9f8f9f; padding: .5em 1em 1em; color: #000; background-color: #f8fff8&quot;|
+
+&lt;h3&gt;[[Economy and business]]&lt;/h3&gt;
+
+
+
+&lt;h3&gt;[[Science and technology]]&lt;/h3&gt; 
+
+
+&lt;h3&gt;[[Culture and entertainment]]&lt;/h3&gt;
+
+
+&lt;h3&gt;[[Sports and weather]]&lt;/h3&gt;
+
+
+|-
+
+
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #cfcfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #f9fcff&quot;|
+&lt;h3 id=&quot;lang&quot;&gt;Wikinews in other languages&lt;/h3&gt;
+{{Wikinewslang}} 
+|- 
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #bfbfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #fff&quot;|
+&lt;h3 id=&quot;sister&quot;&gt;Sister projects&lt;/h3&gt;
+{{Sisterprojects}} 
+
+{{donate}} 
+|}
+
+__NOEDITSECTION__</text>
+      <sha1>5pazmg2xfek9i6f714vbz4frgwb9jyr</sha1>
+    </revision>
+    <revision>
+      <id>537</id>
+      <parentid>525</parentid>
+      <timestamp>2004-11-16T21:44:41Z</timestamp>
+      <contributor>
+        <username>Eloquence</username>
+        <id>3</id>
+      </contributor>
+      <origin>537</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2603" sha1="kh3ukc3g7f44zeridysl22bjqo3804m" xml:space="preserve">{|cellspacing=&quot;3&quot; class=&quot;mainpagetable&quot;
+|- valign=&quot;top&quot; 
+|colspan=2|
+Welcome to Wikinews, a [[w:free content|free content]] news source. We started in November 2004, and have written {{NUMBEROFARTICLES}} articles, some of which are still [[Wikinews:Article stages|in development]]. Our [[Wikinews:Mission statement|mission]] is to create a world where citizen journalists report the news on a wide variety of subjects small and large. We need your help! Visit the [[Wikinews:Workspace|Wikinews Workspace]] and find out how '''you''' can become a Wikinews author today!
+|-
+|colspan=2 style=&quot;border: 1px solid  #cfcfbf;padding: .5em 1em 1em; color: #000000; background-color: #ffffff&quot;|
+=== Major events ===
+
+* [[Colin Powell Resigns as U.S. Secretary of State, Rice Likely Successor]]. Secretary of State [[w:Colin Powell|Colin Powell]] has resigned his position as of Monday, November 15, and his resignation was accepted by [[w:George W. Bush|President George W. Bush]]. On Tuesday, President Bush announced his nomination of National Security Advisor Dr. [[w:Condoleezza Rice|Condoleezza Rice]] as Powell's successor. 
+
+&lt;br clear=&quot;all&quot; /&gt;
+
+|- valign=&quot;top&quot; 
+|colspan=2|
+
+&lt;center&gt;&lt;font size=+1&gt;
+Regions: [[North America]] - [[South America]] - [[Europe]] - [[Africa]] - [[Middle East]] - [[Asia]] - [[Oceania]]
+&lt;/font&gt;&lt;/center&gt;
+
+|- valign=&quot;top&quot;
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #9f8f9f; padding: .5em 1em 1em; color: #000000; background-color: #f8f8ff&quot;|
+
+&lt;h3&gt;[[Politics and conflicts]]&lt;/h3&gt;
+
+November 14: [[Palestinians to elect new president on January 9]]&lt;br&gt;
+November 13: [[President of China lunches with Brazilian President]]
+
+
+
+&lt;h3&gt;[[Disasters and accidents]]&lt;/h3&gt;
+
+
+
+&lt;h3&gt;[[Crime and law]]&lt;/h3&gt;
+
+November 15: [[Brazilian soccer player's mother has been kidnapped]]&lt;br&gt;
+
+
+
+&lt;h3&gt;[[Obituaries]]&lt;/h3&gt;
+
+
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border:1px solid #9f8f9f; padding: .5em 1em 1em; color: #000; background-color: #f8fff8&quot;|
+
+&lt;h3&gt;[[Economy and business]]&lt;/h3&gt;
+
+
+
+&lt;h3&gt;[[Science and technology]]&lt;/h3&gt; 
+
+November 15: [[Big Linux Beta 3 released]]
+
+&lt;h3&gt;[[Culture and entertainment]]&lt;/h3&gt;
+
+
+&lt;h3&gt;[[Sports and weather]]&lt;/h3&gt;
+
+
+|-
+
+
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #cfcfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #f9fcff&quot;|
+&lt;h3 id=&quot;lang&quot;&gt;Wikinews in other languages&lt;/h3&gt;
+{{Wikinewslang}} 
+|- 
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #bfbfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #fff&quot;|
+&lt;h3 id=&quot;sister&quot;&gt;Sister projects&lt;/h3&gt;
+{{Sisterprojects}} 
+
+{{donate}} 
+|}
+
+__NOEDITSECTION__</text>
+      <sha1>kh3ukc3g7f44zeridysl22bjqo3804m</sha1>
+    </revision>
+    <revision>
+      <id>538</id>
+      <parentid>537</parentid>
+      <timestamp>2004-11-16T22:10:40Z</timestamp>
+      <contributor>
+        <username>Eloquence</username>
+        <id>3</id>
+      </contributor>
+      <comment>add (reviewed) tags</comment>
+      <origin>538</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2647" sha1="07gxe1qyv5n3oqtuc5yemaiy54kbpat" xml:space="preserve">{|cellspacing=&quot;3&quot; class=&quot;mainpagetable&quot;
+|- valign=&quot;top&quot; 
+|colspan=2|
+Welcome to Wikinews, a [[w:free content|free content]] news source. We started in November 2004, and have written {{NUMBEROFARTICLES}} articles, some of which are still [[Wikinews:Article stages|in development]]. Our [[Wikinews:Mission statement|mission]] is to create a world where citizen journalists report the news on a wide variety of subjects small and large. We need your help! Visit the [[Wikinews:Workspace|Wikinews Workspace]] and find out how '''you''' can become a Wikinews author today!
+|-
+|colspan=2 style=&quot;border: 1px solid  #cfcfbf;padding: .5em 1em 1em; color: #000000; background-color: #ffffff&quot;|
+=== Major events ===
+
+* [[Colin Powell Resigns as U.S. Secretary of State, Rice Likely Successor]]. Secretary of State [[w:Colin Powell|Colin Powell]] has resigned his position as of Monday, November 15, and his resignation was accepted by [[w:George W. Bush|President George W. Bush]]. On Tuesday, President Bush announced his nomination of National Security Advisor Dr. [[w:Condoleezza Rice|Condoleezza Rice]] as Powell's successor. 
+
+&lt;br clear=&quot;all&quot; /&gt;
+
+|- valign=&quot;top&quot; 
+|colspan=2|
+
+&lt;center&gt;&lt;font size=+1&gt;
+Regions: [[North America]] - [[South America]] - [[Europe]] - [[Africa]] - [[Middle East]] - [[Asia]] - [[Oceania]]
+&lt;/font&gt;&lt;/center&gt;
+
+|- valign=&quot;top&quot;
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #9f8f9f; padding: .5em 1em 1em; color: #000000; background-color: #f8f8ff&quot;|
+
+&lt;h3&gt;[[Politics and conflicts]]&lt;/h3&gt;
+
+November 14: [[Palestinians to elect new president on January 9]] (reviewed)&lt;br&gt;
+November 13: [[President of China lunches with Brazilian President]] (reviewed)
+
+
+
+&lt;h3&gt;[[Disasters and accidents]]&lt;/h3&gt;
+
+
+
+&lt;h3&gt;[[Crime and law]]&lt;/h3&gt;
+
+November 15: [[Brazilian soccer player's mother has been kidnapped]] (reviewed)&lt;br&gt;
+
+
+
+&lt;h3&gt;[[Obituaries]]&lt;/h3&gt;
+
+
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border:1px solid #9f8f9f; padding: .5em 1em 1em; color: #000; background-color: #f8fff8&quot;|
+
+&lt;h3&gt;[[Economy and business]]&lt;/h3&gt;
+
+
+
+&lt;h3&gt;[[Science and technology]]&lt;/h3&gt; 
+
+November 15: [[Big Linux Beta 3 released]] (reviewed)
+
+&lt;h3&gt;[[Culture and entertainment]]&lt;/h3&gt;
+
+
+&lt;h3&gt;[[Sports and weather]]&lt;/h3&gt;
+
+
+|-
+
+
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #cfcfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #f9fcff&quot;|
+&lt;h3 id=&quot;lang&quot;&gt;Wikinews in other languages&lt;/h3&gt;
+{{Wikinewslang}} 
+|- 
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #bfbfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #fff&quot;|
+&lt;h3 id=&quot;sister&quot;&gt;Sister projects&lt;/h3&gt;
+{{Sisterprojects}} 
+
+{{donate}} 
+|}
+
+__NOEDITSECTION__</text>
+      <sha1>07gxe1qyv5n3oqtuc5yemaiy54kbpat</sha1>
+    </revision>
+    <revision>
+      <id>550</id>
+      <parentid>538</parentid>
+      <timestamp>2004-11-16T22:11:58Z</timestamp>
+      <contributor>
+        <username>Eloquence</username>
+        <id>3</id>
+      </contributor>
+      <origin>550</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2653" sha1="nyfpmt3bttlhcko6c9d4jip1y02ai1o" xml:space="preserve">{|cellspacing=&quot;3&quot; class=&quot;mainpagetable&quot;
+|- valign=&quot;top&quot; 
+|colspan=2|
+Welcome to Wikinews, a [[w:free content|free content]] news source. We started in November 2004, and have written {{NUMBEROFARTICLES}} articles, some of which are still [[Wikinews:Article stages|in development]]. Our [[Wikinews:Mission statement|mission]] is to create a world where citizen journalists report the news on a wide variety of subjects small and large. We need your help! Visit the [[Wikinews:Workspace|Wikinews Workspace]] and find out how '''you''' can become a Wikinews author today!
+|-
+|colspan=2 style=&quot;border: 1px solid  #cfcfbf;padding: .5em 1em 1em; color: #000000; background-color: #ffffff&quot;|
+=== Major events ===
+
+* [[Colin Powell Resigns as U.S. Secretary of State, Rice Likely Successor]]. Secretary of State [[w:Colin Powell|Colin Powell]] has resigned his position as of Monday, November 15, and his resignation was accepted by [[w:George W. Bush|President George W. Bush]]. On Tuesday, President Bush announced his nomination of National Security Advisor Dr. [[w:Condoleezza Rice|Condoleezza Rice]] as Powell's successor. 
+
+&lt;br clear=&quot;all&quot; /&gt;
+
+|- valign=&quot;top&quot; 
+|colspan=2|
+
+&lt;center&gt;&lt;font size=+1&gt;
+Regions: [[North America]] - [[South America]] - [[Europe]] - [[Africa]] - [[Middle East]] - [[Asia]] - [[Oceania]]
+&lt;/font&gt;&lt;/center&gt;
+
+|- valign=&quot;top&quot;
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #9f8f9f; padding: .5em 1em 1em; color: #000000; background-color: #f8f8ff&quot;|
+
+&lt;h3&gt;[[Politics and conflicts]]&lt;/h3&gt;
+
+November 14: [[Palestinians to elect new president on January 9]] {{reviewed}}&lt;br&gt;
+November 13: [[President of China lunches with Brazilian President]] {{reviewed}}
+
+
+
+&lt;h3&gt;[[Disasters and accidents]]&lt;/h3&gt;
+
+
+
+&lt;h3&gt;[[Crime and law]]&lt;/h3&gt;
+
+November 15: [[Brazilian soccer player's mother has been kidnapped]] {{reviewed}}&lt;br&gt;
+
+&lt;h3&gt;[[Obituaries]]&lt;/h3&gt;
+
+
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border:1px solid #9f8f9f; padding: .5em 1em 1em; color: #000; background-color: #f8fff8&quot;|
+
+&lt;h3&gt;[[Economy and business]]&lt;/h3&gt;
+
+
+
+&lt;h3&gt;[[Science and technology]]&lt;/h3&gt; 
+
+November 15: [[Big Linux Beta 3 released]] {{reviewed}}
+
+&lt;h3&gt;[[Culture and entertainment]]&lt;/h3&gt;
+
+
+&lt;h3&gt;[[Sports and weather]]&lt;/h3&gt;
+
+
+|-
+
+
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #cfcfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #f9fcff&quot;|
+&lt;h3 id=&quot;lang&quot;&gt;Wikinews in other languages&lt;/h3&gt;
+{{Wikinewslang}} 
+|- 
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #bfbfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #fff&quot;|
+&lt;h3 id=&quot;sister&quot;&gt;Sister projects&lt;/h3&gt;
+{{Sisterprojects}} 
+
+{{donate}} 
+|}
+
+__NOEDITSECTION__</text>
+      <sha1>nyfpmt3bttlhcko6c9d4jip1y02ai1o</sha1>
+    </revision>
+    <revision>
+      <id>557</id>
+      <parentid>550</parentid>
+      <timestamp>2004-11-16T22:27:04Z</timestamp>
+      <contributor>
+        <username>Eloquence</username>
+        <id>3</id>
+      </contributor>
+      <comment>removing {{reviewed}} as changes have not yet been</comment>
+      <origin>557</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2640" sha1="s76rwqwzjwz24zltp9xy6t1x8zzgebf" xml:space="preserve">{|cellspacing=&quot;3&quot; class=&quot;mainpagetable&quot;
+|- valign=&quot;top&quot; 
+|colspan=2|
+Welcome to Wikinews, a [[w:free content|free content]] news source. We started in November 2004, and have written {{NUMBEROFARTICLES}} articles, some of which are still [[Wikinews:Article stages|in development]]. Our [[Wikinews:Mission statement|mission]] is to create a world where citizen journalists report the news on a wide variety of subjects small and large. We need your help! Visit the [[Wikinews:Workspace|Wikinews Workspace]] and find out how '''you''' can become a Wikinews author today!
+|-
+|colspan=2 style=&quot;border: 1px solid  #cfcfbf;padding: .5em 1em 1em; color: #000000; background-color: #ffffff&quot;|
+=== Major events ===
+
+* [[Colin Powell Resigns as U.S. Secretary of State, Rice Likely Successor]]. Secretary of State [[w:Colin Powell|Colin Powell]] has resigned his position as of Monday, November 15, and his resignation was accepted by [[w:George W. Bush|President George W. Bush]]. On Tuesday, President Bush announced his nomination of National Security Advisor Dr. [[w:Condoleezza Rice|Condoleezza Rice]] as Powell's successor. 
+
+&lt;br clear=&quot;all&quot; /&gt;
+
+|- valign=&quot;top&quot; 
+|colspan=2|
+
+&lt;center&gt;&lt;font size=+1&gt;
+Regions: [[North America]] - [[South America]] - [[Europe]] - [[Africa]] - [[Middle East]] - [[Asia]] - [[Oceania]]
+&lt;/font&gt;&lt;/center&gt;
+
+|- valign=&quot;top&quot;
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #9f8f9f; padding: .5em 1em 1em; color: #000000; background-color: #f8f8ff&quot;|
+
+&lt;h3&gt;[[Politics and conflicts]]&lt;/h3&gt;
+
+November 14: [[Palestinians to elect new president on January 9]] {{reviewed}}&lt;br&gt;
+November 13: [[President of China lunches with Brazilian President]] {{reviewed}}
+
+
+
+&lt;h3&gt;[[Disasters and accidents]]&lt;/h3&gt;
+
+
+
+&lt;h3&gt;[[Crime and law]]&lt;/h3&gt;
+
+November 15: [[Brazilian soccer player's mother has been kidnapped]] {{reviewed}}&lt;br&gt;
+
+&lt;h3&gt;[[Obituaries]]&lt;/h3&gt;
+
+
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border:1px solid #9f8f9f; padding: .5em 1em 1em; color: #000; background-color: #f8fff8&quot;|
+
+&lt;h3&gt;[[Economy and business]]&lt;/h3&gt;
+
+
+
+&lt;h3&gt;[[Science and technology]]&lt;/h3&gt; 
+
+November 15: [[Big Linux Beta 3 released]]
+
+&lt;h3&gt;[[Culture and entertainment]]&lt;/h3&gt;
+
+
+&lt;h3&gt;[[Sports and weather]]&lt;/h3&gt;
+
+
+|-
+
+
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #cfcfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #f9fcff&quot;|
+&lt;h3 id=&quot;lang&quot;&gt;Wikinews in other languages&lt;/h3&gt;
+{{Wikinewslang}} 
+|- 
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #bfbfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #fff&quot;|
+&lt;h3 id=&quot;sister&quot;&gt;Sister projects&lt;/h3&gt;
+{{Sisterprojects}} 
+
+{{donate}} 
+|}
+
+__NOEDITSECTION__</text>
+      <sha1>s76rwqwzjwz24zltp9xy6t1x8zzgebf</sha1>
+    </revision>
+    <revision>
+      <id>558</id>
+      <parentid>557</parentid>
+      <timestamp>2004-11-16T22:43:13Z</timestamp>
+      <contributor>
+        <username>Eloquence</username>
+        <id>3</id>
+      </contributor>
+      <minor />
+      <origin>558</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2653" sha1="aofn854wpy7a3tul8x3j0gnatfup7rs" xml:space="preserve">{|cellspacing=&quot;3&quot; class=&quot;mainpagetable&quot;
+|- valign=&quot;top&quot; 
+|colspan=2|
+Welcome to Wikinews, a [[w:free content|free content]] news source. We started in November 2004, and have written {{NUMBEROFARTICLES}} articles, some of which are still [[Wikinews:Article stages|in development]]. Our [[Wikinews:Mission statement|mission]] is to create a world where citizen journalists report the news on a wide variety of subjects small and large. We need your help! Visit the [[Wikinews:Workspace|Wikinews Workspace]] and find out how '''you''' can become a Wikinews author today!
+|-
+|colspan=2 style=&quot;border: 1px solid  #cfcfbf;padding: .5em 1em 1em; color: #000000; background-color: #ffffff&quot;|
+=== Major events ===
+
+* [[Colin Powell Resigns as U.S. Secretary of State, Rice Likely Successor]]. Secretary of State [[w:Colin Powell|Colin Powell]] has resigned his position as of Monday, November 15, and his resignation was accepted by [[w:George W. Bush|President George W. Bush]]. On Tuesday, President Bush announced his nomination of National Security Advisor Dr. [[w:Condoleezza Rice|Condoleezza Rice]] as Powell's successor.  {{reviewed}}
+
+&lt;br clear=&quot;all&quot; /&gt;
+
+|- valign=&quot;top&quot; 
+|colspan=2|
+
+&lt;center&gt;&lt;font size=+1&gt;
+Regions: [[North America]] - [[South America]] - [[Europe]] - [[Africa]] - [[Middle East]] - [[Asia]] - [[Oceania]]
+&lt;/font&gt;&lt;/center&gt;
+
+|- valign=&quot;top&quot;
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #9f8f9f; padding: .5em 1em 1em; color: #000000; background-color: #f8f8ff&quot;|
+
+&lt;h3&gt;[[Politics and conflicts]]&lt;/h3&gt;
+
+November 14: [[Palestinians to elect new president on January 9]] {{reviewed}}&lt;br&gt;
+November 13: [[President of China lunches with Brazilian President]] {{reviewed}}
+
+
+
+&lt;h3&gt;[[Disasters and accidents]]&lt;/h3&gt;
+
+
+
+&lt;h3&gt;[[Crime and law]]&lt;/h3&gt;
+
+November 15: [[Brazilian soccer player's mother has been kidnapped]] {{reviewed}}&lt;br&gt;
+
+&lt;h3&gt;[[Obituaries]]&lt;/h3&gt;
+
+
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border:1px solid #9f8f9f; padding: .5em 1em 1em; color: #000; background-color: #f8fff8&quot;|
+
+&lt;h3&gt;[[Economy and business]]&lt;/h3&gt;
+
+
+
+&lt;h3&gt;[[Science and technology]]&lt;/h3&gt; 
+
+November 15: [[Big Linux Beta 3 released]]
+
+&lt;h3&gt;[[Culture and entertainment]]&lt;/h3&gt;
+
+
+&lt;h3&gt;[[Sports and weather]]&lt;/h3&gt;
+
+
+|-
+
+
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #cfcfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #f9fcff&quot;|
+&lt;h3 id=&quot;lang&quot;&gt;Wikinews in other languages&lt;/h3&gt;
+{{Wikinewslang}} 
+|- 
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #bfbfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #fff&quot;|
+&lt;h3 id=&quot;sister&quot;&gt;Sister projects&lt;/h3&gt;
+{{Sisterprojects}} 
+
+{{donate}} 
+|}
+
+__NOEDITSECTION__</text>
+      <sha1>aofn854wpy7a3tul8x3j0gnatfup7rs</sha1>
+    </revision>
+    <revision>
+      <id>735</id>
+      <parentid>558</parentid>
+      <timestamp>2004-11-16T22:52:25Z</timestamp>
+      <contributor>
+        <username>Eloquence</username>
+        <id>3</id>
+      </contributor>
+      <comment>warning</comment>
+      <origin>735</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2801" sha1="jw7kdl4j9urzppdmcr7tsxjdcdeq8xr" xml:space="preserve">{|cellspacing=&quot;3&quot; class=&quot;mainpagetable&quot;
+|- valign=&quot;top&quot; 
+|colspan=2|
+Welcome to Wikinews, a [[w:free content|free content]] news source. We started in November 2004, and have written {{NUMBEROFARTICLES}} articles, some of which are still [[Wikinews:Article stages|in development]]. Our [[Wikinews:Mission statement|mission]] is to create a world where citizen journalists report the news on a wide variety of subjects small and large. We need your help! Visit the [[Wikinews:Workspace|Wikinews Workspace]] and find out how '''you''' can become a Wikinews author today! Everything here is under construction, so please give us some time to sort out the policies and procedures before relying on Wikinews as a source.
+
+|-
+|colspan=2 style=&quot;border: 1px solid  #cfcfbf;padding: .5em 1em 1em; color: #000000; background-color: #ffffff&quot;|
+=== Major events ===
+
+* [[Colin Powell Resigns as U.S. Secretary of State, Rice Likely Successor]]. Secretary of State [[w:Colin Powell|Colin Powell]] has resigned his position as of Monday, November 15, and his resignation was accepted by [[w:George W. Bush|President George W. Bush]]. On Tuesday, President Bush announced his nomination of National Security Advisor Dr. [[w:Condoleezza Rice|Condoleezza Rice]] as Powell's successor.  {{reviewed}}
+
+&lt;br clear=&quot;all&quot; /&gt;
+
+|- valign=&quot;top&quot; 
+|colspan=2|
+
+&lt;center&gt;&lt;font size=+1&gt;
+Regions: [[North America]] - [[South America]] - [[Europe]] - [[Africa]] - [[Middle East]] - [[Asia]] - [[Oceania]]
+&lt;/font&gt;&lt;/center&gt;
+
+|- valign=&quot;top&quot;
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #9f8f9f; padding: .5em 1em 1em; color: #000000; background-color: #f8f8ff&quot;|
+
+&lt;h3&gt;[[Politics and conflicts]]&lt;/h3&gt;
+
+November 14: [[Palestinians to elect new president on January 9]] {{reviewed}}&lt;br&gt;
+November 13: [[President of China lunches with Brazilian President]] {{reviewed}}
+
+
+
+&lt;h3&gt;[[Disasters and accidents]]&lt;/h3&gt;
+
+
+
+&lt;h3&gt;[[Crime and law]]&lt;/h3&gt;
+
+November 15: [[Brazilian soccer player's mother has been kidnapped]] {{reviewed}}&lt;br&gt;
+
+&lt;h3&gt;[[Obituaries]]&lt;/h3&gt;
+
+
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border:1px solid #9f8f9f; padding: .5em 1em 1em; color: #000; background-color: #f8fff8&quot;|
+
+&lt;h3&gt;[[Economy and business]]&lt;/h3&gt;
+
+
+
+&lt;h3&gt;[[Science and technology]]&lt;/h3&gt; 
+
+November 15: [[Big Linux Beta 3 released]]
+
+&lt;h3&gt;[[Culture and entertainment]]&lt;/h3&gt;
+
+
+&lt;h3&gt;[[Sports and weather]]&lt;/h3&gt;
+
+
+|-
+
+
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #cfcfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #f9fcff&quot;|
+&lt;h3 id=&quot;lang&quot;&gt;Wikinews in other languages&lt;/h3&gt;
+{{Wikinewslang}} 
+|- 
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #bfbfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #fff&quot;|
+&lt;h3 id=&quot;sister&quot;&gt;Sister projects&lt;/h3&gt;
+{{Sisterprojects}} 
+
+{{donate}} 
+|}
+
+__NOEDITSECTION__</text>
+      <sha1>jw7kdl4j9urzppdmcr7tsxjdcdeq8xr</sha1>
+    </revision>
+    <revision>
+      <id>745</id>
+      <parentid>735</parentid>
+      <timestamp>2004-11-17T16:40:45Z</timestamp>
+      <contributor>
+        <username>Lyellin~enwikinews</username>
+        <id>33</id>
+      </contributor>
+      <comment>add reviewed</comment>
+      <origin>745</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2814" sha1="hh31c3qjhbd54jk0ceybg5f0qdpi2ya" xml:space="preserve">{|cellspacing=&quot;3&quot; class=&quot;mainpagetable&quot;
+|- valign=&quot;top&quot; 
+|colspan=2|
+Welcome to Wikinews, a [[w:free content|free content]] news source. We started in November 2004, and have written {{NUMBEROFARTICLES}} articles, some of which are still [[Wikinews:Article stages|in development]]. Our [[Wikinews:Mission statement|mission]] is to create a world where citizen journalists report the news on a wide variety of subjects small and large. We need your help! Visit the [[Wikinews:Workspace|Wikinews Workspace]] and find out how '''you''' can become a Wikinews author today! Everything here is under construction, so please give us some time to sort out the policies and procedures before relying on Wikinews as a source.
+
+|-
+|colspan=2 style=&quot;border: 1px solid  #cfcfbf;padding: .5em 1em 1em; color: #000000; background-color: #ffffff&quot;|
+=== Major events ===
+
+* [[Colin Powell Resigns as U.S. Secretary of State, Rice Likely Successor]]. Secretary of State [[w:Colin Powell|Colin Powell]] has resigned his position as of Monday, November 15, and his resignation was accepted by [[w:George W. Bush|President George W. Bush]]. On Tuesday, President Bush announced his nomination of National Security Advisor Dr. [[w:Condoleezza Rice|Condoleezza Rice]] as Powell's successor.  {{reviewed}}
+
+&lt;br clear=&quot;all&quot; /&gt;
+
+|- valign=&quot;top&quot; 
+|colspan=2|
+
+&lt;center&gt;&lt;font size=+1&gt;
+Regions: [[North America]] - [[South America]] - [[Europe]] - [[Africa]] - [[Middle East]] - [[Asia]] - [[Oceania]]
+&lt;/font&gt;&lt;/center&gt;
+
+|- valign=&quot;top&quot;
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #9f8f9f; padding: .5em 1em 1em; color: #000000; background-color: #f8f8ff&quot;|
+
+&lt;h3&gt;[[Politics and conflicts]]&lt;/h3&gt;
+
+November 14: [[Palestinians to elect new president on January 9]] {{reviewed}}&lt;br&gt;
+November 13: [[President of China lunches with Brazilian President]] {{reviewed}}
+
+
+
+&lt;h3&gt;[[Disasters and accidents]]&lt;/h3&gt;
+
+
+
+&lt;h3&gt;[[Crime and law]]&lt;/h3&gt;
+
+November 15: [[Brazilian soccer player's mother has been kidnapped]] {{reviewed}}&lt;br&gt;
+
+&lt;h3&gt;[[Obituaries]]&lt;/h3&gt;
+
+
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border:1px solid #9f8f9f; padding: .5em 1em 1em; color: #000; background-color: #f8fff8&quot;|
+
+&lt;h3&gt;[[Economy and business]]&lt;/h3&gt;
+
+
+
+&lt;h3&gt;[[Science and technology]]&lt;/h3&gt; 
+
+November 15: [[Big Linux Beta 3 released]] {{reviewed}}
+
+&lt;h3&gt;[[Culture and entertainment]]&lt;/h3&gt;
+
+
+&lt;h3&gt;[[Sports and weather]]&lt;/h3&gt;
+
+
+|-
+
+
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #cfcfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #f9fcff&quot;|
+&lt;h3 id=&quot;lang&quot;&gt;Wikinews in other languages&lt;/h3&gt;
+{{Wikinewslang}} 
+|- 
+|colspan=&quot;2&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #bfbfbf; padding: .5em 1em 0; font-size: 100%; color: #000; background-color: #fff&quot;|
+&lt;h3 id=&quot;sister&quot;&gt;Sister projects&lt;/h3&gt;
+{{Sisterprojects}} 
+
+{{donate}} 
+|}
+
+__NOEDITSECTION__</text>
+      <sha1>hh31c3qjhbd54jk0ceybg5f0qdpi2ya</sha1>
+    </revision>
+    <revision>
+      <id>756</id>
+      <parentid>745</parentid>
+      <timestamp>2004-11-17T18:33:45Z</timestamp>
+      <contributor>
+        <username>Lyellin~enwikinews</username>
+        <id>33</id>
+      </contributor>
+      <comment>add another article</comment>
+      <origin>756</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2896" sha1="10khjc094wyikue555v4srhm9i3mnmj" xml:space="preserve">{|cellspacing=&quot;3&quot; class=&quot;mainpagetable&quot;
+|- valign=&quot;top&quot; 
+|colspan=2|
+Welcome to Wikinews, a [[w:free content|free content]] news source. We started in November 2004, and have written {{NUMBEROFARTICLES}} articles, some of which are still [[Wikinews:Article stages|in development]]. Our [[Wikinews:Mission statement|mission]] is to create a world where citizen journalists report the news on a wide variety of subjects small and large. We need your help! Visit the [[Wikinews:Workspace|Wikinews Workspace]] and find out how '''you''' can become a Wikinews author today! Everything here is under construction, so please give us some time to sort out the policies and procedures before relying on Wikinews as a source.
+
+|-
+|colspan=2 style=&quot;border: 1px solid  #cfcfbf;padding: .5em 1em 1em; color: #000000; background-color: #ffffff&quot;|
+=== Major events ===
+
+* [[Colin Powell Resigns as U.S. Secretary of State, Rice Likely Successor]]. Secretary of State [[w:Colin Powell|Colin Powell]] has resigned his position as of Monday, November 15, and his resignation was accepted by [[w:George W. Bush|President George W. Bush]]. On Tuesday, President Bush announced his nomination of National Security Advisor Dr. [[w:Condoleezza Rice|Condoleezza Rice]] as Powell's successor.  {{reviewed}}
+
+&lt;br clear=&quot;all&quot; /&gt;
+
+|- valign=&quot;top&quot; 
+|colspan=2|
+
+&lt;center&gt;&lt;font size=+1&gt;
+Regions: [[North America]] - [[South America]] - [[Europe]] - [[Africa]] - [[Middle East]] - [[Asia]] - [[Oceania]]
+&lt;/font&gt;&lt;/center&gt;
+
+|- valign=&quot;top&quot;
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border: 1px solid #9f8f9f; padding: .5em 1em 1em; color: #000000; background-color: #f8f8ff&quot;|
+
+&lt;h3&gt;[[Politics and conflicts]]&lt;/h3&gt;
+
+November 14: [[Palestinians to elect new president on January 9]] {{reviewed}}&lt;br&gt;
+November 13: [[President of China lunches with Brazilian President]] {{reviewed}}&lt;br&gt;
+November 13: [[Brazilian delegation returns from Arafat funeral]] {{reviewed}}
+
+
+&lt;h3&gt;[[Disasters and accidents]]&lt;/h3&gt;
+
+
+
+&lt;h3&gt;[[Crime and law]]&lt;/h3&gt;
+
+November 15: [[Brazilian soccer player's mother has been kidnapped]] {{reviewed}}&lt;br&gt;
+
+&lt;h3&gt;[[Obituaries]]&lt;/h3&gt;
+
+
+|width=&quot;50%&quot; class=&quot;MainPageBG&quot; style=&quot;border:1px solid #9f8f9f; padding: .5em 1em 1em; color: #000; background-color: #f8fff8&quot;|
+
+&lt;h3&gt;[[Economy and business]]&lt;/h3&gt;
+
+
+
+&lt;h3&gt;[[Science and technology]]&lt;/h3&gt; 
+
+November 15: [[Big Linux Beta 3 released]] {{reviewed}}
+
+&lt;h3&gt;[[Culture and entertainment]]&lt;/h3&gt;
+
+
+&lt;h3&gt;[[Sports and weather]]&lt;/h3&gt;
+

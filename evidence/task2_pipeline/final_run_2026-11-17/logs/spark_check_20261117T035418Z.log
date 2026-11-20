@@ -1,0 +1,52 @@
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/11/17 03:54:21 WARN HiveConf: HiveConf of name hive.server2.thrift.url does not exist
+26/11/17 03:54:23 WARN Client: Neither spark.yarn.jars nor spark.yarn.archive is set, falling back to uploading libraries under SPARK_HOME.
+Spark Web UI available at http://<emr-node>:4040
+Spark master: yarn, Application Id: application_1794881266970_0013
+Time taken: 5.605 seconds, Fetched 1 row(s)
+Hive Session ID = 45eef6f4-2482-4aee-9f55-cc3bfd5906d0
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/11/17 03:54:55 WARN HiveConf: HiveConf of name hive.server2.thrift.url does not exist
+26/11/17 03:54:57 WARN Client: Neither spark.yarn.jars nor spark.yarn.archive is set, falling back to uploading libraries under SPARK_HOME.
+Spark Web UI available at http://<emr-node>:4040
+Spark master: yarn, Application Id: application_1794881266970_0015
+26/11/17 03:55:09 WARN SessionState: METASTORE_FILTER_HOOK will be ignored, since hive.security.authorization.manager is set to instance of HiveAuthorizerFactory.
+Time taken: 6.688 seconds, Fetched 1 row(s)
+Hive Session ID = 954618ac-f50c-4a4b-83a1-16a0577ebf52
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/11/17 03:55:38 WARN HiveConf: HiveConf of name hive.server2.thrift.url does not exist
+26/11/17 03:55:40 WARN Client: Neither spark.yarn.jars nor spark.yarn.archive is set, falling back to uploading libraries under SPARK_HOME.
+Spark Web UI available at http://<emr-node>:4040
+Spark master: yarn, Application Id: application_1794881266970_0017
+26/11/17 03:55:52 WARN SessionState: METASTORE_FILTER_HOOK will be ignored, since hive.security.authorization.manager is set to instance of HiveAuthorizerFactory.
+Time taken: 6.79 seconds, Fetched 1 row(s)
+Hive Session ID = cec19450-8f0b-4368-87c7-167230ba9510
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/11/17 03:56:20 WARN HiveConf: HiveConf of name hive.server2.thrift.url does not exist
+26/11/17 03:56:22 WARN Client: Neither spark.yarn.jars nor spark.yarn.archive is set, falling back to uploading libraries under SPARK_HOME.
+Spark Web UI available at http://<emr-node>:4040
+Spark master: yarn, Application Id: application_1794881266970_0019
+Time taken: 5.577 seconds, Fetched 1 row(s)
+Hive Session ID = 708b3d39-1d33-405c-982c-bbfafea45d4d
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/11/17 03:56:51 WARN HiveConf: HiveConf of name hive.server2.thrift.url does not exist
+26/11/17 03:56:52 WARN Client: Neither spark.yarn.jars nor spark.yarn.archive is set, falling back to uploading libraries under SPARK_HOME.
+Spark Web UI available at http://<emr-node>:4040
+Spark master: yarn, Application Id: application_1794881266970_0021
+26/11/17 03:57:05 WARN SessionState: METASTORE_FILTER_HOOK will be ignored, since hive.security.authorization.manager is set to instance of HiveAuthorizerFactory.
+Time taken: 6.577 seconds, Fetched 1 row(s)
+Hive Session ID = c0f565e8-cac1-451d-9686-b2e580f2aa82
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/11/17 03:57:32 WARN HiveConf: HiveConf of name hive.server2.thrift.url does not exist
+26/11/17 03:57:33 WARN Client: Neither spark.yarn.jars nor spark.yarn.archive is set, falling back to uploading libraries under SPARK_HOME.
+Spark Web UI available at http://<emr-node>:4040
+Spark master: yarn, Application Id: application_1794881266970_0023
+26/11/17 03:57:45 WARN SessionState: METASTORE_FILTER_HOOK will be ignored, since hive.security.authorization.manager is set to instance of HiveAuthorizerFactory.
+Time taken: 5.697 seconds, Fetched 1 row(s)
+Hive Session ID = aa2754d7-481e-4dd1-b6da-01195bb74856

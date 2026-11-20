@@ -1,0 +1,7 @@
+# Hive run summary
+# run stamp (UTC): 20261117T033426Z    RUN_ID: (none)    database: bigdata
+# tables read: /project/raw/daily_price  /project/audit/price_audit  /project/rejected/price_audit  /project/staging/gdelt_daily
+# script  seconds  result  yarn_application
+01_tables  12  SUCCEEDED  none (no job needed)
+02_gdelt_daily  21  SUCCEEDED  application_1794881266970_0007 
+03_trading_calendar  25  FAILED  application_1794881266970_0008 

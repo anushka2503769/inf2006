@@ -1,0 +1,67 @@
+Hive Session ID = e014ecae-f568-41b1-b874-7fbfe40786e1
+
+Logging initialized using configuration in file:/etc/hive/conf.dist/hive-log4j2.properties Async: true
+OK
+Time taken: 0.493 seconds
+OK
+Time taken: 1.368 seconds
+OK
+Time taken: 0.079 seconds
+Query ID = hadoop_20261117033511_25c7eaf2-f4fa-4242-8dbc-f10961e9f98a
+Total jobs = 1
+Launching Job 1 out of 1
+Status: Running (Executing on YARN cluster with App id application_1794881266970_0008)
+
+Map 1: -/-	Reducer 2: 0/2	
+Map 1: 0/2	Reducer 2: 0/2	
+Map 1: 0(+1)/2	Reducer 2: 0/2	
+Map 1: 0(+2)/2	Reducer 2: 0/2	
+Map 1: 1(+1)/2	Reducer 2: 0/2	
+Map 1: 2/2	Reducer 2: 0(+2)/2	
+Map 1: 2/2	Reducer 2: 1(+1)/2	
+Map 1: 2/2	Reducer 2: 2/2	
+Moving data to directory hdfs://<emr-node>:8020/user/hive/warehouse/bigdata.db/trading_days
+OK
+Time taken: 12.795 seconds
+OK
+Time taken: 0.011 seconds
+NoViableAltException(382@[96:1: atomjoinSource : ( tableSource ( lateralView ^)* | virtualTableSource ( lateralView ^)* | ( LPAREN ( KW_WITH | KW_SELECT | KW_MAP | KW_REDUCE | KW_FROM ) )=> subQuerySource ( lateralView ^)* | ( LPAREN LPAREN atomSelectStatement RPAREN setOperator )=> subQuerySource ( lateralView ^)* | partitionedTableFunction ( lateralView ^)* | LPAREN ! joinSource RPAREN !);])
+	at org.antlr.runtime.DFA.noViableAlt(DFA.java:158)
+	at org.antlr.runtime.DFA.predict(DFA.java:116)
+	at org.apache.hadoop.hive.ql.parse.HiveParser_FromClauseParser.atomjoinSource(HiveParser_FromClauseParser.java:1599)
+	at org.apache.hadoop.hive.ql.parse.HiveParser_FromClauseParser.joinSource(HiveParser_FromClauseParser.java:1909)
+	at org.apache.hadoop.hive.ql.parse.HiveParser_FromClauseParser.fromSource(HiveParser_FromClauseParser.java:1533)
+	at org.apache.hadoop.hive.ql.parse.HiveParser_FromClauseParser.fromClause(HiveParser_FromClauseParser.java:1376)
+	at org.apache.hadoop.hive.ql.parse.HiveParser.fromClause(HiveParser.java:45730)
+	at org.apache.hadoop.hive.ql.parse.HiveParser.atomSelectStatement(HiveParser.java:40330)
+	at org.apache.hadoop.hive.ql.parse.HiveParser.selectStatement(HiveParser.java:40582)
+	at org.apache.hadoop.hive.ql.parse.HiveParser.selectStatementWithCTE(HiveParser.java:41270)
+	at org.apache.hadoop.hive.ql.parse.HiveParser.createTableStatement(HiveParser.java:6955)
+	at org.apache.hadoop.hive.ql.parse.HiveParser.ddlStatement(HiveParser.java:4381)
+	at org.apache.hadoop.hive.ql.parse.HiveParser.execStatement(HiveParser.java:2580)
+	at org.apache.hadoop.hive.ql.parse.HiveParser.statement(HiveParser.java:1435)
+	at org.apache.hadoop.hive.ql.parse.ParseDriver.parse(ParseDriver.java:230)
+	at org.apache.hadoop.hive.ql.parse.ParseUtils.parse(ParseUtils.java:79)
+	at org.apache.hadoop.hive.ql.parse.ParseUtils.parse(ParseUtils.java:72)
+	at org.apache.hadoop.hive.ql.Driver.compile(Driver.java:631)
+	at org.apache.hadoop.hive.ql.Driver.compileInternal(Driver.java:1871)
+	at org.apache.hadoop.hive.ql.Driver.compileAndRespond(Driver.java:1818)
+	at org.apache.hadoop.hive.ql.Driver.compileAndRespond(Driver.java:1813)
+	at org.apache.hadoop.hive.ql.reexec.ReExecDriver.compileAndRespond(ReExecDriver.java:126)
+	at org.apache.hadoop.hive.ql.reexec.ReExecDriver.run(ReExecDriver.java:214)
+	at org.apache.hadoop.hive.cli.CliDriver.processLocalCmd(CliDriver.java:242)
+	at org.apache.hadoop.hive.cli.CliDriver.processCmd(CliDriver.java:191)
+	at org.apache.hadoop.hive.cli.CliDriver.processLine(CliDriver.java:405)
+	at org.apache.hadoop.hive.cli.CliDriver.processLine(CliDriver.java:338)
+	at org.apache.hadoop.hive.cli.CliDriver.processReader(CliDriver.java:485)
+	at org.apache.hadoop.hive.cli.CliDriver.processFile(CliDriver.java:513)
+	at org.apache.hadoop.hive.cli.CliDriver.executeDriver(CliDriver.java:821)
+	at org.apache.hadoop.hive.cli.CliDriver.run(CliDriver.java:787)
+	at org.apache.hadoop.hive.cli.CliDriver.main(CliDriver.java:709)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:330)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:245)
+FAILED: ParseException line 57:11 cannot recognize input near 'linked' ';' '<EOF>' in joinSource

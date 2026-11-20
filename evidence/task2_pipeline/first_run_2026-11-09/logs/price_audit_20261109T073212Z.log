@@ -1,0 +1,96 @@
+packageJobJar: [] [/usr/lib/hadoop/hadoop-streaming-3.4.1-amzn-2.jar] /tmp/streamjob3537869392720445529.jar tmpDir=null
+2026-11-09 07:32:17,830 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at <emr-node>/<private-ip>:8032
+2026-11-09 07:32:17,954 INFO client.AHSProxy: Connecting to Application History server at <emr-node>/<private-ip>:10200
+2026-11-09 07:32:18,008 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at <emr-node>/<private-ip>:8032
+2026-11-09 07:32:18,008 INFO client.AHSProxy: Connecting to Application History server at <emr-node>/<private-ip>:10200
+2026-11-09 07:32:18,205 INFO mapreduce.JobResourceUploader: Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/hadoop/.staging/job_1794207896977_0003
+2026-11-09 07:32:18,569 INFO lzo.GPLNativeCodeLoader: Loaded native gpl library
+2026-11-09 07:32:18,573 INFO lzo.LzoCodec: Successfully loaded & initialized native-lzo library [hadoop-lzo rev 049362b7cf53ff5f739d6b1532457f2c6cd495e8]
+2026-11-09 07:32:18,624 INFO mapred.FileInputFormat: Total input files to process : 1
+2026-11-09 07:32:18,670 INFO mapreduce.JobSubmitter: number of splits:8
+2026-11-09 07:32:18,861 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1794207896977_0003
+2026-11-09 07:32:18,861 INFO mapreduce.JobSubmitter: Executing with tokens: []
+2026-11-09 07:32:19,033 INFO conf.Configuration: resource-types.xml not found
+2026-11-09 07:32:19,033 INFO resource.ResourceUtils: Unable to find 'resource-types.xml'.
+2026-11-09 07:32:19,095 INFO impl.YarnClientImpl: Submitted application application_1794207896977_0003
+2026-11-09 07:32:19,121 INFO mapreduce.Job: The url to track the job: http://<emr-node>:20888/proxy/application_1794207896977_0003/
+2026-11-09 07:32:19,123 INFO mapreduce.Job: Running job: job_1794207896977_0003
+2026-11-09 07:32:25,193 INFO mapreduce.Job: Job job_1794207896977_0003 running in uber mode : false
+2026-11-09 07:32:25,194 INFO mapreduce.Job:  map 0% reduce 0%
+2026-11-09 07:32:35,274 INFO mapreduce.Job:  map 25% reduce 0%
+2026-11-09 07:32:44,321 INFO mapreduce.Job:  map 75% reduce 0%
+2026-11-09 07:32:45,326 INFO mapreduce.Job:  map 88% reduce 0%
+2026-11-09 07:32:46,331 INFO mapreduce.Job:  map 100% reduce 0%
+2026-11-09 07:32:50,352 INFO mapreduce.Job:  map 100% reduce 67%
+2026-11-09 07:32:51,359 INFO mapreduce.Job:  map 100% reduce 100%
+2026-11-09 07:32:51,365 INFO mapreduce.Job: Job job_1794207896977_0003 completed successfully
+2026-11-09 07:32:51,451 INFO mapreduce.Job: Counters: 61
+	File System Counters
+		FILE: Number of bytes read=2918538
+		FILE: Number of bytes written=9745877
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=28834998
+		HDFS: Number of bytes written=24249
+		HDFS: Number of read operations=39
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=6
+		HDFS: Number of bytes read erasure-coded=0
+	Job Counters 
+		Killed map tasks=1
+		Launched map tasks=8
+		Launched reduce tasks=3
+		Data-local map tasks=8
+		Total time spent by all maps in occupied slots (ms)=317724672
+		Total time spent by all reduces in occupied slots (ms)=91877376
+		Total time spent by all map tasks (ms)=103426
+		Total time spent by all reduce tasks (ms)=14954
+		Total vcore-milliseconds taken by all map tasks=103426
+		Total vcore-milliseconds taken by all reduce tasks=14954
+		Total megabyte-milliseconds taken by all map tasks=317724672
+		Total megabyte-milliseconds taken by all reduce tasks=91877376
+	Map-Reduce Framework
+		Map input records=605911
+		Map output records=605910
+		Map output bytes=12181109
+		Map output materialized bytes=3208461
+		Input split bytes=1080
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=505
+		Reduce shuffle bytes=3208461
+		Reduce input records=605910
+		Reduce output records=505
+		Spilled Records=1211820
+		Shuffled Maps =24
+		Failed Shuffles=0
+		Merged Map outputs=24
+		GC time elapsed (ms)=612
+		CPU time spent (ms)=39770
+		Physical memory (bytes) snapshot=5534339072
+		Virtual memory (bytes) snapshot=57928241152
+		Total committed heap usage (bytes)=5469372416
+		Peak Map Physical memory (bytes)=576122880
+		Peak Map Virtual memory (bytes)=4533317632
+		Peak Reduce Physical memory (bytes)=361250816
+		Peak Reduce Virtual memory (bytes)=7225212928
+	PriceAudit
+		HeaderRows=1
+		Reason_MISSING=11
+		Reason_OHLC=12
+		RowsBad=23
+		RowsOK=605887
+		RowsRead=605910
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=28833918
+	File Output Format Counters 
+		Bytes Written=24249
+2026-11-09 07:32:51,451 INFO streaming.StreamJob: Output directory: /project/audit/price_audit

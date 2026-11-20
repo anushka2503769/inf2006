@@ -1,0 +1,5 @@
+E2 series A, row 300, date 2014-04-21
+E2 same-day z    by hand -1.8261376613   Spark -1.8261376613   difference 3.55e-15
+E2 5-day average by hand -0.4982575305   Spark -0.4982575305   difference 2.66e-15
+E2 for contrast, z with the current day inside the window would be -1.7437911738
+E2 RESULT PASS

@@ -1,0 +1,19 @@
+Hive Session ID = 4fbe1c21-df00-4f7c-a578-9d9c1528c8ea
+
+Logging initialized using configuration in file:/etc/hive/conf.dist/hive-log4j2.properties Async: true
+OK
+Time taken: 0.602 seconds
+OK
+Time taken: 0.031 seconds
+Query ID = hadoop_20261117033449_5a2a47c3-10b3-4c6d-8846-db7d3e699d47
+Total jobs = 1
+Launching Job 1 out of 1
+Status: Running (Executing on YARN cluster with App id application_1794881266970_0007)
+
+Map 1: -/-	
+Map 1: 0/1	
+Map 1: 0(+1)/1	
+Map 1: 1/1	
+Moving data to directory hdfs://<emr-node>:8020/user/hive/warehouse/bigdata.db/gdelt_daily
+OK
+Time taken: 10.246 seconds

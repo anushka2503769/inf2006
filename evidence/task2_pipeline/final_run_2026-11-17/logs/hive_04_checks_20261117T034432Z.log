@@ -1,0 +1,185 @@
+Hive Session ID = f964fddd-2310-4bf4-947c-ae584d280450
+
+Logging initialized using configuration in file:/etc/hive/conf.dist/hive-log4j2.properties Async: true
+OK
+Time taken: 0.619 seconds
+Query ID = hadoop_20261117034540_56a8cfd1-3e7b-46ce-8a94-4631e1813349
+Total jobs = 1
+Launching Job 1 out of 1
+Status: Running (Executing on YARN cluster with App id application_1794881266970_0012)
+
+Map 1: -/-	Reducer 2: 0/1	
+Map 1: 0/2	Reducer 2: 0/1	
+Map 1: 0(+1)/2	Reducer 2: 0/1	
+Map 1: 0(+2)/2	Reducer 2: 0/1	
+Map 1: 2/2	Reducer 2: 0(+1)/1	
+Map 1: 2/2	Reducer 2: 1/1	
+OK
+raw_prices rows	605910
+Time taken: 9.874 seconds, Fetched: 1 row(s)
+Query ID = hadoop_20261117034550_252de89c-dcec-420b-9aba-686e01566f7d
+Total jobs = 1
+Launching Job 1 out of 1
+Status: Running (Executing on YARN cluster with App id application_1794881266970_0012)
+
+Map 1: -/-	Reducer 2: 0/1	
+Map 1: 1/1	Reducer 2: 0(+1)/1	
+Map 1: 1/1	Reducer 2: 1/1	
+OK
+price_audit totals	605910	605887	23	0	0	11	12	505
+Time taken: 0.859 seconds, Fetched: 1 row(s)
+Warning: Map Join MAPJOIN[17][bigTable=?] in task 'Reducer 2' is a cross product
+Query ID = hadoop_20261117034551_d237b5c3-6509-41db-a4b5-fb556913e484
+Total jobs = 1
+Launching Job 1 out of 1
+Status: Running (Executing on YARN cluster with App id application_1794881266970_0012)
+
+Map 1: -/-	Map 3: -/-	Reducer 2: 0/1	Reducer 4: 0/1	
+Map 1: 2/2	Map 3: 1/1	Reducer 2: 0(+1)/1	Reducer 4: 1/1	
+Map 1: 2/2	Map 3: 1/1	Reducer 2: 1/1	Reducer 4: 1/1	
+OK
+price reconciliation	605910	605910	0	605887	23	0	0	0
+Time taken: 1.008 seconds, Fetched: 1 row(s)
+Query ID = hadoop_20261117034552_3eb46ff0-0607-49d5-8fc3-00aedecb426d
+Total jobs = 1
+Launching Job 1 out of 1
+Status: Running (Executing on YARN cluster with App id application_1794881266970_0012)
+
+Map 1: -/-	Reducer 2: 0/1	
+Map 1: 1/1	Reducer 2: 1/1	
+OK
+rejected rows saved	23
+Time taken: 0.489 seconds, Fetched: 1 row(s)
+Query ID = hadoop_20261117034553_f92fc08a-a17e-4053-8e2c-7f3d5319bb9b
+Total jobs = 1
+Launching Job 1 out of 1
+Status: Running (Executing on YARN cluster with App id application_1794881266970_0012)
+
+Map 1: -/-	Reducer 2: 0/1	
+Map 1: 1/1	Reducer 2: 1/1	
+OK
+bad rows counted by audit	23
+Time taken: 0.49 seconds, Fetched: 1 row(s)
+Query ID = hadoop_20261117034553_8533feb8-efe0-4ea5-a436-fe947c966277
+Total jobs = 1
+Launching Job 1 out of 1
+Status: Running (Executing on YARN cluster with App id application_1794881266970_0012)
+
+Map 1: -/-	Reducer 2: 0/2	Reducer 3: 0/1	
+Map 1: 1/1	Reducer 2: 2/2	Reducer 3: 1/1	
+OK
+rejects by reason	OHLC	12
+rejects by reason	MISSING	11
+Time taken: 0.735 seconds, Fetched: 2 row(s)
+Query ID = hadoop_20261117034554_0d43f82f-d2e5-45a1-aa3b-90a57d2606e9
+Total jobs = 1
+Launching Job 1 out of 1
+Status: Running (Executing on YARN cluster with App id application_1794881266970_0012)
+
+Map 1: -/-	Reducer 2: 0/1	
+Map 1: 0(+2)/2	Reducer 2: 0/1	
+Map 1: 2/2	Reducer 2: 1/1	
+OK
+header rows in raw_prices (expect 0)	0
+Time taken: 0.968 seconds, Fetched: 1 row(s)
+Query ID = hadoop_20261117034555_f2cb4946-1ee9-421b-816a-0b600f00a816
+Total jobs = 1
+Launching Job 1 out of 1
+Status: Running (Executing on YARN cluster with App id application_1794881266970_0012)
+
+Map 1: -/-	Reducer 2: 0/1	
+Map 1: 0(+2)/2	Reducer 2: 0/1	
+Map 1: 2/2	Reducer 2: 0(+1)/1	
+Map 1: 2/2	Reducer 2: 1/1	
+OK
+raw_prices_dated rows / rows without a usable date	605910	0
+Time taken: 1.371 seconds, Fetched: 1 row(s)
+Query ID = hadoop_20261117034556_2c61d703-af5c-4008-835d-c91e9a847e55
+Total jobs = 1
+Launching Job 1 out of 1
+Status: Running (Executing on YARN cluster with App id application_1794881266970_0012)
+
+Map 1: -/-	Reducer 2: 0/1	
+Map 1: 1/1	Reducer 2: 1/1	
+OK
+worst tickers	O	1217	4	0	2013-02-08	2017-12-29
+worst tickers	DHR	1217	3	0	2013-02-08	2017-12-29
+worst tickers	UA	438	2	0	2016-04-07	2017-12-29
+worst tickers	WRK	636	2	0	2015-06-24	2017-12-29
+worst tickers	AOS	1233	1	0	2013-02-08	2017-12-29
+worst tickers	BBY	1233	1	0	2013-02-08	2017-12-29
+worst tickers	BHF	117	1	0	2017-07-17	2017-12-29
+worst tickers	CHD	1233	1	0	2013-02-08	2017-12-29
+worst tickers	CHK	1233	1	0	2013-02-08	2017-12-29
+worst tickers	ES	1223	1	0	2013-02-08	2017-12-29
+Time taken: 0.479 seconds, Fetched: 10 row(s)
+Query ID = hadoop_20261117034557_8f1ce478-7d30-4084-b495-fad407398773
+Total jobs = 1
+Launching Job 1 out of 1
+Status: Running (Executing on YARN cluster with App id application_1794881266970_0012)
+
+Map 1: -/-	Reducer 2: 0/2	Reducer 3: 0/1	
+Map 1: 1/1	Reducer 2: 2/2	Reducer 3: 1/1	
+OK
+weeks per split	train	152	151	7	2013-02-08	2015-12-31
+weeks per split	validation	52	51	1	2016-01-08	2016-12-30
+weeks per split	test	52	51	1	2017-01-06	2017-12-29
+Time taken: 0.669 seconds, Fetched: 3 row(s)
+Query ID = hadoop_20261117034558_2262cd71-210a-4d01-a7a9-ece613fbf18a
+Total jobs = 1
+Launching Job 1 out of 1
+Status: Running (Executing on YARN cluster with App id application_1794881266970_0012)
+
+Map 1: -/-	Reducer 2: 0/1	
+Map 1: -/-	Reducer 2: 1/1	
+OK
+non-consecutive weeks (expect 0)	0
+Time taken: 0.398 seconds, Fetched: 1 row(s)
+Query ID = hadoop_20261117034558_83f044d5-cad0-4d7a-92fc-209e6fc050f3
+Total jobs = 1
+Launching Job 1 out of 1
+Status: Running (Executing on YARN cluster with App id application_1794881266970_0012)
+
+Map 1: -/-	Reducer 2: 0/2	Reducer 3: 0/1	
+Map 1: 1/1	Reducer 2: 2/2	Reducer 3: 1/1	
+OK
+weeks per gdelt_split	train	27	26	26	2015-07-02	2015-12-31
+weeks per gdelt_split	validation	52	51	52	2016-01-08	2016-12-30
+weeks per gdelt_split	test	26	25	26	2017-01-06	2017-06-30
+Time taken: 0.59 seconds, Fetched: 3 row(s)
+Query ID = hadoop_20261117034559_c3ae935f-b3f0-4d2c-a87d-0953af3cf893
+Total jobs = 1
+Launching Job 1 out of 1
+Status: Running (Executing on YARN cluster with App id application_1794881266970_0012)
+
+Map 1: -/-	Reducer 2: 0/1	
+Map 1: 1/1	Reducer 2: 1/1	
+OK
+gdelt_daily coverage	731	2015-07-01	2017-06-30	144207180	0
+Time taken: 0.363 seconds, Fetched: 1 row(s)
+Query ID = hadoop_20261117034559_2c2c5f0e-7b82-4bd0-8c09-b9c24aee1ff8
+Total jobs = 1
+Launching Job 1 out of 1
+Status: Running (Executing on YARN cluster with App id application_1794881266970_0012)
+
+Map 1: -/-	Reducer 2: 0/1	
+Map 1: 1/1	Reducer 2: 1/1	
+OK
+gdelt missing days (expect 0)	0
+Time taken: 0.425 seconds, Fetched: 1 row(s)
+Query ID = hadoop_20261117034559_3dd9c881-eec3-4ed0-88c7-8a8b3009eb2b
+Total jobs = 1
+Launching Job 1 out of 1
+Status: Running (Executing on YARN cluster with App id application_1794881266970_0012)
+
+Map 1: -/-	Reducer 2: 0/1	
+Map 1: 1/1	Reducer 2: 1/1	
+OK
+gdelt rows in output	144207180	0	144207180
+Time taken: 0.32 seconds, Fetched: 1 row(s)
+
+== GDELT job counters, for comparison with 'gdelt rows in output' above ==
+from evidence/logs/gdelt_daily_20261117T025210Z.log
+  RowsRead=144207180
+  RowsUsed=144207180
+RowsRead should equal events + bad_rows + Bad_FieldCount + Bad_DateAdded.

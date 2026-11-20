@@ -1,0 +1,38 @@
+# Hadoop Streaming run summary
+# run stamp (UTC): 20261117T025210Z    RUN_ID: (none)    GDELT mapper: inmapper    combine splits (MB): 0
+# job  job_id  seconds  result
+price_audit  job_1794881266970_0003  34  SUCCEEDED
+    Map input records=605911
+    Map output records=605910
+    Reduce shuffle bytes=2719333
+    Reduce output records=505
+    Reason_MISSING=11
+    Reason_OHLC=12
+    RowsBad=23
+    RowsOK=605887
+    RowsRead=605910
+    Bytes Read=29841379
+    output /project/audit/price_audit: rows=505 bytes=24249 sha256_of_sorted_lines=e321e2049f1e45008a809a0078d9aaca3dc91ca29deb1d85d003efbb2c8e9f9a
+price_rejects  job_1794881266970_0004  30  SUCCEEDED
+    Map input records=605911
+    Map output records=23
+    Reason_MISSING=11
+    Reason_OHLC=12
+    RejectsWritten=23
+    RowsBad=23
+    RowsOK=605887
+    RowsRead=605910
+    Bytes Read=29841379
+    output /project/rejected/price_audit: rows=23 bytes=1394 sha256_of_sorted_lines=0f85601e3f07d2650b42712c46c8d185c404829fa81322ff83d0ef8f9f90994f
+gdelt_daily  job_1794881266970_0005  2028  SUCCEEDED
+    Map input records=144207180
+    Map output records=731
+    Reduce shuffle bytes=86439
+    Reduce output records=731
+    RowsRead=144207180
+    RowsUsed=144207180
+    Bytes Read=54706262609
+    output /project/staging/gdelt_daily: rows=731 bytes=49191 sha256_of_sorted_lines=1ffed83d6a7514478b3be2f59dc45e33211ffaf4397052c9c77bc3245680f01e
+# HDFS space after the run (hdfs dfs -df -h /)
+    Filesystem                                    Size     Used  Available  Use%
+    hdfs://<emr-node>:8020  188.9 G  103.0 G     84.6 G   55%

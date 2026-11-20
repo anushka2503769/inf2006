@@ -1,0 +1,747 @@
+{
+  "run_id": "20261115T171630Z",
+  "spark_version": "3.5.5-amzn-1",
+  "application_id": "application_1794751225091_0026",
+  "on_emr": true,
+  "hive_db": "bigdata",
+  "s3_copy": "s3://big-date-team18-bucket/outputs",
+  "data_source": "hive",
+  "seed": 42,
+  "out_suffix": "",
+  "final_model": "full_price",
+  "task": "classify whether the next anchor-date open is above this anchor-date open",
+  "features_price": [
+    "pchg_1d",
+    "pchg_5d",
+    "pchg_20d",
+    "vol_ratio_5_20",
+    "volatility_20d",
+    "range_prev"
+  ],
+  "features_gdelt": [
+    "g_events_7d",
+    "g_events_chg",
+    "g_tone_7d",
+    "g_neg_share_7d",
+    "g_conflict_share_7d"
+  ],
+  "split_profile": {
+    "train": {
+      "rows": 70829,
+      "series": 495,
+      "share_up": 0.5363,
+      "gdelt_rows": 11811,
+      "first_date": "2013-03-15",
+      "last_date": "2015-12-24"
+    },
+    "val": {
+      "rows": 25340,
+      "series": 498,
+      "share_up": 0.5394,
+      "gdelt_rows": 25340,
+      "first_date": "2016-01-08",
+      "last_date": "2016-12-23"
+    },
+    "test": {
+      "rows": 25582,
+      "series": 504,
+      "share_up": 0.5639,
+      "gdelt_rows": 13005,
+      "first_date": "2017-01-06",
+      "last_date": "2017-12-22"
+    }
+  },
+  "frozen_choices": {
+    "full_price": {
+      "features": [
+        "pchg_1d",
+        "pchg_5d",
+        "pchg_20d",
+        "vol_ratio_5_20",
+        "volatility_20d",
+        "range_prev"
+      ],
+      "algo": "lr",
+      "params": {
+        "regParam": 0.01,
+        "elasticNetParam": 0.5
+      }
+    },
+    "gdelt_price_only": {
+      "features": [
+        "pchg_1d",
+        "pchg_5d",
+        "pchg_20d",
+        "vol_ratio_5_20",
+        "volatility_20d",
+        "range_prev"
+      ],
+      "algo": "rf",
+      "params": {
+        "numTrees": 50,
+        "maxDepth": 6
+      }
+    },
+    "gdelt_price_gdelt": {
+      "features": [
+        "pchg_1d",
+        "pchg_5d",
+        "pchg_20d",
+        "vol_ratio_5_20",
+        "volatility_20d",
+        "range_prev",
+        "g_events_7d",
+        "g_events_chg",
+        "g_tone_7d",
+        "g_neg_share_7d",
+        "g_conflict_share_7d"
+      ],
+      "algo": "lr",
+      "params": {
+        "regParam": 0.1,
+        "elasticNetParam": 0.0
+      }
+    }
+  },
+  "results": {
+    "full_price": {
+      "rows": {
+        "train": 70829,
+        "val": 25340,
+        "test": 25582
+      },
+      "baseline": {
+        "majority_class": 1.0,
+        "train_share_up": 0.5363,
+        "val": {
+          "n": 25340,
+          "share_up": 0.539384,
+          "accuracy": 0.539384,
+          "tp": 13668,
+          "fp": 11672,
+          "fn": 0,
+          "tn": 0,
+          "logloss": 0.690061,
+          "brier": 0.248459,
+          "precision_up": 0.539384,
+          "recall_up": 1.0,
+          "f1_up": 0.700779,
+          "auc": 0.5
+        },
+        "test": {
+          "n": 25582,
+          "share_up": 0.563873,
+          "accuracy": 0.563873,
+          "tp": 14425,
+          "fp": 11157,
+          "fn": 0,
+          "tn": 0,
+          "logloss": 0.686503,
+          "brier": 0.246683,
+          "precision_up": 0.563873,
+          "recall_up": 1.0,
+          "f1_up": 0.721124,
+          "auc": 0.5
+        }
+      },
+      "model": {
+        "val": {
+          "n": 25340,
+          "share_up": 0.539384,
+          "accuracy": 0.539305,
+          "tp": 13666,
+          "fp": 11672,
+          "fn": 2,
+          "tn": 0,
+          "logloss": 0.689649,
+          "brier": 0.248254,
+          "precision_up": 0.539348,
+          "recall_up": 0.999854,
+          "f1_up": 0.700713,
+          "auc": 0.521807
+        },
+        "test": {
+          "n": 25582,
+          "share_up": 0.563873,
+          "accuracy": 0.563873,
+          "tp": 14425,
+          "fp": 11157,
+          "fn": 0,
+          "tn": 0,
+          "logloss": 0.68682,
+          "brier": 0.24684,
+          "precision_up": 0.563873,
+          "recall_up": 1.0,
+          "f1_up": 0.721124,
+          "auc": 0.49804
+        }
+      }
+    },
+    "gdelt_price_only": {
+      "rows": {
+        "train": 11811,
+        "val": 25340,
+        "test": 13005
+      },
+      "baseline": {
+        "majority_class": 0.0,
+        "train_share_up": 0.4652,
+        "val": {
+          "n": 25340,
+          "share_up": 0.539384,
+          "accuracy": 0.460616,
+          "tp": 0,
+          "fp": 0,
+          "fn": 13668,
+          "tn": 11672,
+          "logloss": 0.701053,
+          "brier": 0.253946,
+          "precision_up": null,
+          "recall_up": 0.0,
+          "f1_up": null,
+          "auc": 0.5
+        },
+        "test": {
+          "n": 13005,
+          "share_up": 0.542022,
+          "accuracy": 0.457978,
+          "tp": 0,
+          "fp": 0,
+          "fn": 7049,
+          "tn": 5956,
+          "logloss": 0.70142,
+          "brier": 0.254129,
+          "precision_up": null,
+          "recall_up": 0.0,
+          "f1_up": null,
+          "auc": 0.5
+        }
+      },
+      "model": {
+        "val": {
+          "n": 25340,
+          "share_up": 0.539384,
+          "accuracy": 0.481768,
+          "tp": 3655,
+          "fp": 3119,
+          "fn": 10013,
+          "tn": 8553,
+          "logloss": 0.714002,
+          "brier": 0.259679,
+          "precision_up": 0.539563,
+          "recall_up": 0.267413,
+          "f1_up": 0.357597,
+          "auc": 0.507207
+        },
+        "test": {
+          "n": 13005,
+          "share_up": 0.542022,
+          "accuracy": 0.47105,
+          "tp": 1682,
+          "fp": 1512,
+          "fn": 5367,
+          "tn": 4444,
+          "logloss": 0.736341,
+          "brier": 0.269808,
+          "precision_up": 0.526612,
+          "recall_up": 0.238615,
+          "f1_up": 0.328419,
+          "auc": 0.483536
+        }
+      }
+    },
+    "gdelt_price_gdelt": {
+      "rows": {
+        "train": 11811,
+        "val": 25340,
+        "test": 13005
+      },
+      "baseline": {
+        "majority_class": 0.0,
+        "train_share_up": 0.4652,
+        "val": {
+          "n": 25340,
+          "share_up": 0.539384,
+          "accuracy": 0.460616,
+          "tp": 0,
+          "fp": 0,
+          "fn": 13668,
+          "tn": 11672,
+          "logloss": 0.701053,
+          "brier": 0.253946,
+          "precision_up": null,
+          "recall_up": 0.0,
+          "f1_up": null,
+          "auc": 0.5
+        },
+        "test": {
+          "n": 13005,
+          "share_up": 0.542022,
+          "accuracy": 0.457978,
+          "tp": 0,
+          "fp": 0,
+          "fn": 7049,
+          "tn": 5956,
+          "logloss": 0.70142,
+          "brier": 0.254129,
+          "precision_up": null,
+          "recall_up": 0.0,
+          "f1_up": null,
+          "auc": 0.5
+        }
+      },
+      "model": {
+        "val": {
+          "n": 25340,
+          "share_up": 0.539384,
+          "accuracy": 0.502447,
+          "tp": 6671,
+          "fp": 5611,
+          "fn": 6997,
+          "tn": 6061,
+          "logloss": 0.720747,
+          "brier": 0.261789,
+          "precision_up": 0.543153,
+          "recall_up": 0.488074,
+          "f1_up": 0.514143,
+          "auc": 0.511138
+        },
+        "test": {
+          "n": 13005,
+          "share_up": 0.542022,
+          "accuracy": 0.487505,
+          "tp": 4499,
+          "fp": 4115,
+          "fn": 2550,
+          "tn": 1841,
+          "logloss": 0.739406,
+          "brier": 0.27153,
+          "precision_up": 0.522289,
+          "recall_up": 0.638247,
+          "f1_up": 0.574475,
+          "auc": 0.443937
+        }
+      }
+    }
+  },
+  "comparisons": {
+    "accuracy_gain_price_plus_gdelt_vs_price_only": {
+      "diff": 0.016455,
+      "ci95": [
+        -0.068379,
+        0.099938
+      ],
+      "n_weeks": 26,
+      "n_boot": 2000
+    },
+    "accuracy_gain_full_price_model_vs_baseline": {
+      "diff": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "n_weeks": 51,
+      "n_boot": 2000
+    }
+  },
+  "reliability_by_quarter_and_volatility": [
+    {
+      "period": "2017Q1",
+      "vol_group": "1_low",
+      "n": 3109,
+      "share_up": 0.563,
+      "acc_model": 0.5629,
+      "acc_baseline": 0.5629,
+      "lift": 0.0
+    },
+    {
+      "period": "2017Q1",
+      "vol_group": "2_mid",
+      "n": 1859,
+      "share_up": 0.559,
+      "acc_model": 0.5594,
+      "acc_baseline": 0.5594,
+      "lift": 0.0
+    },
+    {
+      "period": "2017Q1",
+      "vol_group": "3_high",
+      "n": 1528,
+      "share_up": 0.526,
+      "acc_model": 0.5262,
+      "acc_baseline": 0.5262,
+      "lift": 0.0
+    },
+    {
+      "period": "2017Q2",
+      "vol_group": "1_low",
+      "n": 3399,
+      "share_up": 0.548,
+      "acc_model": 0.5475,
+      "acc_baseline": 0.5475,
+      "lift": 0.0
+    },
+    {
+      "period": "2017Q2",
+      "vol_group": "2_mid",
+      "n": 1680,
+      "share_up": 0.514,
+      "acc_model": 0.5137,
+      "acc_baseline": 0.5137,
+      "lift": 0.0
+    },
+    {
+      "period": "2017Q2",
+      "vol_group": "3_high",
+      "n": 1430,
+      "share_up": 0.511,
+      "acc_model": 0.5112,
+      "acc_baseline": 0.5112,
+      "lift": 0.0
+    },
+    {
+      "period": "2017Q3",
+      "vol_group": "1_low",
+      "n": 2980,
+      "share_up": 0.577,
+      "acc_model": 0.5772,
+      "acc_baseline": 0.5772,
+      "lift": 0.0
+    },
+    {
+      "period": "2017Q3",
+      "vol_group": "2_mid",
+      "n": 1893,
+      "share_up": 0.606,
+      "acc_model": 0.6064,
+      "acc_baseline": 0.6064,
+      "lift": 0.0
+    },
+    {
+      "period": "2017Q3",
+      "vol_group": "3_high",
+      "n": 1656,
+      "share_up": 0.586,
+      "acc_model": 0.5857,
+      "acc_baseline": 0.5857,
+      "lift": 0.0
+    },
+    {
+      "period": "2017Q4",
+      "vol_group": "1_low",
+      "n": 2743,
+      "share_up": 0.58,
+      "acc_model": 0.58,
+      "acc_baseline": 0.58,
+      "lift": 0.0
+    },
+    {
+      "period": "2017Q4",
+      "vol_group": "2_mid",
+      "n": 1599,
+      "share_up": 0.602,
+      "acc_model": 0.6016,
+      "acc_baseline": 0.6016,
+      "lift": 0.0
+    },
+    {
+      "period": "2017Q4",
+      "vol_group": "3_high",
+      "n": 1706,
+      "share_up": 0.577,
+      "acc_model": 0.5774,
+      "acc_baseline": 0.5774,
+      "lift": 0.0
+    }
+  ],
+  "validation_search": {
+    "full_price": [
+      {
+        "algo": "lr",
+        "params": {
+          "regParam": 0.01,
+          "elasticNetParam": 0.0
+        },
+        "val_auc": 0.519958,
+        "val_accuracy": 0.538792,
+        "val_logloss": 0.689636
+      },
+      {
+        "algo": "lr",
+        "params": {
+          "regParam": 0.01,
+          "elasticNetParam": 0.5
+        },
+        "val_auc": 0.521808,
+        "val_accuracy": 0.539305,
+        "val_logloss": 0.689649
+      },
+      {
+        "algo": "lr",
+        "params": {
+          "regParam": 0.1,
+          "elasticNetParam": 0.0
+        },
+        "val_auc": 0.521173,
+        "val_accuracy": 0.539345,
+        "val_logloss": 0.689563
+      },
+      {
+        "algo": "lr",
+        "params": {
+          "regParam": 0.1,
+          "elasticNetParam": 0.5
+        },
+        "val_auc": 0.5,
+        "val_accuracy": 0.539384,
+        "val_logloss": 0.690061
+      },
+      {
+        "algo": "rf",
+        "params": {
+          "numTrees": 50,
+          "maxDepth": 4
+        },
+        "val_auc": 0.517576,
+        "val_accuracy": 0.539463,
+        "val_logloss": 0.689685
+      },
+      {
+        "algo": "rf",
+        "params": {
+          "numTrees": 50,
+          "maxDepth": 6
+        },
+        "val_auc": 0.514475,
+        "val_accuracy": 0.536582,
+        "val_logloss": 0.690406
+      },
+      {
+        "algo": "rf",
+        "params": {
+          "numTrees": 100,
+          "maxDepth": 4
+        },
+        "val_auc": 0.516119,
+        "val_accuracy": 0.537964,
+        "val_logloss": 0.689805
+      },
+      {
+        "algo": "rf",
+        "params": {
+          "numTrees": 100,
+          "maxDepth": 6
+        },
+        "val_auc": 0.511175,
+        "val_accuracy": 0.53532,
+        "val_logloss": 0.690662
+      }
+    ],
+    "gdelt_price_only": [
+      {
+        "algo": "lr",
+        "params": {
+          "regParam": 0.01,
+          "elasticNetParam": 0.0
+        },
+        "val_auc": 0.488152,
+        "val_accuracy": 0.477072,
+        "val_logloss": 0.703575
+      },
+      {
+        "algo": "lr",
+        "params": {
+          "regParam": 0.01,
+          "elasticNetParam": 0.5
+        },
+        "val_auc": 0.492254,
+        "val_accuracy": 0.470718,
+        "val_logloss": 0.702477
+      },
+      {
+        "algo": "lr",
+        "params": {
+          "regParam": 0.1,
+          "elasticNetParam": 0.0
+        },
+        "val_auc": 0.489543,
+        "val_accuracy": 0.469653,
+        "val_logloss": 0.702275
+      },
+      {
+        "algo": "lr",
+        "params": {
+          "regParam": 0.1,
+          "elasticNetParam": 0.5
+        },
+        "val_auc": 0.5,
+        "val_accuracy": 0.460616,
+        "val_logloss": 0.701053
+      },
+      {
+        "algo": "rf",
+        "params": {
+          "numTrees": 50,
+          "maxDepth": 4
+        },
+        "val_auc": 0.505192,
+        "val_accuracy": 0.468785,
+        "val_logloss": 0.707522
+      },
+      {
+        "algo": "rf",
+        "params": {
+          "numTrees": 50,
+          "maxDepth": 6
+        },
+        "val_auc": 0.507206,
+        "val_accuracy": 0.481768,
+        "val_logloss": 0.714002
+      },
+      {
+        "algo": "rf",
+        "params": {
+          "numTrees": 100,
+          "maxDepth": 4
+        },
+        "val_auc": 0.507145,
+        "val_accuracy": 0.466575,
+        "val_logloss": 0.706744
+      },
+      {
+        "algo": "rf",
+        "params": {
+          "numTrees": 100,
+          "maxDepth": 6
+        },
+        "val_auc": 0.505819,
+        "val_accuracy": 0.479637,
+        "val_logloss": 0.712537
+      }
+    ],
+    "gdelt_price_gdelt": [
+      {
+        "algo": "lr",
+        "params": {
+          "regParam": 0.01,
+          "elasticNetParam": 0.0
+        },
+        "val_auc": 0.507045,
+        "val_accuracy": 0.514365,
+        "val_logloss": 0.748746
+      },
+      {
+        "algo": "lr",
+        "params": {
+          "regParam": 0.01,
+          "elasticNetParam": 0.5
+        },
+        "val_auc": 0.503598,
+        "val_accuracy": 0.516496,
+        "val_logloss": 0.743345
+      },
+      {
+        "algo": "lr",
+        "params": {
+          "regParam": 0.1,
+          "elasticNetParam": 0.0
+        },
+        "val_auc": 0.511142,
+        "val_accuracy": 0.502447,
+        "val_logloss": 0.720747
+      },
+      {
+        "algo": "lr",
+        "params": {
+          "regParam": 0.1,
+          "elasticNetParam": 0.5
+        },
+        "val_auc": 0.497919,
+        "val_accuracy": 0.493804,
+        "val_logloss": 0.704576
+      },
+      {
+        "algo": "rf",
+        "params": {
+          "numTrees": 50,
+          "maxDepth": 4
+        },
+        "val_auc": 0.451125,
+        "val_accuracy": 0.4618,
+        "val_logloss": 0.760782
+      },
+      {
+        "algo": "rf",
+        "params": {
+          "numTrees": 50,
+          "maxDepth": 6
+        },
+        "val_auc": 0.444509,
+        "val_accuracy": 0.448461,
+        "val_logloss": 0.7808
+      },
+      {
+        "algo": "rf",
+        "params": {
+          "numTrees": 100,
+          "maxDepth": 4
+        },
+        "val_auc": 0.446831,
+        "val_accuracy": 0.440647,
+        "val_logloss": 0.76051
+      },
+      {
+        "algo": "rf",
+        "params": {
+          "numTrees": 100,
+          "maxDepth": 6
+        },
+        "val_auc": 0.446609,
+        "val_accuracy": 0.44854,
+        "val_logloss": 0.779429
+      }
+    ]
+  },
+  "model_paths": {
+    "full_price": "hdfs:///project/models/full_price",
+    "gdelt_price_only": "hdfs:///project/models/gdelt_price_only",
+    "gdelt_price_gdelt": "hdfs:///project/models/gdelt_price_gdelt"
+  },
+  "prediction_tables": {
+    "pred_final_test": "pred_final_test",
+    "pred_gdelt_test": "pred_gdelt_test"
+  },
+  "reload_tolerance": 1e-09,
+  "stage_timings": [
+    {
+      "stage": "read and check tables",
+      "seconds": 32.6,
+      "cumulative": 32.6
+    },
+    {
+      "stage": "experiment full_price",
+      "seconds": 55.3,
+      "cumulative": 87.9
+    },
+    {
+      "stage": "experiments gdelt_price_only / gdelt_price_gdelt",
+      "seconds": 40.6,
+      "cumulative": 128.5
+    },
+    {
+      "stage": "GDELT comparison",
+      "seconds": 12.9,
+      "cumulative": 141.4
+    },
+    {
+      "stage": "reliability slices",
+      "seconds": 5.3,
+      "cumulative": 146.7
+    },
+    {
+      "stage": "write predictions and save models",
+      "seconds": 416.1,
+      "cumulative": 562.8
+    }
+  ]
+}
