@@ -1,0 +1,20 @@
+for year in 2015 2016 2017; do
+
+    folder="/project/raw/gdelt/$year"
+
+    combined=$(
+        hdfs dfs -ls -R "$folder" |
+        awk '$1 ~ /^-/ && $8 ~ /\.CSV$/ {print $8}' |
+        LC_ALL=C sort |
+        while read file; do
+            relative_path="${file#$folder/}"
+            hash=$(hdfs dfs -cat "$file" | sha256sum | awk '{print $1}')
+            echo "$relative_path $hash"
+        done
+    )
+
+    folder_hash=$(printf '%s\n' "$combined" | sha256sum | awk '{print $1}')
+
+    echo "$year Folder SHA256: $folder_hash"
+
+done
